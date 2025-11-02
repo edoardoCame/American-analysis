@@ -8,6 +8,7 @@
 - Generated a head-of-table snapshot (`data/prime_transactions_head80.csv`) capturing the first 80 rows from `db/prime_transactions_filtered.sqlite` to support field inspection and validation.
 - Added a reusable path bootstrap in `notebooks/usaspending.ipynb` to guarantee the repository root (and `scripts` package) is importable when the kernel starts in subdirectories; rewrote and executed the notebook to validate the descriptive solicitation analysis end-to-end.
 - Implemented Question 2 of the plan: expanded `scripts/usaspending_utils.py` with cost and duration helpers, updated the notebook with award value summaries and log-scale boxplots by `solicitation_procedures`, and executed the full workflow after the additions.
-- Extended the notebook with density/histogram overlays plus a bar chart of median percentage gaps, and documented the complete set of award value fields in both the notebook header and `analysis_plan.md`.
+- Extended the notebook with density/histogram overlays, a bar chart of median percentage gaps, and documented the complete set of award value fields in both the notebook header and `analysis_plan.md`.
+- Added a focused subsection contrasting negotiated proposals with simplified acquisitions (violins, slope chart, density, ratios, threshold shares, and duration/annualised bubbles) to visualise cost differences from multiple angles.
 
 Subsequent notebook work will reference this journal to document refinements, assumptions, and deviations from plan.
