@@ -18,7 +18,7 @@ Got it—no binary “quality flag,” no inference. We’ll answer each of the 
 
 * Compare **award size** and **annualized value** **across `solicitation_procedures` labels**.
 * Annualize using performance dates: value ÷ contract years.
-  **Fields:** `solicitation_procedures`, `base_and_exercised_options_value`, `base_and_all_options_value`, `federal_action_obligation`, `period_of_performance_start_date`, `period_of_performance_current_end_date`/`_potential_end_date`. 
+  **Fields:** `solicitation_procedures`, `federal_action_obligation`, `base_and_exercised_options_value`, `base_and_all_options_value`, `current_total_value_of_award`, `potential_total_value_of_award`, `total_outlayed_amount_for_overall_award`, `period_of_performance_start_date`, `period_of_performance_current_end_date`/`_potential_end_date`. 
 
 ### 3) Do contracts under certain procedure labels have less turnover?
 
