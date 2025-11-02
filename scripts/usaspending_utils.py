@@ -68,20 +68,36 @@ def get_prime_transactions_table_name(conn: sqlite3.Connection) -> str:
     return result[0]
 
 
+def list_prime_transaction_columns(
+    *,
+    db_path: Path | str = DEFAULT_DB_PATH,
+) -> tuple[str, ...]:
+    """Return the column names available in the prime transactions table."""
+    with get_connection(db_path) as conn:
+        table_name = get_prime_transactions_table_name(conn)
+        cursor = conn.execute(f"PRAGMA table_info({table_name})")
+        return tuple(row[1] for row in cursor.fetchall())
+
+
 def fetch_prime_transactions(
-    columns: Sequence[str],
+    columns: Sequence[str] | None = None,
     *,
     db_path: Path | str = DEFAULT_DB_PATH,
     naics_filter: Optional[Iterable[str]] = DEFAULT_SECURITY_NAICS,
     additional_where: Optional[str] = None,
 ) -> pd.DataFrame:
     """Load selected columns from the filtered prime transactions table."""
-    if not columns:
-        raise ValueError("At least one column must be requested.")
-
     with get_connection(db_path) as conn:
         table_name = get_prime_transactions_table_name(conn)
-        column_sql = ", ".join(dict.fromkeys(columns))
+        if columns is None:
+            requested_columns = list_prime_transaction_columns(db_path=db_path)
+        else:
+            requested_columns = tuple(dict.fromkeys(columns))
+
+        if not requested_columns:
+            raise ValueError("At least one column must be requested.")
+
+        column_sql = ", ".join(requested_columns)
 
         where_clauses: list[str] = []
         params: list[str] = []
@@ -192,6 +208,8 @@ def pivot_solicitation_share(
 def prepare_cost_dataset(
     *,
     db_path: Path | str = DEFAULT_DB_PATH,
+    additional_fields: Optional[Sequence[str]] = None,
+    additional_where: Optional[str] = None,
 ) -> pd.DataFrame:
     """Return fields required for value and duration analysis."""
     columns = [
@@ -205,8 +223,13 @@ def prepare_cost_dataset(
         "period_of_performance_start_date",
         "period_of_performance_current_end_date",
         "period_of_performance_potential_end_date",
+        "number_of_offers_received",
+        "type_of_contract_pricing",
+        "extent_competed",
     ]
-    df = fetch_prime_transactions(columns, db_path=db_path)
+    if additional_fields:
+        columns.extend(additional_fields)
+    df = fetch_prime_transactions(columns, db_path=db_path, additional_where=additional_where)
 
     numeric_cols = [
         "federal_action_obligation",
@@ -215,6 +238,7 @@ def prepare_cost_dataset(
         "current_total_value_of_award",
         "potential_total_value_of_award",
         "total_outlayed_amount_for_overall_award",
+        "number_of_offers_received",
     ]
     for col in numeric_cols:
         df[col] = pd.to_numeric(df[col], errors="coerce")
@@ -300,6 +324,7 @@ def summarize_cost_by_procedure(
 __all__ = [
     "compute_solicitation_timeseries",
     "fetch_prime_transactions",
+    "list_prime_transaction_columns",
     "load_naics_codes",
     "prepare_cost_dataset",
     "pivot_solicitation_share",

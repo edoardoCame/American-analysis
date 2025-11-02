@@ -10,5 +10,6 @@
 - Implemented Question 2 of the plan: expanded `scripts/usaspending_utils.py` with cost and duration helpers, updated the notebook with award value summaries and log-scale boxplots by `solicitation_procedures`, and executed the full workflow after the additions.
 - Extended the notebook with density/histogram overlays, a bar chart of median percentage gaps, and documented the complete set of award value fields in both the notebook header and `analysis_plan.md`.
 - Added a focused subsection contrasting negotiated proposals with simplified acquisitions (violins, slope chart, density, ratios, threshold shares, and duration/annualised bubbles) to visualise cost differences from multiple angles.
+- Added Question 3 assets: enriched `scripts/usaspending_utils.prepare_cost_dataset` with competition/pricing fields and built new multivariate visuals (pricing heatmap, competition scatter, and a log-linear regression summarising cost drivers).
 
 Subsequent notebook work will reference this journal to document refinements, assumptions, and deviations from plan.
