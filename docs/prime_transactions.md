@@ -6,6 +6,13 @@
 - `Contracts_PrimeTransactions_2025-10-22_H14M09S33_1.csv`: 238078 righe, 297 colonne
 - `Contracts_Subawards_2025-10-22_H14M19S43_1.csv`: 516 righe, 118 colonne
 
+## Database e filtri NAICS
+- `db/prime_transactions.sqlite` contiene le 4 tabelle dell'estratto (2 Contracts, 2 Assistance).
+- `db/prime_transactions_filtered.sqlite` ora contiene solo i record con `naics_code = 561612` (Security Guards and Patrol Services):
+  - `contracts_primetransactions_2025_10_22_h14m09s33_1`: 238078 righe
+  - `contracts_subawards_2025_10_22_h14m19s43_1`: 253 righe
+  - Nessuna tabella Assistance in questo DB filtrato.
+
 ## Dettagli per file
 ### Assistance_PrimeTransactions_2025-10-22_H14M19S41_1.csv
 - Righe: 0

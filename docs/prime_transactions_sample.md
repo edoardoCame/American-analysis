@@ -1,6 +1,13 @@
 # Prime Transactions — Esempio record
 
+Panoramica dataset filtrato (NAICS 561612, escluso DoD):
+- Contracts_PrimeTransactions: 220,528 righe
+- Contracts_Subawards: 120 righe
+- Totale: 220,648 righe
+
 Questo estratto mostra i primi 5 record utili per comprendere come vengono descritte le transazioni nel file `Contracts_PrimeTransactions_2025-10-22_H14M09S33_1.csv`, importato in `db/prime_transactions.sqlite`.
+Le stesse query funzionano identiche su `db/prime_transactions_filtered.sqlite`,
+che contiene solo i record con `naics_code = 561612`.
 
 ## Query utilizzata
 ```sql

@@ -40,7 +40,9 @@ Colonne principali: `NoticeId`, `Title`, `Sol#`, `Department/Ind.Agency`,
   - `Assistance_*` — vuoti in questo estratto
 - Database:
   - `db/prime_transactions.sqlite` — tabelle importate con indici sulle chiavi
-  - `db/prime_transactions_filtered.sqlite` — segnaposto (vuoto al momento)
+  - `db/prime_transactions_filtered.sqlite` — contiene solo `naics_code = 561612`:
+    - `contracts_primetransactions_2025_10_22_h14m09s33_1`: 238.078 righe
+    - `contracts_subawards_2025_10_22_h14m19s43_1`: 253 righe
 - Dettagli colonne: `docs/prime_transactions.md` e `docs/prime_transactions_sample.md`
 
 ## Come iniziare
