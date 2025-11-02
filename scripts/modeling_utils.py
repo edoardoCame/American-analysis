@@ -3,17 +3,19 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Iterable, Optional
+from typing import Iterable, Optional, Sequence
 
 import numpy as np
 import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
+from sklearn.inspection import permutation_importance
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
+from sklearn.ensemble import HistGradientBoostingRegressor
 
 from .usaspending_utils import DEFAULT_DB_PATH, list_prime_transaction_columns
 
@@ -228,19 +230,32 @@ class LinearModelArtifacts:
     predictions: pd.DataFrame
 
 
-def train_log_linear_model_with_split(
+@dataclass
+class PreparedDataset:
+    X_train: pd.DataFrame
+    X_test: pd.DataFrame
+    y_train: pd.Series
+    y_test: pd.Series
+    numeric_cols: list[str]
+    categorical_cols: list[str]
+    dropped_low_support: list[str]
+    dropped_high_cardinality: list[str]
+    dropped_constant: list[str]
+    dropped_price_like: list[str]
+
+
+def _prepare_training_data(
     source_df: pd.DataFrame,
     *,
-    target_col: str = "annualized_base_all",
-    test_size: float = 0.2,
-    random_state: int = 42,
-    max_categories: int = 50,
-    min_nonnull_ratio: float = 0.01,
-    max_unique_ratio: float = 0.8,
-    max_unique_categories: int = 300,
-    drop_columns: Optional[Sequence[str]] = None,
-) -> LinearModelArtifacts:
-    """Train a multivariate log-linear model with an explicit train/test split."""
+    target_col: str,
+    test_size: float,
+    random_state: int,
+    drop_columns: Optional[Sequence[str]],
+    min_nonnull_ratio: float,
+    max_unique_ratio: float,
+    max_unique_categories: int,
+    drop_price_patterns: Optional[Sequence[str]],
+) -> PreparedDataset:
     if target_col not in source_df.columns:
         raise KeyError(f"{target_col} is missing from the provided DataFrame.")
 
@@ -263,9 +278,17 @@ def train_log_linear_model_with_split(
         working["log_duration"] = np.log10(valid_years)
 
     drop_cols = set(drop_columns or [])
-    drop_cols.update(
-        col for col in working.columns if col.startswith("annualized_")
-    )
+    price_like_cols: list[str] = []
+    if drop_price_patterns:
+        lowered_patterns = [pattern.lower() for pattern in drop_price_patterns]
+        for col in working.columns:
+            col_lower = col.lower()
+            if any(pattern in col_lower for pattern in lowered_patterns):
+                if col != target_col:
+                    drop_cols.add(col)
+                    price_like_cols.append(col)
+
+    drop_cols.update(col for col in working.columns if col.startswith("annualized_"))
     drop_cols.discard(target_col)
 
     feature_df = working.drop(columns=list(drop_cols))
@@ -282,9 +305,7 @@ def train_log_linear_model_with_split(
         feature_df = feature_df.drop(columns=constant_cols)
 
     numeric_cols = feature_df.select_dtypes(include=["number", "bool"]).columns.tolist()
-    categorical_cols = [
-        col for col in feature_df.columns if col not in numeric_cols
-    ]
+    categorical_cols = [col for col in feature_df.columns if col not in numeric_cols]
 
     high_card_cols: list[str] = []
     for col in categorical_cols:
@@ -293,15 +314,59 @@ def train_log_linear_model_with_split(
             high_card_cols.append(col)
             continue
         ratio = nunique / len(feature_df)
-        if (ratio > max_unique_ratio) or (max_unique_categories and nunique > max_unique_categories):
+        if (ratio > max_unique_ratio) or (
+            max_unique_categories and nunique > max_unique_categories
+        ):
             high_card_cols.append(col)
     if high_card_cols:
         feature_df = feature_df.drop(columns=high_card_cols)
-        categorical_cols = [col for col in categorical_cols if col not in high_card_cols]
+        categorical_cols = [
+            col for col in categorical_cols if col not in high_card_cols
+        ]
 
     X = feature_df
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=test_size, random_state=random_state
+    )
+
+    return PreparedDataset(
+        X_train=X_train,
+        X_test=X_test,
+        y_train=y_train,
+        y_test=y_test,
+        numeric_cols=numeric_cols,
+        categorical_cols=categorical_cols,
+        dropped_low_support=low_support_cols,
+        dropped_high_cardinality=high_card_cols,
+        dropped_constant=constant_cols,
+        dropped_price_like=price_like_cols,
+    )
+
+
+def train_log_linear_model_with_split(
+    source_df: pd.DataFrame,
+    *,
+    target_col: str = "annualized_base_all",
+    test_size: float = 0.2,
+    random_state: int = 42,
+    max_categories: int = 50,
+    min_nonnull_ratio: float = 0.01,
+    max_unique_ratio: float = 0.8,
+    max_unique_categories: int = 300,
+    drop_columns: Optional[Sequence[str]] = None,
+    price_feature_patterns: Optional[Sequence[str]] = None,
+) -> LinearModelArtifacts:
+    """Train a multivariate log-linear model with an explicit train/test split."""
+    prepared = _prepare_training_data(
+        source_df,
+        target_col=target_col,
+        test_size=test_size,
+        random_state=random_state,
+        drop_columns=drop_columns,
+        min_nonnull_ratio=min_nonnull_ratio,
+        max_unique_ratio=max_unique_ratio,
+        max_unique_categories=max_unique_categories,
+        drop_price_patterns=price_feature_patterns,
     )
 
     numeric_transformer = Pipeline(
@@ -319,8 +384,8 @@ def train_log_linear_model_with_split(
 
     preprocessor = ColumnTransformer(
         transformers=[
-            ("num", numeric_transformer, numeric_cols),
-            ("cat", categorical_transformer, categorical_cols),
+            ("num", numeric_transformer, prepared.numeric_cols),
+            ("cat", categorical_transformer, prepared.categorical_cols),
         ],
         remainder="drop",
     )
@@ -332,31 +397,31 @@ def train_log_linear_model_with_split(
         ]
     )
 
-    pipeline.fit(X_train, y_train)
+    pipeline.fit(prepared.X_train, prepared.y_train)
 
-    train_pred = pipeline.predict(X_train)
-    test_pred = pipeline.predict(X_test)
+    train_pred = pipeline.predict(prepared.X_train)
+    test_pred = pipeline.predict(prepared.X_test)
 
-    train_mse = mean_squared_error(y_train, train_pred)
-    test_mse = mean_squared_error(y_test, test_pred)
+    train_mse = mean_squared_error(prepared.y_train, train_pred)
+    test_mse = mean_squared_error(prepared.y_test, test_pred)
 
     train_metrics = {
         "rmse": float(np.sqrt(train_mse)),
-        "mae": float(mean_absolute_error(y_train, train_pred)),
-        "r2": float(r2_score(y_train, train_pred)),
+        "mae": float(mean_absolute_error(prepared.y_train, train_pred)),
+        "r2": float(r2_score(prepared.y_train, train_pred)),
     }
     test_metrics = {
         "rmse": float(np.sqrt(test_mse)),
-        "mae": float(mean_absolute_error(y_test, test_pred)),
-        "r2": float(r2_score(y_test, test_pred)),
+        "mae": float(mean_absolute_error(prepared.y_test, test_pred)),
+        "r2": float(r2_score(prepared.y_test, test_pred)),
     }
 
     predictions = pd.DataFrame(
         {
-            "actual_log10": y_test,
+            "actual_log10": prepared.y_test,
             "predicted_log10": test_pred,
         },
-        index=y_test.index,
+        index=prepared.y_test.index,
     )
     predictions["actual_value"] = np.power(10.0, predictions["actual_log10"])
     predictions["predicted_value"] = np.power(10.0, predictions["predicted_log10"])
@@ -367,11 +432,12 @@ def train_log_linear_model_with_split(
     return LinearModelArtifacts(
         model=pipeline,
         feature_columns={
-            "numeric": numeric_cols,
-            "categorical": categorical_cols,
-            "dropped_low_support": low_support_cols,
-            "dropped_high_cardinality": high_card_cols,
-            "dropped_constant": constant_cols,
+            "numeric": prepared.numeric_cols,
+            "categorical": prepared.categorical_cols,
+            "dropped_low_support": prepared.dropped_low_support,
+            "dropped_high_cardinality": prepared.dropped_high_cardinality,
+            "dropped_constant": prepared.dropped_constant,
+            "dropped_price_like": prepared.dropped_price_like,
         },
         train_metrics=train_metrics,
         test_metrics=test_metrics,
@@ -434,9 +500,156 @@ def extract_linear_feature_importance(
     return df.reset_index(drop=True)
 
 
+@dataclass
+class TreeModelArtifacts:
+    model: Pipeline
+    feature_columns: dict[str, list[str]]
+    train_metrics: dict[str, float]
+    test_metrics: dict[str, float]
+    predictions: pd.DataFrame
+    feature_importance: pd.DataFrame
+
+
+def train_gradient_boost_model_with_split(
+    source_df: pd.DataFrame,
+    *,
+    target_col: str = "annualized_base_all",
+    test_size: float = 0.2,
+    random_state: int = 42,
+    drop_columns: Optional[Sequence[str]] = None,
+    min_nonnull_ratio: float = 0.01,
+    max_unique_ratio: float = 0.8,
+    max_unique_categories: int = 300,
+    learning_rate: float = 0.05,
+    max_depth: Optional[int] = 8,
+    price_feature_patterns: Optional[Sequence[str]] = None,
+) -> TreeModelArtifacts:
+    """Train a gradient boosting regressor on log10 target with an explicit split."""
+    prepared = _prepare_training_data(
+        source_df,
+        target_col=target_col,
+        test_size=test_size,
+        random_state=random_state,
+        drop_columns=drop_columns,
+        min_nonnull_ratio=min_nonnull_ratio,
+        max_unique_ratio=max_unique_ratio,
+        max_unique_categories=max_unique_categories,
+        drop_price_patterns=price_feature_patterns,
+    )
+
+    numeric_transformer = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy="median")),
+        ]
+    )
+    categorical_transformer = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy="most_frequent")),
+            (
+                "encoder",
+                OrdinalEncoder(
+                    handle_unknown="use_encoded_value",
+                    unknown_value=-1,
+                ),
+            ),
+        ]
+    )
+
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ("num", numeric_transformer, prepared.numeric_cols),
+            ("cat", categorical_transformer, prepared.categorical_cols),
+        ],
+        remainder="drop",
+    )
+
+    gradient_model = HistGradientBoostingRegressor(
+        loss="squared_error",
+        learning_rate=learning_rate,
+        max_depth=max_depth,
+        max_bins=255,
+        random_state=random_state,
+    )
+
+    pipeline = Pipeline(
+        steps=[
+            ("preprocess", preprocessor),
+            ("regressor", gradient_model),
+        ]
+    )
+
+    pipeline.fit(prepared.X_train, prepared.y_train)
+
+    train_pred = pipeline.predict(prepared.X_train)
+    test_pred = pipeline.predict(prepared.X_test)
+
+    train_mse = mean_squared_error(prepared.y_train, train_pred)
+    test_mse = mean_squared_error(prepared.y_test, test_pred)
+
+    train_metrics = {
+        "rmse": float(np.sqrt(train_mse)),
+        "mae": float(mean_absolute_error(prepared.y_train, train_pred)),
+        "r2": float(r2_score(prepared.y_train, train_pred)),
+    }
+    test_metrics = {
+        "rmse": float(np.sqrt(test_mse)),
+        "mae": float(mean_absolute_error(prepared.y_test, test_pred)),
+        "r2": float(r2_score(prepared.y_test, test_pred)),
+    }
+
+    predictions = pd.DataFrame(
+        {
+            "actual_log10": prepared.y_test,
+            "predicted_log10": test_pred,
+        },
+        index=prepared.y_test.index,
+    )
+    predictions["actual_value"] = np.power(10.0, predictions["actual_log10"])
+    predictions["predicted_value"] = np.power(10.0, predictions["predicted_log10"])
+    predictions["residual_log10"] = (
+        predictions["actual_log10"] - predictions["predicted_log10"]
+    )
+
+    feature_names = prepared.numeric_cols + prepared.categorical_cols
+    perm_result = permutation_importance(
+        pipeline,
+        prepared.X_test,
+        prepared.y_test,
+        n_repeats=5,
+        random_state=random_state,
+        n_jobs=-1,
+    )
+    importances = pd.DataFrame(
+        {
+            "feature": feature_names,
+            "importance": perm_result.importances_mean,
+            "importance_std": perm_result.importances_std,
+        }
+    ).sort_values("importance", ascending=False)
+
+    return TreeModelArtifacts(
+        model=pipeline,
+        feature_columns={
+            "numeric": prepared.numeric_cols,
+            "categorical": prepared.categorical_cols,
+            "dropped_low_support": prepared.dropped_low_support,
+            "dropped_high_cardinality": prepared.dropped_high_cardinality,
+            "dropped_constant": prepared.dropped_constant,
+            "dropped_price_like": prepared.dropped_price_like,
+        },
+        train_metrics=train_metrics,
+        test_metrics=test_metrics,
+        predictions=predictions.sort_index(),
+        feature_importance=importances.reset_index(drop=True),
+    )
+
+
 __all__ = [
     "candidate_feature_columns",
     "LinearModelArtifacts",
+    "PreparedDataset",
+    "TreeModelArtifacts",
     "train_log_linear_model_with_split",
+    "train_gradient_boost_model_with_split",
     "extract_linear_feature_importance",
 ]
