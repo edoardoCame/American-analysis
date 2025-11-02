@@ -1,42 +1,63 @@
-Below is a tight “how-to” for each of the 7 items, using only USAspending **Contracts Prime Transactions** fields (plus obvious filters like NAICS). I assume you pre-filter to physical security NAICS (561612, 561611, 561613, 561621) and exclude DoD by agency if needed. 
 
-1. **Changes in “quality” contracts over time**
+Got it—no binary “quality flag,” no inference. We’ll answer each of the 7 items **only** with observable fields, using **`solicitation_procedures`** (its labels) as the primary axis for “quality vs. low-bid” analysis. All fields below come from USAspending **Contracts Prime Transactions**. 
 
-* **Fields:** `action_date_fiscal_year`; proxies for “quality” = `solicitation_procedures`, `type_of_contract_pricing`, `performance_based_service_acquisition`, plus competition intensity `extent_competed`, `number_of_offers_received`.
-* **Metric:** yearly share (by count and by dollars) of awards with `quality_flag=1` (rule you codify from the proxies). Dollar base = `federal_action_obligation` (flow) or `base_and_all_options_value` (ceiling at award). 
+---
 
-2. **Comparison with other industries**
+### 1) Changes over time
 
-* **Fields:** `naics_code`, `naics_description`, optionally PSC (`product_or_service_code`).
-* **Metric:** replicate item #1 for: (a) 561612 and peers vs (b) comparison NAICS groups; report delta in “quality” share and in median award size. 
+**What to compute (by fiscal year):**
 
-3. **Does including quality add extra cost?**
+* Count of awards and sum of dollars **by `solicitation_procedures` label**.
+* Optionally also by `extent_competed` and `number_of_offers_received`.
+  **Fields:** `action_date_fiscal_year`, `solicitation_procedures`, `extent_competed`, `number_of_offers_received`, `federal_action_obligation` (flow), `base_and_all_options_value` (ceiling).
+ 
 
-* **Fields:** award value = `base_and_exercised_options_value`, `base_and_all_options_value`, obligations = `federal_action_obligation`; duration = `period_of_performance_start_date`, `period_of_performance_current_end_date`/`_potential_end_date`.
-* **Metric:** normalize to **annualized value** (value ÷ years of performance). Compare median (and IQR) for `quality_flag=1` vs `0`; stratify by `type_of_contract_pricing` and control for `number_of_offers_received`. 
+### 2) Does including “quality criteria” add cost?
 
-4. **Do “quality” contracts have less turnover?**
+**No inference—just stratify cost by procedure label.**
 
-* **Fields:** vendor IDs `recipient_uei` (and `recipient_name`), buyer `awarding_agency_name`/`_sub_agency_name`, scope tags `naics_code` (or PSC), geography `primary_place_of_performance_state_name`; timing from performance dates above.
-* **Method:** cluster awards by (agency × NAICS/PSC × geography). Sort by start date; **turnover = 1** when the vendor changes between successive awards in the cluster. Compare turnover rates following `quality_flag=1` vs `0`. 
+* Compare **award size** and **annualized value** **across `solicitation_procedures` labels**.
+* Annualize using performance dates: value ÷ contract years.
+  **Fields:** `solicitation_procedures`, `base_and_exercised_options_value`, `base_and_all_options_value`, `federal_action_obligation`, `period_of_performance_start_date`, `period_of_performance_current_end_date`/`_potential_end_date`. 
 
-5. **Are quality criteria more/less present by “type” (size, value, procedure)?**
+### 3) Do contracts under certain procedure labels have less turnover?
 
-* **Fields:** size/value = `base_and_all_options_value`; duration from performance dates; procedures/competition = `solicitation_procedures`, `extent_competed`, `number_of_offers_received`; vehicle = `award_or_idv_flag`, `type_of_idc`, `multiple_or_single_award_idv`; set-asides = `type_of_set_aside`; pricing = `type_of_contract_pricing`.
-* **Metric:** incidence of `quality_flag` across buckets of value, duration, procedure, vehicle, set-aside, pricing. Optionally report odds ratios or a simple logit: `quality_flag ~ log(value)+duration+procedures+pricing+set_aside+vehicle+competition`. 
+**Observable turnover proxy (no latent tagging):**
 
-6. **Do certain procurement strategies correlate with quality-based contracts?**
+* Build “streams” by (agency × NAICS/PSC × geography) and check **vendor changes** between successive awards; then report turnover **by `solicitation_procedures`**.
+  **Fields:** `awarding_agency_name`, `awarding_sub_agency_name`, `recipient_uei`/`recipient_name`, `naics_code`/`product_or_service_code`, `primary_place_of_performance_state_name`, performance dates, `solicitation_procedures`. 
 
-* **Fields (strategy levers):** `solicitation_procedures`, `extent_competed`, `type_of_set_aside`, `evaluated_preference`, `price_evaluation_adjustment_preference_percent_difference`, `contract_bundling`, `fair_opportunity_limited_sources` (for IDVs), `commercial_item_acquisition_procedures`, `simplified_procedures_for_certain_commercial_items`, `undefinitized_action`, `type_of_contract_pricing`.
-* **Metric:** associations with `quality_flag` via Cramér’s V / χ² for categorical pairs, or multivariate logit including the above covariates. 
+### 4) Are certain procedures more/less present by size, value, or method?
 
-7. **Other useful cuts to see what helps/blocks quality-based evaluations**
+**What to compute:**
 
-* **Competition:** `number_of_offers_received`, `extent_competed` → plot distributions by `quality_flag`.
-* **Agency & office:** `awarding_agency_name`, `awarding_office_name` → agency fixed-effects on probability of `quality_flag`.
-* **Geography:** `primary_place_of_performance_state_name`/country → heatmaps of `quality_flag` share.
-* **Vehicle structure:** `award_or_idv_flag`, `type_of_idc`, `multiple_or_single_award_idv`, `fair_opportunity_limited_sources` → compare shares on standalone vs IDV orders.
-* **Socio-economic programs:** `type_of_set_aside`, `evaluated_preference` → see if set-asides correlate with quality usage. 
+* Cross-tabs of **`solicitation_procedures` × value buckets** (`base_and_all_options_value`).
+* **`solicitation_procedures` × duration** (years from performance dates).
+* **`solicitation_procedures` × pricing/competition/vehicle**: `type_of_contract_pricing`, `extent_competed`, `award_or_idv_flag`, `type_of_idc`, `multiple_or_single_award_idv`, `type_of_set_aside`.
+  All are direct group-bys—no scoring. 
+
+### 5) Do procurement strategies correlate with certain procedure labels?
+
+**Descriptive associations only (no modeling required):**
+
+* Show distributions of strategy fields **within each `solicitation_procedures` label**:
+  `extent_competed`, `number_of_offers_received`, `type_of_set_aside`, `evaluated_preference`, `contract_bundling`, `fair_opportunity_limited_sources`, `commercial_item_acquisition_procedures`, `simplified_procedures_for_certain_commercial_items`, `undefinitized_action`, `type_of_contract_pricing`.
+  Simple cross-tabs or χ²/Cramér’s V are fine as descriptive stats.
+
+### 6) Other cuts that reveal when procedure choices are helped/blocked
+
+**Straight group-bys—again, no inference:**
+
+* **Competition:** distribution of `number_of_offers_received` by `solicitation_procedures`.
+* **Agency/office:** `awarding_agency_name`, `awarding_office_name` by `solicitation_procedures`.
+* **Geography:** `primary_place_of_performance_state_name`/country by `solicitation_procedures`.
+* **Vehicle structure:** `award_or_idv_flag`, `type_of_idc`, `multiple_or_single_award_idv`, `fair_opportunity_limited_sources` by `solicitation_procedures`. 
+
+---
+
+
+
+
 
 # Additioanl infos on certain data fields
  
