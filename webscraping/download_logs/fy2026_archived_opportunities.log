@@ -1,0 +1,11 @@
+2025-10-25 14:17:12,999 - INFO - Querying up to 25 opportunities from db/sam_archived_opportunities_filtered.sqlite (tables=fy2026_archived_opportunities, keyword=<any>)
+2025-10-25 14:17:13,000 - INFO - Found 4 opportunities to process
+2025-10-25 14:17:14,103 - INFO - [1/4] Processing 26b4211e98914882bb00dc3c045b5858 (fy2026_archived_opportunities)
+2025-10-25 14:17:23,107 - INFO - No 'Download All' button for 26b4211e98914882bb00dc3c045b5858
+2025-10-25 14:17:23,963 - INFO - [2/4] Processing a303013a12fe453cbe3cbc50056e5f6d (fy2026_archived_opportunities)
+2025-10-25 14:17:33,651 - INFO - No 'Download All' button for a303013a12fe453cbe3cbc50056e5f6d
+2025-10-25 14:17:34,396 - INFO - [3/4] Processing f36c557791e74622877a836e0c592cf5 (fy2026_archived_opportunities)
+2025-10-25 14:17:47,036 - INFO - No 'Download All' button for f36c557791e74622877a836e0c592cf5
+2025-10-25 14:17:47,967 - INFO - [4/4] Processing bffe741c58064589811ccac57e89f9ce (fy2026_archived_opportunities)
+2025-10-25 14:17:57,678 - INFO - No 'Download All' button for bffe741c58064589811ccac57e89f9ce
+2025-10-25 14:17:58,603 - INFO - Finished: 0/4 downloads succeeded

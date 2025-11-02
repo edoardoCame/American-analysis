@@ -1,0 +1,457 @@
+2025-10-25 13:39:19,351 - INFO - Querying up to 250 opportunities from db/sam_archived_opportunities_filtered.sqlite (tables=fy2004_archived_opportunities, keyword=<any>)
+2025-10-25 13:39:19,352 - INFO - Found 227 opportunities to process
+2025-10-25 13:39:19,688 - INFO - [1/227] Processing 15142555fc63682c1d463f03dc087171 (fy2004_archived_opportunities)
+2025-10-25 13:39:35,290 - INFO - No 'Download All' button for 15142555fc63682c1d463f03dc087171
+2025-10-25 13:39:36,244 - INFO - [2/227] Processing 765d333ebaa7ef760be18c059a6fee7c (fy2004_archived_opportunities)
+2025-10-25 13:39:45,951 - INFO - No 'Download All' button for 765d333ebaa7ef760be18c059a6fee7c
+2025-10-25 13:39:46,809 - INFO - [3/227] Processing 6fd6f162571f93dc50dfaff9ec7a5f06 (fy2004_archived_opportunities)
+2025-10-25 13:40:01,910 - INFO - No 'Download All' button for 6fd6f162571f93dc50dfaff9ec7a5f06
+2025-10-25 13:40:02,864 - INFO - [4/227] Processing c7bc80fc25ff15c64257ad7da6922b1e (fy2004_archived_opportunities)
+2025-10-25 13:40:19,687 - INFO - No 'Download All' button for c7bc80fc25ff15c64257ad7da6922b1e
+2025-10-25 13:40:20,395 - INFO - [5/227] Processing fbd0b5ef3f921b949e6cd79bf333a1ec (fy2004_archived_opportunities)
+2025-10-25 13:40:40,600 - INFO - No 'Download All' button for fbd0b5ef3f921b949e6cd79bf333a1ec
+2025-10-25 13:40:41,289 - INFO - [6/227] Processing 0faba9290f731bef3bfb1bf2dce2a724 (fy2004_archived_opportunities)
+2025-10-25 13:40:51,488 - INFO - No 'Download All' button for 0faba9290f731bef3bfb1bf2dce2a724
+2025-10-25 13:40:52,193 - INFO - [7/227] Processing d781fc7099d1b04704712528074c3fe8 (fy2004_archived_opportunities)
+2025-10-25 13:41:02,203 - INFO - No 'Download All' button for d781fc7099d1b04704712528074c3fe8
+2025-10-25 13:41:02,777 - INFO - [8/227] Processing cd58986a80db82719d41da5b0d333053 (fy2004_archived_opportunities)
+2025-10-25 13:41:17,291 - INFO - No 'Download All' button for cd58986a80db82719d41da5b0d333053
+2025-10-25 13:41:17,862 - INFO - [9/227] Processing 4924cf21a04893e06da67c45c3081dd5 (fy2004_archived_opportunities)
+2025-10-25 13:41:32,504 - INFO - No 'Download All' button for 4924cf21a04893e06da67c45c3081dd5
+2025-10-25 13:41:33,360 - INFO - [10/227] Processing 6d83614605f52167c6954987a5eb5e54 (fy2004_archived_opportunities)
+2025-10-25 13:41:48,205 - INFO - No 'Download All' button for 6d83614605f52167c6954987a5eb5e54
+2025-10-25 13:41:48,888 - INFO - [11/227] Processing 85b4ab68648ca4f52bfdcb4a26ee54cf (fy2004_archived_opportunities)
+2025-10-25 13:42:04,585 - INFO - No 'Download All' button for 85b4ab68648ca4f52bfdcb4a26ee54cf
+2025-10-25 13:42:05,455 - INFO - [12/227] Processing efe960c1324da1da3c530218c9821cff (fy2004_archived_opportunities)
+2025-10-25 13:42:15,268 - INFO - No 'Download All' button for efe960c1324da1da3c530218c9821cff
+2025-10-25 13:42:16,048 - INFO - [13/227] Processing 0caf10252a4840e07178cab7fc970761 (fy2004_archived_opportunities)
+2025-10-25 13:42:26,436 - INFO - No 'Download All' button for 0caf10252a4840e07178cab7fc970761
+2025-10-25 13:42:27,305 - INFO - [14/227] Processing 8de3b7d4488ad378ca4646eab3a27533 (fy2004_archived_opportunities)
+2025-10-25 13:42:41,782 - INFO - No 'Download All' button for 8de3b7d4488ad378ca4646eab3a27533
+2025-10-25 13:42:42,312 - INFO - [15/227] Processing f511fb988af7454f4949ce27af1e2bd9 (fy2004_archived_opportunities)
+2025-10-25 13:42:57,139 - INFO - No 'Download All' button for f511fb988af7454f4949ce27af1e2bd9
+2025-10-25 13:42:57,644 - INFO - [16/227] Processing f4fa621bf323e478320358d0f3cfb948 (fy2004_archived_opportunities)
+2025-10-25 13:43:12,054 - INFO - No 'Download All' button for f4fa621bf323e478320358d0f3cfb948
+2025-10-25 13:43:12,779 - INFO - [17/227] Processing c9e7db75366a14ba94a7f84adb935ec7 (fy2004_archived_opportunities)
+2025-10-25 13:43:22,732 - INFO - No 'Download All' button for c9e7db75366a14ba94a7f84adb935ec7
+2025-10-25 13:43:23,415 - INFO - [18/227] Processing 4b5f36f3742751dd9807afdfd0caf13c (fy2004_archived_opportunities)
+2025-10-25 13:43:37,407 - INFO - No 'Download All' button for 4b5f36f3742751dd9807afdfd0caf13c
+2025-10-25 13:43:38,357 - INFO - [19/227] Processing b688ee68f6479b054c16ed7a870eb8b2 (fy2004_archived_opportunities)
+2025-10-25 13:43:51,851 - INFO - Saved webscraping/downloads/fy2004/b688ee68f6479b054c16ed7a870eb8b2_S_--_GUARD_SERVICES_IN_WOODS_HOLE_MA.zip (S -- GUARD SERVICES IN WOODS HOLE, MA)
+2025-10-25 13:43:52,576 - INFO - [20/227] Processing 78cefdbb881bc4396cb484f57fd57356 (fy2004_archived_opportunities)
+2025-10-25 13:44:00,597 - INFO - Saved webscraping/downloads/fy2004/78cefdbb881bc4396cb484f57fd57356_S_--_GUARD_SERVICES_IN_WOODS_HOLE_MA.zip (S -- GUARD SERVICES IN WOODS HOLE, MA)
+2025-10-25 13:44:01,513 - INFO - [21/227] Processing 5954fd89fc87166723785cddef26b346 (fy2004_archived_opportunities)
+2025-10-25 13:44:11,678 - INFO - No 'Download All' button for 5954fd89fc87166723785cddef26b346
+2025-10-25 13:44:12,620 - INFO - [22/227] Processing 7d8186c7566b741fc25f474141ebac4f (fy2004_archived_opportunities)
+2025-10-25 13:44:26,800 - INFO - No 'Download All' button for 7d8186c7566b741fc25f474141ebac4f
+2025-10-25 13:44:27,410 - INFO - [23/227] Processing 6dfa3b9e35a7e4ed7c4d6a6cf41a76d2 (fy2004_archived_opportunities)
+2025-10-25 13:44:41,437 - INFO - No 'Download All' button for 6dfa3b9e35a7e4ed7c4d6a6cf41a76d2
+2025-10-25 13:44:42,415 - INFO - [24/227] Processing efba3c1b1221b0e5ce70c2d949ba7fd1 (fy2004_archived_opportunities)
+2025-10-25 13:44:52,712 - INFO - No 'Download All' button for efba3c1b1221b0e5ce70c2d949ba7fd1
+2025-10-25 13:44:53,600 - INFO - [25/227] Processing d1b566ec6124d84401eb769ae04ad740 (fy2004_archived_opportunities)
+2025-10-25 13:45:03,131 - INFO - No 'Download All' button for d1b566ec6124d84401eb769ae04ad740
+2025-10-25 13:45:03,799 - INFO - [26/227] Processing 3eee313b3a1fb84ee6d79bce50a3286e (fy2004_archived_opportunities)
+2025-10-25 13:45:13,191 - INFO - Saved webscraping/downloads/fy2004/3eee313b3a1fb84ee6d79bce50a3286e_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 13:45:13,877 - INFO - [27/227] Processing ae0a0a5a4406db83fd1f159266fa723c (fy2004_archived_opportunities)
+2025-10-25 13:45:29,160 - INFO - No 'Download All' button for ae0a0a5a4406db83fd1f159266fa723c
+2025-10-25 13:45:30,053 - INFO - [28/227] Processing 6bc50770a81701a4877bae063d4d4850 (fy2004_archived_opportunities)
+2025-10-25 13:45:45,096 - INFO - No 'Download All' button for 6bc50770a81701a4877bae063d4d4850
+2025-10-25 13:45:45,930 - INFO - [29/227] Processing fa117760413db36ed9e95021c566f2d7 (fy2004_archived_opportunities)
+2025-10-25 13:45:59,961 - INFO - No 'Download All' button for fa117760413db36ed9e95021c566f2d7
+2025-10-25 13:46:00,699 - INFO - [30/227] Processing 56620d116e1690cb9ce31cafb65434fe (fy2004_archived_opportunities)
+2025-10-25 13:46:14,679 - INFO - No 'Download All' button for 56620d116e1690cb9ce31cafb65434fe
+2025-10-25 13:46:15,428 - INFO - [31/227] Processing bee9176682abf1940ada8f32d00e06f1 (fy2004_archived_opportunities)
+2025-10-25 13:46:26,074 - INFO - No 'Download All' button for bee9176682abf1940ada8f32d00e06f1
+2025-10-25 13:46:26,652 - INFO - [32/227] Processing 755563ed4671ae23f83dc160cfe6c0dc (fy2004_archived_opportunities)
+2025-10-25 13:46:33,436 - INFO - Saved webscraping/downloads/fy2004/755563ed4671ae23f83dc160cfe6c0dc_99_--_Armed_Guard_Services.zip (99 -- Armed Guard Services)
+2025-10-25 13:46:34,014 - INFO - [33/227] Processing 441eac7002c3ff06f3635f5eb4338d35 (fy2004_archived_opportunities)
+2025-10-25 13:46:45,188 - INFO - No 'Download All' button for 441eac7002c3ff06f3635f5eb4338d35
+2025-10-25 13:46:45,896 - INFO - [34/227] Processing 790f65c6c4760b27a80da0171f2a462f (fy2004_archived_opportunities)
+2025-10-25 13:46:56,255 - INFO - No 'Download All' button for 790f65c6c4760b27a80da0171f2a462f
+2025-10-25 13:46:57,007 - INFO - [35/227] Processing 7be7324e2d4b53663e8e46a893335eb5 (fy2004_archived_opportunities)
+2025-10-25 13:47:06,601 - INFO - No 'Download All' button for 7be7324e2d4b53663e8e46a893335eb5
+2025-10-25 13:47:07,350 - INFO - [36/227] Processing a6b986196090d7c1a274b4c476e0070d (fy2004_archived_opportunities)
+2025-10-25 13:47:17,303 - INFO - No 'Download All' button for a6b986196090d7c1a274b4c476e0070d
+2025-10-25 13:47:18,087 - INFO - [37/227] Processing bd0a5ad8891c4fafe55e13923a955437 (fy2004_archived_opportunities)
+2025-10-25 13:47:27,657 - INFO - No 'Download All' button for bd0a5ad8891c4fafe55e13923a955437
+2025-10-25 13:47:28,389 - INFO - [38/227] Processing 801d314a800cd52fe3c45391eee26fc7 (fy2004_archived_opportunities)
+2025-10-25 13:47:37,842 - INFO - No 'Download All' button for 801d314a800cd52fe3c45391eee26fc7
+2025-10-25 13:47:38,479 - INFO - [39/227] Processing de6646938b3a9039f2d40703ab885cd1 (fy2004_archived_opportunities)
+2025-10-25 13:47:49,452 - INFO - No 'Download All' button for de6646938b3a9039f2d40703ab885cd1
+2025-10-25 13:47:50,153 - INFO - [40/227] Processing 1c743ec16f6868a2a8bc40051e623b9c (fy2004_archived_opportunities)
+2025-10-25 13:47:59,570 - INFO - No 'Download All' button for 1c743ec16f6868a2a8bc40051e623b9c
+2025-10-25 13:48:00,253 - INFO - [41/227] Processing 77f824336ebf84318eb09b9057924f0f (fy2004_archived_opportunities)
+2025-10-25 13:48:10,222 - INFO - No 'Download All' button for 77f824336ebf84318eb09b9057924f0f
+2025-10-25 13:48:10,899 - INFO - [42/227] Processing 321ad475abd3fcc82b6566e800969a7b (fy2004_archived_opportunities)
+2025-10-25 13:48:20,423 - INFO - No 'Download All' button for 321ad475abd3fcc82b6566e800969a7b
+2025-10-25 13:48:21,194 - INFO - [43/227] Processing 8eff7c6c67c1a6c0b69433d0ee76455b (fy2004_archived_opportunities)
+2025-10-25 13:48:26,979 - INFO - Saved webscraping/downloads/fy2004/8eff7c6c67c1a6c0b69433d0ee76455b_99_--_Armed_Guard_Services.zip (99 -- Armed Guard Services)
+2025-10-25 13:48:27,496 - INFO - [44/227] Processing af22b72dec8679bca492bc0441ec066a (fy2004_archived_opportunities)
+2025-10-25 13:48:38,118 - INFO - No 'Download All' button for af22b72dec8679bca492bc0441ec066a
+2025-10-25 13:48:38,800 - INFO - [45/227] Processing af8d38521fc884c7e3d802250c7f0b5e (fy2004_archived_opportunities)
+2025-10-25 13:48:49,634 - INFO - No 'Download All' button for af8d38521fc884c7e3d802250c7f0b5e
+2025-10-25 13:48:50,202 - INFO - [46/227] Processing 5b3e0c9f26b9f643d20150f721526d6c (fy2004_archived_opportunities)
+2025-10-25 13:48:59,721 - INFO - No 'Download All' button for 5b3e0c9f26b9f643d20150f721526d6c
+2025-10-25 13:49:00,647 - INFO - [47/227] Processing bf27c94975d67a76180dc5331708e0f7 (fy2004_archived_opportunities)
+2025-10-25 13:49:12,641 - INFO - No 'Download All' button for bf27c94975d67a76180dc5331708e0f7
+2025-10-25 13:49:13,417 - INFO - [48/227] Processing 9843751adb6beef5bd1779257ce174cd (fy2004_archived_opportunities)
+2025-10-25 13:49:24,187 - INFO - No 'Download All' button for 9843751adb6beef5bd1779257ce174cd
+2025-10-25 13:49:25,153 - INFO - [49/227] Processing 20bd702dcb4fa2aca1be01dec3f735dc (fy2004_archived_opportunities)
+2025-10-25 13:49:33,589 - INFO - Saved webscraping/downloads/fy2004/20bd702dcb4fa2aca1be01dec3f735dc_S_--_Uniformed_Unarmed_Security_Patrol.zip (S -- Uniformed Unarmed Security Patrol)
+2025-10-25 13:49:34,525 - INFO - [50/227] Processing b52bfe8291cee449bcff5706da4cbfd4 (fy2004_archived_opportunities)
+2025-10-25 13:53:54,892 - INFO - Saved webscraping/downloads/fy2004/b52bfe8291cee449bcff5706da4cbfd4_S_--_Uniformed_Unarmed_Security_Patrol.zip (S -- Uniformed Unarmed Security Patrol)
+2025-10-25 13:53:55,739 - INFO - [51/227] Processing fd16e29373bfd5842132f4559898e843 (fy2004_archived_opportunities)
+2025-10-25 13:54:10,811 - INFO - No 'Download All' button for fd16e29373bfd5842132f4559898e843
+2025-10-25 13:54:11,513 - INFO - [52/227] Processing 5b034df195d7cce7a784f46f0d9f2fd4 (fy2004_archived_opportunities)
+2025-10-25 13:54:21,536 - INFO - No 'Download All' button for 5b034df195d7cce7a784f46f0d9f2fd4
+2025-10-25 13:54:22,328 - INFO - [53/227] Processing 221c664da1891ed80f783dab9fee0ca2 (fy2004_archived_opportunities)
+2025-10-25 13:54:36,325 - INFO - No 'Download All' button for 221c664da1891ed80f783dab9fee0ca2
+2025-10-25 13:54:37,305 - INFO - [54/227] Processing e0d8316c8c89f144e15e61a0dbdfd7ef (fy2004_archived_opportunities)
+2025-10-25 13:54:46,956 - INFO - No 'Download All' button for e0d8316c8c89f144e15e61a0dbdfd7ef
+2025-10-25 13:54:47,606 - INFO - [55/227] Processing d586c3d0873c3304c59820e1092e7644 (fy2004_archived_opportunities)
+2025-10-25 13:54:57,387 - INFO - No 'Download All' button for d586c3d0873c3304c59820e1092e7644
+2025-10-25 13:54:58,031 - INFO - [56/227] Processing 64c839fa9b1931732bbbf5fe1f7a232f (fy2004_archived_opportunities)
+2025-10-25 13:55:12,003 - INFO - No 'Download All' button for 64c839fa9b1931732bbbf5fe1f7a232f
+2025-10-25 13:55:12,666 - INFO - [57/227] Processing 1a02f7b2d9dfa09128944465dabe7ed7 (fy2004_archived_opportunities)
+2025-10-25 13:55:27,108 - INFO - No 'Download All' button for 1a02f7b2d9dfa09128944465dabe7ed7
+2025-10-25 13:55:28,094 - INFO - [58/227] Processing a0b364f8d35f4c9ead17ed7f2ca233aa (fy2004_archived_opportunities)
+2025-10-25 13:55:38,119 - INFO - No 'Download All' button for a0b364f8d35f4c9ead17ed7f2ca233aa
+2025-10-25 13:55:38,628 - INFO - [59/227] Processing 09c36c912bae9ed5f9cbe62ace2b56fc (fy2004_archived_opportunities)
+2025-10-25 13:55:49,067 - INFO - No 'Download All' button for 09c36c912bae9ed5f9cbe62ace2b56fc
+2025-10-25 13:55:50,039 - INFO - [60/227] Processing d9e3fdc1015c8cc3577e73dd1dd4fec6 (fy2004_archived_opportunities)
+2025-10-25 13:56:04,243 - INFO - No 'Download All' button for d9e3fdc1015c8cc3577e73dd1dd4fec6
+2025-10-25 13:56:04,799 - INFO - [61/227] Processing fe14c9be519d6c2e253f3c4e11c51eb1 (fy2004_archived_opportunities)
+2025-10-25 13:56:19,202 - INFO - No 'Download All' button for fe14c9be519d6c2e253f3c4e11c51eb1
+2025-10-25 13:56:19,999 - INFO - [62/227] Processing 04a1a62e110dfa1866c7a15b95c52b56 (fy2004_archived_opportunities)
+2025-10-25 13:56:29,586 - INFO - No 'Download All' button for 04a1a62e110dfa1866c7a15b95c52b56
+2025-10-25 13:56:30,191 - INFO - [63/227] Processing 285a2f2d3f1d915524b431c36595f528 (fy2004_archived_opportunities)
+2025-10-25 13:56:40,434 - INFO - No 'Download All' button for 285a2f2d3f1d915524b431c36595f528
+2025-10-25 13:56:41,202 - INFO - [64/227] Processing d546750ef0c232a9226b1a298ba0e385 (fy2004_archived_opportunities)
+2025-10-25 13:56:55,096 - INFO - No 'Download All' button for d546750ef0c232a9226b1a298ba0e385
+2025-10-25 13:56:55,773 - INFO - [65/227] Processing 008a979fc797cde4f69f54f72eae2e2e (fy2004_archived_opportunities)
+2025-10-25 13:57:05,764 - INFO - No 'Download All' button for 008a979fc797cde4f69f54f72eae2e2e
+2025-10-25 13:57:06,642 - INFO - [66/227] Processing 78d7b9cf108959871eba1ba867c114f2 (fy2004_archived_opportunities)
+2025-10-25 13:57:12,842 - INFO - Saved webscraping/downloads/fy2004/78d7b9cf108959871eba1ba867c114f2_99_--_Armed_Guard_Services.zip (99 -- Armed Guard Services)
+2025-10-25 13:57:13,463 - INFO - [67/227] Processing 239fef507c64c034cdb1ff19ef2c781e (fy2004_archived_opportunities)
+2025-10-25 13:57:21,180 - INFO - Saved webscraping/downloads/fy2004/239fef507c64c034cdb1ff19ef2c781e_99_--_Armed_Guard_Services.zip (99 -- Armed Guard Services)
+2025-10-25 13:57:22,123 - INFO - [68/227] Processing e7b237db60c2d1bc9288b8c5d4864049 (fy2004_archived_opportunities)
+2025-10-25 13:57:37,553 - INFO - No 'Download All' button for e7b237db60c2d1bc9288b8c5d4864049
+2025-10-25 13:57:38,542 - INFO - [69/227] Processing b584722a3f1c16e2e29bbb744b8e86b6 (fy2004_archived_opportunities)
+2025-10-25 13:57:55,617 - INFO - No 'Download All' button for b584722a3f1c16e2e29bbb744b8e86b6
+2025-10-25 13:57:56,252 - INFO - [70/227] Processing f3abb1aed6597c1ad0f33b09b25cec63 (fy2004_archived_opportunities)
+2025-10-25 13:58:06,029 - INFO - No 'Download All' button for f3abb1aed6597c1ad0f33b09b25cec63
+2025-10-25 13:58:06,987 - INFO - [71/227] Processing 0025b87f36fc340e47696a9813d20fd6 (fy2004_archived_opportunities)
+2025-10-25 13:58:21,827 - INFO - No 'Download All' button for 0025b87f36fc340e47696a9813d20fd6
+2025-10-25 13:58:22,486 - INFO - [72/227] Processing dda0190e6d554d0ea803bf640de33ded (fy2004_archived_opportunities)
+2025-10-25 13:58:28,307 - INFO - Saved webscraping/downloads/fy2004/dda0190e6d554d0ea803bf640de33ded_S_--_Market_Research_Questionnaire_Unarmed_Guard_Services.zip (S -- Market Research Questionnaire, Unarmed Guard Services)
+2025-10-25 13:58:29,192 - INFO - [73/227] Processing 5b11d20ba19112ecb2823322135199de (fy2004_archived_opportunities)
+2025-10-25 13:58:35,587 - INFO - Saved webscraping/downloads/fy2004/5b11d20ba19112ecb2823322135199de_S_--_Market_Research_Questionnaire_Unarmed_Guard_Services.zip (S -- Market Research Questionnaire, Unarmed Guard Services)
+2025-10-25 13:58:36,301 - INFO - [74/227] Processing 1f3e3016c3afcc7fe38744a4b150cf0e (fy2004_archived_opportunities)
+2025-10-25 13:58:50,947 - INFO - No 'Download All' button for 1f3e3016c3afcc7fe38744a4b150cf0e
+2025-10-25 13:58:51,925 - INFO - [75/227] Processing c8342a9a6adb0176794d4686fa376507 (fy2004_archived_opportunities)
+2025-10-25 13:59:02,060 - INFO - No 'Download All' button for c8342a9a6adb0176794d4686fa376507
+2025-10-25 13:59:02,752 - INFO - [76/227] Processing 9ddc0250b720eb2d5f2392e818819f94 (fy2004_archived_opportunities)
+2025-10-25 13:59:09,388 - INFO - Saved webscraping/downloads/fy2004/9ddc0250b720eb2d5f2392e818819f94_S_--_Unarmed_Security_Guards_at_Hurlburt_Field_FL.zip (S -- Unarmed Security Guards at Hurlburt Field FL)
+2025-10-25 13:59:10,305 - INFO - [77/227] Processing 1eb7ccf52f77f73106ef0221e962e231 (fy2004_archived_opportunities)
+2025-10-25 13:59:15,816 - INFO - Saved webscraping/downloads/fy2004/1eb7ccf52f77f73106ef0221e962e231_S_--_Unarmed_Security_Guards_at_Hurlburt_Field_FL.zip (S -- Unarmed Security Guards at Hurlburt Field FL)
+2025-10-25 13:59:16,451 - INFO - [78/227] Processing 32346ad608bd655d482b7e890fd2838d (fy2004_archived_opportunities)
+2025-10-25 13:59:26,393 - INFO - No 'Download All' button for 32346ad608bd655d482b7e890fd2838d
+2025-10-25 13:59:26,956 - INFO - [79/227] Processing 4adab61f5e92805a86a0c5d75da76be3 (fy2004_archived_opportunities)
+2025-10-25 13:59:41,788 - INFO - No 'Download All' button for 4adab61f5e92805a86a0c5d75da76be3
+2025-10-25 13:59:42,782 - INFO - [80/227] Processing 41e3b1ab075ce71456455f7db2c7b6f4 (fy2004_archived_opportunities)
+2025-10-25 13:59:49,139 - INFO - Saved webscraping/downloads/fy2004/41e3b1ab075ce71456455f7db2c7b6f4_R_--_Contract_Guard_Service.zip (R -- Contract Guard Service)
+2025-10-25 13:59:49,884 - INFO - [81/227] Processing 45294575d844c6bfada3d05017d31396 (fy2004_archived_opportunities)
+2025-10-25 13:59:55,890 - INFO - Saved webscraping/downloads/fy2004/45294575d844c6bfada3d05017d31396_S_--_Unarmed_Security_Guards.zip (S -- Unarmed Security Guards)
+2025-10-25 13:59:56,485 - INFO - [82/227] Processing c8925b7fd248cafc8273e1fd9934c0eb (fy2004_archived_opportunities)
+2025-10-25 14:00:02,395 - INFO - Saved webscraping/downloads/fy2004/c8925b7fd248cafc8273e1fd9934c0eb_S_--_Unarmed_Security_Guards.zip (S -- Unarmed Security Guards)
+2025-10-25 14:00:03,396 - INFO - [83/227] Processing ae1b92d52af8ac32f9c70e6ab2db98cc (fy2004_archived_opportunities)
+2025-10-25 14:00:09,216 - INFO - Saved webscraping/downloads/fy2004/ae1b92d52af8ac32f9c70e6ab2db98cc_S_--_Unarmed_Security_Guards.zip (S -- Unarmed Security Guards)
+2025-10-25 14:00:09,920 - INFO - [84/227] Processing 04735a8d33cb3e8b218e899344aa61f6 (fy2004_archived_opportunities)
+2025-10-25 14:00:15,753 - INFO - Saved webscraping/downloads/fy2004/04735a8d33cb3e8b218e899344aa61f6_S_--_Unarmed_Security_Guards.zip (S -- Unarmed Security Guards)
+2025-10-25 14:00:16,499 - INFO - [85/227] Processing 087afd002b93ad5f0f78b03da7acf858 (fy2004_archived_opportunities)
+2025-10-25 14:00:28,789 - INFO - No 'Download All' button for 087afd002b93ad5f0f78b03da7acf858
+2025-10-25 14:00:29,544 - INFO - [86/227] Processing bffb14152b8231fc9c7cbe1df49dbba2 (fy2004_archived_opportunities)
+2025-10-25 14:00:35,314 - INFO - Saved webscraping/downloads/fy2004/bffb14152b8231fc9c7cbe1df49dbba2_S_--_Market_Research_Questionnaire_01.zip (S -- Market Research Questionnaire 01)
+2025-10-25 14:00:36,235 - INFO - [87/227] Processing 0851c0224f3d42b4ea112a51a0b7f049 (fy2004_archived_opportunities)
+2025-10-25 14:00:42,085 - INFO - Saved webscraping/downloads/fy2004/0851c0224f3d42b4ea112a51a0b7f049_S_--_Market_Research_Questionnaire_01.zip (S -- Market Research Questionnaire 01)
+2025-10-25 14:00:43,064 - INFO - [88/227] Processing 252c719c0de56b8e2934d5d88a267c70 (fy2004_archived_opportunities)
+2025-10-25 14:00:57,281 - INFO - No 'Download All' button for 252c719c0de56b8e2934d5d88a267c70
+2025-10-25 14:00:58,243 - INFO - [89/227] Processing 11fd5cd21197685b5bb0baadfd46bcee (fy2004_archived_opportunities)
+2025-10-25 14:01:12,866 - INFO - No 'Download All' button for 11fd5cd21197685b5bb0baadfd46bcee
+2025-10-25 14:01:13,654 - INFO - [90/227] Processing 232335f2e201420484cae66454a15234 (fy2004_archived_opportunities)
+2025-10-25 14:01:30,147 - INFO - No 'Download All' button for 232335f2e201420484cae66454a15234
+2025-10-25 14:01:30,964 - INFO - [91/227] Processing d34b4f70fe09cd62f1e16fef590e0de8 (fy2004_archived_opportunities)
+2025-10-25 14:01:41,357 - INFO - No 'Download All' button for d34b4f70fe09cd62f1e16fef590e0de8
+2025-10-25 14:01:42,217 - INFO - [92/227] Processing 8ce3a2eac96f1683944f4913901c8959 (fy2004_archived_opportunities)
+2025-10-25 14:01:49,341 - INFO - Saved webscraping/downloads/fy2004/8ce3a2eac96f1683944f4913901c8959_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 14:01:49,988 - INFO - [93/227] Processing 04d1acd743af0ceb47c137093aa38f93 (fy2004_archived_opportunities)
+2025-10-25 14:02:04,006 - INFO - No 'Download All' button for 04d1acd743af0ceb47c137093aa38f93
+2025-10-25 14:02:04,570 - INFO - [94/227] Processing f5b8470d4408885e42a9c0acd14339fe (fy2004_archived_opportunities)
+2025-10-25 14:02:13,987 - INFO - No 'Download All' button for f5b8470d4408885e42a9c0acd14339fe
+2025-10-25 14:02:14,650 - INFO - [95/227] Processing 9e2dc43342a2cd36b57f5eba7c038271 (fy2004_archived_opportunities)
+2025-10-25 14:02:24,473 - INFO - No 'Download All' button for 9e2dc43342a2cd36b57f5eba7c038271
+2025-10-25 14:02:25,432 - INFO - [96/227] Processing 671d1d5db22d3c71af59de1573c9ef86 (fy2004_archived_opportunities)
+2025-10-25 14:02:39,465 - INFO - No 'Download All' button for 671d1d5db22d3c71af59de1573c9ef86
+2025-10-25 14:02:40,333 - INFO - [97/227] Processing 0f0ebdd0e3c2f0ef2f6890c465a2160a (fy2004_archived_opportunities)
+2025-10-25 14:02:51,355 - INFO - No 'Download All' button for 0f0ebdd0e3c2f0ef2f6890c465a2160a
+2025-10-25 14:02:52,215 - INFO - [98/227] Processing 11925c320dcee0023854791f3d56db25 (fy2004_archived_opportunities)
+2025-10-25 14:03:02,169 - INFO - No 'Download All' button for 11925c320dcee0023854791f3d56db25
+2025-10-25 14:03:02,946 - INFO - [99/227] Processing fb82b317a00f0622425df8bf917a55fb (fy2004_archived_opportunities)
+2025-10-25 14:03:11,475 - INFO - Saved webscraping/downloads/fy2004/fb82b317a00f0622425df8bf917a55fb_S_--_Detention_Services.zip (S -- Detention Services)
+2025-10-25 14:03:12,096 - INFO - [100/227] Processing 0c54ef9b9847f8ca11db9f9952abcf4d (fy2004_archived_opportunities)
+2025-10-25 14:03:21,308 - INFO - Saved webscraping/downloads/fy2004/0c54ef9b9847f8ca11db9f9952abcf4d_S_--_Detention_Services.zip (S -- Detention Services)
+2025-10-25 14:03:22,266 - INFO - [101/227] Processing 0cb25aa9e5596b51b9e7159697c40504 (fy2004_archived_opportunities)
+2025-10-25 14:03:30,039 - INFO - Saved webscraping/downloads/fy2004/0cb25aa9e5596b51b9e7159697c40504_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 14:03:30,775 - INFO - [102/227] Processing 33a5cf8924e0459e6a7aace7840a836e (fy2004_archived_opportunities)
+2025-10-25 14:03:37,732 - INFO - Saved webscraping/downloads/fy2004/33a5cf8924e0459e6a7aace7840a836e_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 14:03:38,597 - INFO - [103/227] Processing 7d5e0b51e4d18128123781ebec80d7a2 (fy2004_archived_opportunities)
+2025-10-25 14:03:52,815 - INFO - No 'Download All' button for 7d5e0b51e4d18128123781ebec80d7a2
+2025-10-25 14:03:53,407 - INFO - [104/227] Processing 8c8c8f497750e38452ae0707e69f73e7 (fy2004_archived_opportunities)
+2025-10-25 14:04:03,211 - INFO - Saved webscraping/downloads/fy2004/8c8c8f497750e38452ae0707e69f73e7_R_--_GUARD_SERVICES-FCI_EDGEFIELD_and_FCI_ESTILL_SC.zip (R -- GUARD SERVICES-FCI EDGEFIELD and FCI ESTILL, SC)
+2025-10-25 14:04:03,789 - INFO - [105/227] Processing 1726cf984ad0e642fbb870641f21cebb (fy2004_archived_opportunities)
+2025-10-25 14:04:13,297 - INFO - No 'Download All' button for 1726cf984ad0e642fbb870641f21cebb
+2025-10-25 14:04:14,063 - INFO - [106/227] Processing fb28cf60bdca92646ba818e55a3df21b (fy2004_archived_opportunities)
+2025-10-25 14:04:28,115 - INFO - No 'Download All' button for fb28cf60bdca92646ba818e55a3df21b
+2025-10-25 14:04:28,670 - INFO - [107/227] Processing 7ddb7de4abd17f5e6e229d1f8c7a970f (fy2004_archived_opportunities)
+2025-10-25 14:04:39,113 - INFO - No 'Download All' button for 7ddb7de4abd17f5e6e229d1f8c7a970f
+2025-10-25 14:04:39,743 - INFO - [108/227] Processing 080d6ea4a658747a3d0ac714abb6fac8 (fy2004_archived_opportunities)
+2025-10-25 14:04:49,362 - INFO - No 'Download All' button for 080d6ea4a658747a3d0ac714abb6fac8
+2025-10-25 14:04:50,230 - INFO - [109/227] Processing 49aca50b1ad0ae08cc7ffaf29400cb8b (fy2004_archived_opportunities)
+2025-10-25 14:04:59,740 - INFO - No 'Download All' button for 49aca50b1ad0ae08cc7ffaf29400cb8b
+2025-10-25 14:05:00,625 - INFO - [110/227] Processing 6f301e2b25c190c28183d9b713abcd18 (fy2004_archived_opportunities)
+2025-10-25 14:05:10,681 - INFO - No 'Download All' button for 6f301e2b25c190c28183d9b713abcd18
+2025-10-25 14:05:11,461 - INFO - [111/227] Processing c4a99a02cf112a37f12721981f97e2c6 (fy2004_archived_opportunities)
+2025-10-25 14:05:25,511 - INFO - No 'Download All' button for c4a99a02cf112a37f12721981f97e2c6
+2025-10-25 14:05:26,322 - INFO - [112/227] Processing 359a4cfb6e12d093dc45b7f7295031e7 (fy2004_archived_opportunities)
+2025-10-25 14:05:40,771 - INFO - No 'Download All' button for 359a4cfb6e12d093dc45b7f7295031e7
+2025-10-25 14:05:41,724 - INFO - [113/227] Processing 155680335abcedfb15bc7ef4da2ffee6 (fy2004_archived_opportunities)
+2025-10-25 14:05:48,062 - INFO - Saved webscraping/downloads/fy2004/155680335abcedfb15bc7ef4da2ffee6_S_--_Unarmed_Security_Guards.zip (S -- Unarmed Security Guards)
+2025-10-25 14:05:48,817 - INFO - [114/227] Processing 7e66d2c8f517092fbedb5995f0b5993c (fy2004_archived_opportunities)
+2025-10-25 14:06:02,630 - INFO - No 'Download All' button for 7e66d2c8f517092fbedb5995f0b5993c
+2025-10-25 14:06:03,255 - INFO - [115/227] Processing 5a98079805e7117df929efc4c14c8b87 (fy2004_archived_opportunities)
+2025-10-25 14:06:18,106 - INFO - No 'Download All' button for 5a98079805e7117df929efc4c14c8b87
+2025-10-25 14:06:18,953 - INFO - [116/227] Processing 3fed744b5ea2d00fc1090b25d148da34 (fy2004_archived_opportunities)
+2025-10-25 14:06:30,826 - INFO - No 'Download All' button for 3fed744b5ea2d00fc1090b25d148da34
+2025-10-25 14:06:31,676 - INFO - [117/227] Processing a482dcdae5226ad900857ef76fbb54c3 (fy2004_archived_opportunities)
+2025-10-25 14:06:42,260 - INFO - No 'Download All' button for a482dcdae5226ad900857ef76fbb54c3
+2025-10-25 14:06:42,916 - INFO - [118/227] Processing 68c0a0884da0f3e54455f7c147bdab06 (fy2004_archived_opportunities)
+2025-10-25 14:06:53,041 - INFO - No 'Download All' button for 68c0a0884da0f3e54455f7c147bdab06
+2025-10-25 14:06:53,676 - INFO - [119/227] Processing e17e1936020795c586732f7d832b751e (fy2004_archived_opportunities)
+2025-10-25 14:07:03,256 - INFO - No 'Download All' button for e17e1936020795c586732f7d832b751e
+2025-10-25 14:07:03,865 - INFO - [120/227] Processing 56f447209825a6cc46465ac0636c68fd (fy2004_archived_opportunities)
+2025-10-25 14:07:10,378 - INFO - Saved webscraping/downloads/fy2004/56f447209825a6cc46465ac0636c68fd_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 14:07:11,375 - INFO - [121/227] Processing b6338772bb2b1c6d8f91cc0c4d2b81a8 (fy2004_archived_opportunities)
+2025-10-25 14:07:25,298 - INFO - No 'Download All' button for b6338772bb2b1c6d8f91cc0c4d2b81a8
+2025-10-25 14:07:26,100 - INFO - [122/227] Processing 22dd212aff66ebb293a817570f1edd5d (fy2004_archived_opportunities)
+2025-10-25 14:07:31,789 - INFO - Saved webscraping/downloads/fy2004/22dd212aff66ebb293a817570f1edd5d_R_--_GUARD_SERVICES-FCI_EDGEFIELD_and_FCI_ESTILL_SC.zip (R -- GUARD SERVICES-FCI EDGEFIELD and FCI ESTILL, SC)
+2025-10-25 14:07:32,316 - INFO - [123/227] Processing 955f144f8ec7a1b935eaff7561ab6178 (fy2004_archived_opportunities)
+2025-10-25 14:07:41,907 - INFO - No 'Download All' button for 955f144f8ec7a1b935eaff7561ab6178
+2025-10-25 14:07:42,852 - INFO - [124/227] Processing 74d2ee9ef2170582e876e362beb5ebe4 (fy2004_archived_opportunities)
+2025-10-25 14:07:57,603 - INFO - No 'Download All' button for 74d2ee9ef2170582e876e362beb5ebe4
+2025-10-25 14:07:58,592 - INFO - [125/227] Processing 9553a52b3c725278235bc2d89ffbb255 (fy2004_archived_opportunities)
+2025-10-25 14:08:05,436 - INFO - Saved webscraping/downloads/fy2004/9553a52b3c725278235bc2d89ffbb255_S_--_Detention_Services.zip (S -- Detention Services)
+2025-10-25 14:08:06,074 - INFO - [126/227] Processing 89fb606731337d28d5687a1b318475db (fy2004_archived_opportunities)
+2025-10-25 14:08:12,467 - INFO - Saved webscraping/downloads/fy2004/89fb606731337d28d5687a1b318475db_S_--_Unarmed_Security_Guards.zip (S -- Unarmed Security Guards)
+2025-10-25 14:08:13,207 - INFO - [127/227] Processing a6452bb712983dbb853aefe018154dd9 (fy2004_archived_opportunities)
+2025-10-25 14:08:23,373 - INFO - No 'Download All' button for a6452bb712983dbb853aefe018154dd9
+2025-10-25 14:08:24,088 - INFO - [128/227] Processing ace5b4f68ca1c1465c17449059512265 (fy2004_archived_opportunities)
+2025-10-25 14:08:33,855 - INFO - No 'Download All' button for ace5b4f68ca1c1465c17449059512265
+2025-10-25 14:08:34,415 - INFO - [129/227] Processing d0996e505756facf6c60e031793bd96b (fy2004_archived_opportunities)
+2025-10-25 14:08:43,923 - INFO - No 'Download All' button for d0996e505756facf6c60e031793bd96b
+2025-10-25 14:08:44,761 - INFO - [130/227] Processing 34a3bc8461495ccfb9ce5c6a0e585548 (fy2004_archived_opportunities)
+2025-10-25 14:08:55,118 - INFO - No 'Download All' button for 34a3bc8461495ccfb9ce5c6a0e585548
+2025-10-25 14:08:55,656 - INFO - [131/227] Processing bcdc16d2df19ba17f659ddd17e18820f (fy2004_archived_opportunities)
+2025-10-25 14:09:12,090 - INFO - No 'Download All' button for bcdc16d2df19ba17f659ddd17e18820f
+2025-10-25 14:09:12,870 - INFO - [132/227] Processing 81a6a5a4fbf5413c14d67e4743de1098 (fy2004_archived_opportunities)
+2025-10-25 14:09:27,966 - INFO - No 'Download All' button for 81a6a5a4fbf5413c14d67e4743de1098
+2025-10-25 14:09:28,916 - INFO - [133/227] Processing d7d269a9296d1ff936017a65f2dd474c (fy2004_archived_opportunities)
+2025-10-25 14:09:39,468 - INFO - No 'Download All' button for d7d269a9296d1ff936017a65f2dd474c
+2025-10-25 14:09:40,057 - INFO - [134/227] Processing 110f598ecbada249f7fbf850144ad4c8 (fy2004_archived_opportunities)
+2025-10-25 14:09:54,436 - INFO - No 'Download All' button for 110f598ecbada249f7fbf850144ad4c8
+2025-10-25 14:09:55,186 - INFO - [135/227] Processing 625b644ce2ce23afccf5a602a7286f7d (fy2004_archived_opportunities)
+2025-10-25 14:10:06,412 - INFO - Saved webscraping/downloads/fy2004/625b644ce2ce23afccf5a602a7286f7d_S_--_Detention_Services.zip (S -- Detention Services)
+2025-10-25 14:10:07,195 - INFO - [136/227] Processing 289409f833299d9c766bea88e70277bf (fy2004_archived_opportunities)
+2025-10-25 14:10:17,337 - INFO - No 'Download All' button for 289409f833299d9c766bea88e70277bf
+2025-10-25 14:10:17,868 - INFO - [137/227] Processing 017e7cf5da7e0db604bbea2863d1b47d (fy2004_archived_opportunities)
+2025-10-25 14:10:31,755 - INFO - No 'Download All' button for 017e7cf5da7e0db604bbea2863d1b47d
+2025-10-25 14:10:32,558 - INFO - [138/227] Processing 8bdc51d2c815fb3d17b409471823f5ba (fy2004_archived_opportunities)
+2025-10-25 14:10:47,064 - INFO - No 'Download All' button for 8bdc51d2c815fb3d17b409471823f5ba
+2025-10-25 14:10:47,826 - INFO - [139/227] Processing 79e895a4181550ea297a5db62f6ea15e (fy2004_archived_opportunities)
+2025-10-25 14:10:58,901 - INFO - No 'Download All' button for 79e895a4181550ea297a5db62f6ea15e
+2025-10-25 14:10:59,650 - INFO - [140/227] Processing 7d59d62001f0634fa5f6db96d91dbea3 (fy2004_archived_opportunities)
+2025-10-25 14:11:20,578 - INFO - Saved webscraping/downloads/fy2004/7d59d62001f0634fa5f6db96d91dbea3_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 14:11:21,186 - INFO - [141/227] Processing 3aa836df1f0fb3de2656912389b42e08 (fy2004_archived_opportunities)
+2025-10-25 14:11:27,004 - INFO - Saved webscraping/downloads/fy2004/3aa836df1f0fb3de2656912389b42e08_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 14:11:27,703 - INFO - [142/227] Processing 2c46b6499a4501a8d1068c0245058731 (fy2004_archived_opportunities)
+2025-10-25 14:11:33,866 - INFO - Saved webscraping/downloads/fy2004/2c46b6499a4501a8d1068c0245058731_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 14:11:34,802 - INFO - [143/227] Processing c76a4a973cf6ed94f2ae0b0ae6ffb961 (fy2004_archived_opportunities)
+2025-10-25 14:11:48,843 - INFO - No 'Download All' button for c76a4a973cf6ed94f2ae0b0ae6ffb961
+2025-10-25 14:11:49,480 - INFO - [144/227] Processing 5b42feb5b66b05d4587f0be70bd22fd4 (fy2004_archived_opportunities)
+2025-10-25 14:11:59,447 - INFO - No 'Download All' button for 5b42feb5b66b05d4587f0be70bd22fd4
+2025-10-25 14:12:00,399 - INFO - [145/227] Processing 30e30a5ed4219eb5ba276e852b56f886 (fy2004_archived_opportunities)
+2025-10-25 14:12:09,948 - INFO - No 'Download All' button for 30e30a5ed4219eb5ba276e852b56f886
+2025-10-25 14:12:10,587 - INFO - [146/227] Processing 0436120a39b0427d3b16562deca9b358 (fy2004_archived_opportunities)
+2025-10-25 14:12:20,164 - INFO - No 'Download All' button for 0436120a39b0427d3b16562deca9b358
+2025-10-25 14:12:21,113 - INFO - [147/227] Processing 9795addd3b0d6f5a2ef084334333689e (fy2004_archived_opportunities)
+2025-10-25 14:12:30,529 - INFO - No 'Download All' button for 9795addd3b0d6f5a2ef084334333689e
+2025-10-25 14:12:31,131 - INFO - [148/227] Processing 2ef2fbd549d66de14c74d249f36259ae (fy2004_archived_opportunities)
+2025-10-25 14:12:40,643 - INFO - No 'Download All' button for 2ef2fbd549d66de14c74d249f36259ae
+2025-10-25 14:12:41,424 - INFO - [149/227] Processing 5a044887c0e136bdaa33f9ed1cd2d973 (fy2004_archived_opportunities)
+2025-10-25 14:12:58,478 - INFO - No 'Download All' button for 5a044887c0e136bdaa33f9ed1cd2d973
+2025-10-25 14:12:59,059 - INFO - [150/227] Processing 36dd546ee6115605c91439b407a104bf (fy2004_archived_opportunities)
+2025-10-25 14:13:13,341 - INFO - No 'Download All' button for 36dd546ee6115605c91439b407a104bf
+2025-10-25 14:13:14,015 - INFO - [151/227] Processing 11f972731048ae8b4a87169314fab195 (fy2004_archived_opportunities)
+2025-10-25 14:13:24,597 - INFO - No 'Download All' button for 11f972731048ae8b4a87169314fab195
+2025-10-25 14:13:25,431 - INFO - [152/227] Processing 1f25748d962dda690ff63a7458f9c2bb (fy2004_archived_opportunities)
+2025-10-25 14:13:36,891 - INFO - No 'Download All' button for 1f25748d962dda690ff63a7458f9c2bb
+2025-10-25 14:13:37,784 - INFO - [153/227] Processing 29b441362e1d16e96bd27d84f607668c (fy2004_archived_opportunities)
+2025-10-25 14:13:47,807 - INFO - No 'Download All' button for 29b441362e1d16e96bd27d84f607668c
+2025-10-25 14:13:48,336 - INFO - [154/227] Processing eeb76781858fc1b751d2a1b3d79a6a34 (fy2004_archived_opportunities)
+2025-10-25 14:13:58,359 - INFO - No 'Download All' button for eeb76781858fc1b751d2a1b3d79a6a34
+2025-10-25 14:13:59,158 - INFO - [155/227] Processing 0cd1775eff51b8a94d98c52514b0f3e5 (fy2004_archived_opportunities)
+2025-10-25 14:14:16,285 - INFO - No 'Download All' button for 0cd1775eff51b8a94d98c52514b0f3e5
+2025-10-25 14:14:17,190 - INFO - [156/227] Processing e4863cf3018fe4bf046ed87a19484910 (fy2004_archived_opportunities)
+2025-10-25 14:14:33,631 - INFO - No 'Download All' button for e4863cf3018fe4bf046ed87a19484910
+2025-10-25 14:14:34,179 - INFO - [157/227] Processing 00b52aaa85d5fedc7dc56fc5e7b374dc (fy2004_archived_opportunities)
+2025-10-25 14:14:48,611 - INFO - No 'Download All' button for 00b52aaa85d5fedc7dc56fc5e7b374dc
+2025-10-25 14:14:49,389 - INFO - [158/227] Processing d7ce40f710072c24359c8990fc1f16f9 (fy2004_archived_opportunities)
+2025-10-25 14:15:03,571 - INFO - No 'Download All' button for d7ce40f710072c24359c8990fc1f16f9
+2025-10-25 14:15:04,193 - INFO - [159/227] Processing 302a1aaec2d6a398379379bd59e66323 (fy2004_archived_opportunities)
+2025-10-25 14:15:18,185 - INFO - No 'Download All' button for 302a1aaec2d6a398379379bd59e66323
+2025-10-25 14:15:19,139 - INFO - [160/227] Processing e65e4892ad70440fbd7e76424b9ca42a (fy2004_archived_opportunities)
+2025-10-25 14:15:33,122 - INFO - No 'Download All' button for e65e4892ad70440fbd7e76424b9ca42a
+2025-10-25 14:15:33,743 - INFO - [161/227] Processing 7584be7540c802aefb5a2bcc0d2ac3d7 (fy2004_archived_opportunities)
+2025-10-25 14:15:49,835 - INFO - No 'Download All' button for 7584be7540c802aefb5a2bcc0d2ac3d7
+2025-10-25 14:15:50,372 - INFO - [162/227] Processing 0a5056f290c29028a765511b85662f5d (fy2004_archived_opportunities)
+2025-10-25 14:16:05,037 - INFO - No 'Download All' button for 0a5056f290c29028a765511b85662f5d
+2025-10-25 14:16:05,635 - INFO - [163/227] Processing 5c01f6bbf5c9da3f47b656b5414163dc (fy2004_archived_opportunities)
+2025-10-25 14:16:19,618 - INFO - No 'Download All' button for 5c01f6bbf5c9da3f47b656b5414163dc
+2025-10-25 14:16:20,347 - INFO - [164/227] Processing 7400d65a37887d6cd7b253c91f452191 (fy2004_archived_opportunities)
+2025-10-25 14:16:36,719 - INFO - No 'Download All' button for 7400d65a37887d6cd7b253c91f452191
+2025-10-25 14:16:37,512 - INFO - [165/227] Processing e1ef7af0f0468d3e0830e03a90277d84 (fy2004_archived_opportunities)
+2025-10-25 14:16:51,550 - INFO - No 'Download All' button for e1ef7af0f0468d3e0830e03a90277d84
+2025-10-25 14:16:52,311 - INFO - [166/227] Processing 11879a603095fc9d2d21d6fcbb99877d (fy2004_archived_opportunities)
+2025-10-25 14:17:06,542 - INFO - No 'Download All' button for 11879a603095fc9d2d21d6fcbb99877d
+2025-10-25 14:17:07,232 - INFO - [167/227] Processing a89a6ea38f6ee7d8c2caf7c758f245d6 (fy2004_archived_opportunities)
+2025-10-25 14:17:16,662 - INFO - No 'Download All' button for a89a6ea38f6ee7d8c2caf7c758f245d6
+2025-10-25 14:17:17,279 - INFO - [168/227] Processing d752d4a2cda0f694c612b8e071519851 (fy2004_archived_opportunities)
+2025-10-25 14:17:25,811 - INFO - Saved webscraping/downloads/fy2004/d752d4a2cda0f694c612b8e071519851_S_--_Unarmed_Guard_Services_-_FCI_Jesup_GA_FCI_Edgefield_SC_and_FCI_Estill_SC.zip (S -- Unarmed Guard Services - FCI Jesup, GA; FCI Edgefield, SC; and FCI Estill, SC)
+2025-10-25 14:17:26,686 - INFO - [169/227] Processing 7ca2fab8dff0f12b28879434f00e85cc (fy2004_archived_opportunities)
+2025-10-25 14:17:33,028 - INFO - Saved webscraping/downloads/fy2004/7ca2fab8dff0f12b28879434f00e85cc_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:17:33,927 - INFO - [170/227] Processing 5cd932ac7b7a9f581188cac7158d505d (fy2004_archived_opportunities)
+2025-10-25 14:17:40,439 - INFO - Saved webscraping/downloads/fy2004/5cd932ac7b7a9f581188cac7158d505d_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:17:41,011 - INFO - [171/227] Processing 2197121b53f1c0d57a69dc38cb8b0dfb (fy2004_archived_opportunities)
+2025-10-25 14:17:46,629 - INFO - Saved webscraping/downloads/fy2004/2197121b53f1c0d57a69dc38cb8b0dfb_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:17:47,454 - INFO - [172/227] Processing 7b996017fdd161c18132dba2fc5b822c (fy2004_archived_opportunities)
+2025-10-25 14:17:53,918 - INFO - Saved webscraping/downloads/fy2004/7b996017fdd161c18132dba2fc5b822c_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:17:54,887 - INFO - [173/227] Processing 8d6517b8861144dc8828ac5e1746a6ec (fy2004_archived_opportunities)
+2025-10-25 14:18:01,089 - INFO - Saved webscraping/downloads/fy2004/8d6517b8861144dc8828ac5e1746a6ec_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:18:01,993 - INFO - [174/227] Processing 05ef551899e4aa068a17c92885b6f46e (fy2004_archived_opportunities)
+2025-10-25 14:18:09,077 - INFO - Saved webscraping/downloads/fy2004/05ef551899e4aa068a17c92885b6f46e_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:18:09,975 - INFO - [175/227] Processing 982af6b6401ac3d74447f8252f22c3fc (fy2004_archived_opportunities)
+2025-10-25 14:18:18,652 - INFO - Saved webscraping/downloads/fy2004/982af6b6401ac3d74447f8252f22c3fc_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:18:19,204 - INFO - [176/227] Processing f74eb6cc4d2669a4b85b2b3202c5abcf (fy2004_archived_opportunities)
+2025-10-25 14:18:27,069 - INFO - Saved webscraping/downloads/fy2004/f74eb6cc4d2669a4b85b2b3202c5abcf_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:18:27,816 - INFO - [177/227] Processing 36f88df972d823cd0523960d6da7383d (fy2004_archived_opportunities)
+2025-10-25 14:18:34,208 - INFO - Saved webscraping/downloads/fy2004/36f88df972d823cd0523960d6da7383d_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:18:34,865 - INFO - [178/227] Processing abd75871a248a51f9f31fc246876f1ee (fy2004_archived_opportunities)
+2025-10-25 14:18:41,503 - INFO - Saved webscraping/downloads/fy2004/abd75871a248a51f9f31fc246876f1ee_99_--_Armed_Guard_Services.zip (99 -- Armed Guard Services)
+2025-10-25 14:18:42,207 - INFO - [179/227] Processing 496fd6f58c3b0d43ff9a192c96c6f5d3 (fy2004_archived_opportunities)
+2025-10-25 14:18:56,482 - INFO - No 'Download All' button for 496fd6f58c3b0d43ff9a192c96c6f5d3
+2025-10-25 14:18:57,023 - INFO - [180/227] Processing f4682c6f8b7043710fcc290b7a38e555 (fy2004_archived_opportunities)
+2025-10-25 14:19:06,673 - INFO - No 'Download All' button for f4682c6f8b7043710fcc290b7a38e555
+2025-10-25 14:19:07,496 - INFO - [181/227] Processing 4bdb50a2a5fe0ab3ecf05348536b9a6a (fy2004_archived_opportunities)
+2025-10-25 14:19:24,135 - INFO - No 'Download All' button for 4bdb50a2a5fe0ab3ecf05348536b9a6a
+2025-10-25 14:19:25,067 - INFO - [182/227] Processing 6c3ac6b505a6bb076f193c8206467eb6 (fy2004_archived_opportunities)
+2025-10-25 14:19:40,140 - INFO - No 'Download All' button for 6c3ac6b505a6bb076f193c8206467eb6
+2025-10-25 14:19:40,789 - INFO - [183/227] Processing b32415b0269537ecc2a1b35a6c8fe6c8 (fy2004_archived_opportunities)
+2025-10-25 14:19:54,847 - INFO - No 'Download All' button for b32415b0269537ecc2a1b35a6c8fe6c8
+2025-10-25 14:19:55,479 - INFO - [184/227] Processing 193a93dfe6b0ada2a0281ff458a2f4a3 (fy2004_archived_opportunities)
+2025-10-25 14:20:10,148 - INFO - No 'Download All' button for 193a93dfe6b0ada2a0281ff458a2f4a3
+2025-10-25 14:20:11,068 - INFO - [185/227] Processing d87b73605eacee201a32c4f9960a005d (fy2004_archived_opportunities)
+2025-10-25 14:20:25,833 - INFO - No 'Download All' button for d87b73605eacee201a32c4f9960a005d
+2025-10-25 14:20:26,808 - INFO - [186/227] Processing cd45ad54b414a46d8b934bb32cc0cada (fy2004_archived_opportunities)
+2025-10-25 14:20:32,915 - INFO - Saved webscraping/downloads/fy2004/cd45ad54b414a46d8b934bb32cc0cada_99_--_Armed_Guard_Services.zip (99 -- Armed Guard Services)
+2025-10-25 14:20:33,589 - INFO - [187/227] Processing b85492c2dd45402e3769201e5596c077 (fy2004_archived_opportunities)
+2025-10-25 14:20:43,958 - INFO - No 'Download All' button for b85492c2dd45402e3769201e5596c077
+2025-10-25 14:20:44,675 - INFO - [188/227] Processing 0d47f2350eb82d2d921dcd05baa7a54d (fy2004_archived_opportunities)
+2025-10-25 14:20:51,691 - INFO - Saved webscraping/downloads/fy2004/0d47f2350eb82d2d921dcd05baa7a54d_99_--_Armed_Guard_Services.zip (99 -- Armed Guard Services)
+2025-10-25 14:20:52,414 - INFO - [189/227] Processing 3c4a5891f537d19229fd9181834c6d69 (fy2004_archived_opportunities)
+2025-10-25 14:21:06,954 - INFO - No 'Download All' button for 3c4a5891f537d19229fd9181834c6d69
+2025-10-25 14:21:07,629 - INFO - [190/227] Processing 129c039daa5d7bcd7d93715b32ee3c0d (fy2004_archived_opportunities)
+2025-10-25 14:21:17,291 - INFO - No 'Download All' button for 129c039daa5d7bcd7d93715b32ee3c0d
+2025-10-25 14:21:18,259 - INFO - [191/227] Processing 76c9db3c57656ea3ff60eb339245e040 (fy2004_archived_opportunities)
+2025-10-25 14:21:32,975 - INFO - No 'Download All' button for 76c9db3c57656ea3ff60eb339245e040
+2025-10-25 14:21:33,629 - INFO - [192/227] Processing 7ba9f6d59194ddb0a06bd7bf4e12313f (fy2004_archived_opportunities)
+2025-10-25 14:21:42,289 - INFO - Saved webscraping/downloads/fy2004/7ba9f6d59194ddb0a06bd7bf4e12313f_99_--_Armed_Guard_Services.zip (99 -- Armed Guard Services)
+2025-10-25 14:21:43,249 - INFO - [193/227] Processing 4de97f428151385907db6469c52a39e6 (fy2004_archived_opportunities)
+2025-10-25 14:21:50,353 - INFO - Saved webscraping/downloads/fy2004/4de97f428151385907db6469c52a39e6_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:21:51,044 - INFO - [194/227] Processing 99e6ae9f122576d3f4bd103c34ebf7c9 (fy2004_archived_opportunities)
+2025-10-25 14:21:57,513 - INFO - Saved webscraping/downloads/fy2004/99e6ae9f122576d3f4bd103c34ebf7c9_S_--_Unarmed_Guard_Services-Select_Institutions_in_the_Southeast_Region.zip (S -- Unarmed Guard Services-Select Institutions in the Southeast Region)
+2025-10-25 14:21:58,462 - INFO - [195/227] Processing d4c6b751a222bd680c0f5ea8a5f52ea3 (fy2004_archived_opportunities)
+2025-10-25 14:22:08,091 - INFO - No 'Download All' button for d4c6b751a222bd680c0f5ea8a5f52ea3
+2025-10-25 14:22:08,853 - INFO - [196/227] Processing a94db852e7e61451182e561b4695bae4 (fy2004_archived_opportunities)
+2025-10-25 14:22:18,423 - INFO - No 'Download All' button for a94db852e7e61451182e561b4695bae4
+2025-10-25 14:22:19,280 - INFO - [197/227] Processing ed0f2e80369d496f03a260297cd0baba (fy2004_archived_opportunities)
+2025-10-25 14:22:29,600 - INFO - No 'Download All' button for ed0f2e80369d496f03a260297cd0baba
+2025-10-25 14:22:30,192 - INFO - [198/227] Processing 9a96d591aafcba119e090bc5ffca649b (fy2004_archived_opportunities)
+2025-10-25 14:22:39,939 - INFO - No 'Download All' button for 9a96d591aafcba119e090bc5ffca649b
+2025-10-25 14:22:40,577 - INFO - [199/227] Processing f1d85d9673331bb01967b282060951f5 (fy2004_archived_opportunities)
+2025-10-25 14:22:54,997 - INFO - No 'Download All' button for f1d85d9673331bb01967b282060951f5
+2025-10-25 14:22:55,986 - INFO - [200/227] Processing adda32a175583056bf4564d4aa074067 (fy2004_archived_opportunities)
+2025-10-25 14:23:05,614 - INFO - No 'Download All' button for adda32a175583056bf4564d4aa074067
+2025-10-25 14:23:06,526 - INFO - [201/227] Processing 6badcaa82a12050bbc574662358b89cc (fy2004_archived_opportunities)
+2025-10-25 14:23:16,189 - INFO - No 'Download All' button for 6badcaa82a12050bbc574662358b89cc
+2025-10-25 14:23:16,916 - INFO - [202/227] Processing 384a75869b9fbe5b31b4706f08707d01 (fy2004_archived_opportunities)
+2025-10-25 14:23:26,428 - INFO - No 'Download All' button for 384a75869b9fbe5b31b4706f08707d01
+2025-10-25 14:23:27,057 - INFO - [203/227] Processing 7e715a3c01c5f81637464f765c8a50b2 (fy2004_archived_opportunities)
+2025-10-25 14:23:41,140 - INFO - No 'Download All' button for 7e715a3c01c5f81637464f765c8a50b2
+2025-10-25 14:23:41,949 - INFO - [204/227] Processing b268f4074e5aba3007e9b2167bb1aa88 (fy2004_archived_opportunities)
+2025-10-25 14:23:56,176 - INFO - No 'Download All' button for b268f4074e5aba3007e9b2167bb1aa88
+2025-10-25 14:23:56,938 - INFO - [205/227] Processing 4809612f102b740a3af57087e826bf72 (fy2004_archived_opportunities)
+2025-10-25 14:24:07,230 - INFO - No 'Download All' button for 4809612f102b740a3af57087e826bf72
+2025-10-25 14:24:08,108 - INFO - [206/227] Processing a4a4257ade82cdffa34ff35f70ab5986 (fy2004_archived_opportunities)
+2025-10-25 14:24:23,193 - INFO - No 'Download All' button for a4a4257ade82cdffa34ff35f70ab5986
+2025-10-25 14:24:24,102 - INFO - [207/227] Processing cbcf7989fc1d73d2d1338a6a6124735c (fy2004_archived_opportunities)
+2025-10-25 14:24:38,374 - INFO - No 'Download All' button for cbcf7989fc1d73d2d1338a6a6124735c
+2025-10-25 14:24:39,225 - INFO - [208/227] Processing 80e776e0744feb7e20007799d9b8d145 (fy2004_archived_opportunities)
+2025-10-25 14:24:53,955 - INFO - No 'Download All' button for 80e776e0744feb7e20007799d9b8d145
+2025-10-25 14:24:54,533 - INFO - [209/227] Processing c9be6a0ebc457252de8a5843a93e03e7 (fy2004_archived_opportunities)
+2025-10-25 14:25:08,393 - INFO - No 'Download All' button for c9be6a0ebc457252de8a5843a93e03e7
+2025-10-25 14:25:09,309 - INFO - [210/227] Processing d7b8727e8a0446e904fab42a0e4c4aba (fy2004_archived_opportunities)
+2025-10-25 14:25:23,356 - INFO - No 'Download All' button for d7b8727e8a0446e904fab42a0e4c4aba
+2025-10-25 14:25:24,108 - INFO - [211/227] Processing b93a8a90c5de36fe2f434b82eb0d3f3a (fy2004_archived_opportunities)
+2025-10-25 14:25:34,182 - INFO - No 'Download All' button for b93a8a90c5de36fe2f434b82eb0d3f3a
+2025-10-25 14:25:34,828 - INFO - [212/227] Processing 70323356ffce1aa7e0f24ceb547f58fc (fy2004_archived_opportunities)
+2025-10-25 14:25:49,766 - INFO - No 'Download All' button for 70323356ffce1aa7e0f24ceb547f58fc
+2025-10-25 14:25:50,596 - INFO - [213/227] Processing 505e9b3773edcca3b29f20d60893b438 (fy2004_archived_opportunities)
+2025-10-25 14:26:07,259 - INFO - No 'Download All' button for 505e9b3773edcca3b29f20d60893b438
+2025-10-25 14:26:08,083 - INFO - [214/227] Processing 2b92aef915fd7b90af8ca3cbe0c9ac71 (fy2004_archived_opportunities)
+2025-10-25 14:26:22,699 - INFO - No 'Download All' button for 2b92aef915fd7b90af8ca3cbe0c9ac71
+2025-10-25 14:26:23,675 - INFO - [215/227] Processing 2a100e14568c85ed09121c41c84a9e34 (fy2004_archived_opportunities)
+2025-10-25 14:26:33,394 - INFO - No 'Download All' button for 2a100e14568c85ed09121c41c84a9e34
+2025-10-25 14:26:34,149 - INFO - [216/227] Processing 6cb60a8ff5f1d34df3223e8215a9438f (fy2004_archived_opportunities)
+2025-10-25 14:26:48,132 - INFO - No 'Download All' button for 6cb60a8ff5f1d34df3223e8215a9438f
+2025-10-25 14:26:49,095 - INFO - [217/227] Processing 8e72488025b82c124428ecdede75f990 (fy2004_archived_opportunities)
+2025-10-25 14:26:59,740 - INFO - No 'Download All' button for 8e72488025b82c124428ecdede75f990
+2025-10-25 14:27:00,655 - INFO - [218/227] Processing c7b9c4955017c6d77bd053cc7ff7f774 (fy2004_archived_opportunities)
+2025-10-25 14:27:14,773 - INFO - No 'Download All' button for c7b9c4955017c6d77bd053cc7ff7f774
+2025-10-25 14:27:15,597 - INFO - [219/227] Processing 76498c4cc41cb24423ba7bcb527e33f7 (fy2004_archived_opportunities)
+2025-10-25 14:27:30,377 - INFO - No 'Download All' button for 76498c4cc41cb24423ba7bcb527e33f7
+2025-10-25 14:27:30,911 - INFO - [220/227] Processing 7c240c591c8814bf9cf0c463a132a1ac (fy2004_archived_opportunities)
+2025-10-25 14:27:45,433 - INFO - No 'Download All' button for 7c240c591c8814bf9cf0c463a132a1ac
+2025-10-25 14:27:46,311 - INFO - [221/227] Processing db02f32a3755dfa56101eebc8de44a5e (fy2004_archived_opportunities)
+2025-10-25 14:27:59,424 - INFO - No 'Download All' button for db02f32a3755dfa56101eebc8de44a5e
+2025-10-25 14:28:00,144 - INFO - [222/227] Processing 7dfe9b0f9e8857e7b3ca79a9b460a8bf (fy2004_archived_opportunities)
+2025-10-25 14:28:14,260 - INFO - No 'Download All' button for 7dfe9b0f9e8857e7b3ca79a9b460a8bf
+2025-10-25 14:28:14,833 - INFO - [223/227] Processing 6b4b2148c2afd437b2492bfcb1c77c55 (fy2004_archived_opportunities)
+2025-10-25 14:28:29,609 - INFO - No 'Download All' button for 6b4b2148c2afd437b2492bfcb1c77c55
+2025-10-25 14:28:30,354 - INFO - [224/227] Processing c6b379820584e280b584626e25afd941 (fy2004_archived_opportunities)
+2025-10-25 14:28:45,029 - INFO - No 'Download All' button for c6b379820584e280b584626e25afd941
+2025-10-25 14:28:45,918 - INFO - [225/227] Processing 627ca8b08ac95a4a2c679ae757e917bc (fy2004_archived_opportunities)
+2025-10-25 14:28:59,932 - INFO - No 'Download All' button for 627ca8b08ac95a4a2c679ae757e917bc
+2025-10-25 14:29:00,537 - INFO - [226/227] Processing c85dc90a87b7700a778e6e855cb46ee6 (fy2004_archived_opportunities)
+2025-10-25 14:29:15,235 - INFO - No 'Download All' button for c85dc90a87b7700a778e6e855cb46ee6
+2025-10-25 14:29:15,775 - INFO - [227/227] Processing db4ee0d982312e75c6f6c8d4c0d07ccf (fy2004_archived_opportunities)
+2025-10-25 14:29:25,471 - INFO - No 'Download All' button for db4ee0d982312e75c6f6c8d4c0d07ccf
+2025-10-25 14:29:26,207 - INFO - Finished: 51/227 downloads succeeded

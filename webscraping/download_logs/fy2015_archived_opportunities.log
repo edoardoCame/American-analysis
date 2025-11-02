@@ -1,0 +1,1297 @@
+2025-10-30 16:13:32,666 - INFO - Querying up to 650 opportunities from db/sam_archived_opportunities_filtered.sqlite (tables=fy2015_archived_opportunities, keyword=<any>)
+2025-10-30 16:13:32,673 - INFO - Found 647 opportunities to process
+2025-10-30 16:13:33,014 - INFO - [1/647] Processing ae30b90a88342dc31fe4ffcb6b45f6c7 (fy2015_archived_opportunities)
+2025-10-30 16:13:39,023 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ae30b90a88342dc31fe4ffcb6b45f6c7_Unarmed_Guard_Services-MCC_San_Diego_CA.zip (Unarmed Guard Services-MCC San Diego, CA)
+2025-10-30 16:13:39,636 - INFO - [2/647] Processing 430b0c72b770a74f4b100cce73991dc4 (fy2015_archived_opportunities)
+2025-10-30 16:13:44,682 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/430b0c72b770a74f4b100cce73991dc4_Security_Guard_Services.zip (Security Guard Services)
+2025-10-30 16:13:45,458 - INFO - [3/647] Processing 61c885acbe7420efcd4f890ce39fbcc5 (fy2015_archived_opportunities)
+2025-10-30 16:13:54,411 - INFO - No 'Download All' button for 61c885acbe7420efcd4f890ce39fbcc5
+2025-10-30 16:13:55,141 - INFO - [4/647] Processing c0f119d20213686dda5e921d2177b87b (fy2015_archived_opportunities)
+2025-10-30 16:14:00,397 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c0f119d20213686dda5e921d2177b87b_561612Armed_Security_Guard_Support_Services.zip (561612Armed Security Guard Support Services)
+2025-10-30 16:14:01,031 - INFO - [5/647] Processing ba52698b307adf1557c95c91225d8192 (fy2015_archived_opportunities)
+2025-10-30 16:14:08,521 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ba52698b307adf1557c95c91225d8192_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 16:14:09,220 - INFO - [6/647] Processing 60cc6980a3360cdc7722b94e7fad8777 (fy2015_archived_opportunities)
+2025-10-30 16:14:18,175 - INFO - No 'Download All' button for 60cc6980a3360cdc7722b94e7fad8777
+2025-10-30 16:14:18,799 - INFO - [7/647] Processing d7d77d88b315b308c4afed2e012e074b (fy2015_archived_opportunities)
+2025-10-30 16:14:31,931 - INFO - No 'Download All' button for d7d77d88b315b308c4afed2e012e074b
+2025-10-30 16:14:32,892 - INFO - [8/647] Processing 07c933178acae72674be36f85a5f3e66 (fy2015_archived_opportunities)
+2025-10-30 16:14:42,143 - INFO - No 'Download All' button for 07c933178acae72674be36f85a5f3e66
+2025-10-30 16:14:42,771 - INFO - [9/647] Processing 5345c2dbd744aeb122543668474303c4 (fy2015_archived_opportunities)
+2025-10-30 16:14:51,724 - INFO - No 'Download All' button for 5345c2dbd744aeb122543668474303c4
+2025-10-30 16:14:52,551 - INFO - [10/647] Processing 7b4f55c8191ac1af90a3c91d7230ed21 (fy2015_archived_opportunities)
+2025-10-30 16:15:00,026 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7b4f55c8191ac1af90a3c91d7230ed21_PSO_Services_in_South_Florida.zip (PSO Services in South Florida)
+2025-10-30 16:15:00,862 - INFO - [11/647] Processing 343a5d46ea7df8326ccc6d5659b8c783 (fy2015_archived_opportunities)
+2025-10-30 16:15:07,342 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/343a5d46ea7df8326ccc6d5659b8c783_Protective_Security_Officer_PSO_Services_throughout_West_Texas.zip (Protective Security Officer (PSO) Services throughout West Texas)
+2025-10-30 16:15:08,156 - INFO - [12/647] Processing 6c94acae798abc0d75881256717f1760 (fy2015_archived_opportunities)
+2025-10-30 16:15:17,136 - INFO - No 'Download All' button for 6c94acae798abc0d75881256717f1760
+2025-10-30 16:15:18,094 - INFO - [13/647] Processing 294d51d92c94d92dd11f111eec6b7ade (fy2015_archived_opportunities)
+2025-10-30 16:15:27,057 - INFO - No 'Download All' button for 294d51d92c94d92dd11f111eec6b7ade
+2025-10-30 16:15:27,564 - INFO - [14/647] Processing d60403204686d91fb4c37ec411150073 (fy2015_archived_opportunities)
+2025-10-30 16:15:37,702 - INFO - No 'Download All' button for d60403204686d91fb4c37ec411150073
+2025-10-30 16:15:38,643 - INFO - [15/647] Processing a289c56f8877876f44a0427f60370c1d (fy2015_archived_opportunities)
+2025-10-30 16:15:51,814 - INFO - No 'Download All' button for a289c56f8877876f44a0427f60370c1d
+2025-10-30 16:15:52,411 - INFO - [16/647] Processing 0c6b092f8e10c00ef5ac87a9b7c03bd6 (fy2015_archived_opportunities)
+2025-10-30 16:16:00,242 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/0c6b092f8e10c00ef5ac87a9b7c03bd6_Unarmed_Guard_Services-MCC_San_Diego_CA.zip (Unarmed Guard Services-MCC San Diego, CA)
+2025-10-30 16:16:01,158 - INFO - [17/647] Processing 1842b3b004cce70cafb0c6081564c180 (fy2015_archived_opportunities)
+2025-10-30 16:16:15,373 - INFO - No 'Download All' button for 1842b3b004cce70cafb0c6081564c180
+2025-10-30 16:16:16,298 - INFO - [18/647] Processing 14dcc6e2da57a4c5dc3465b57d485e4c (fy2015_archived_opportunities)
+2025-10-30 16:16:29,485 - INFO - No 'Download All' button for 14dcc6e2da57a4c5dc3465b57d485e4c
+2025-10-30 16:16:30,257 - INFO - [19/647] Processing d259143e300ccaa41fa2204a00741665 (fy2015_archived_opportunities)
+2025-10-30 16:16:44,348 - INFO - No 'Download All' button for d259143e300ccaa41fa2204a00741665
+2025-10-30 16:16:45,221 - INFO - [20/647] Processing 1d4659cd672f2e3962ed1e45cb14d2a5 (fy2015_archived_opportunities)
+2025-10-30 16:16:54,169 - INFO - No 'Download All' button for 1d4659cd672f2e3962ed1e45cb14d2a5
+2025-10-30 16:16:55,143 - INFO - [21/647] Processing 35afbb98f19453ef0c6256f2dabccaf5 (fy2015_archived_opportunities)
+2025-10-30 16:17:08,287 - INFO - No 'Download All' button for 35afbb98f19453ef0c6256f2dabccaf5
+2025-10-30 16:17:09,268 - INFO - [22/647] Processing 1b34a296c98a9dc46deabc3a30e15b2b (fy2015_archived_opportunities)
+2025-10-30 16:17:19,906 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/1b34a296c98a9dc46deabc3a30e15b2b_Protective_Security_Officer_PSO_Services_throughout_South_Texas.zip (Protective Security Officer (PSO) Services throughout South Texas)
+2025-10-30 16:17:20,908 - INFO - [23/647] Processing 08f388c8aaafc119736f5884b4025148 (fy2015_archived_opportunities)
+2025-10-30 16:17:31,997 - INFO - No 'Download All' button for 08f388c8aaafc119736f5884b4025148
+2025-10-30 16:17:32,837 - INFO - [24/647] Processing d185329ea913cf2491fd385d84a98d43 (fy2015_archived_opportunities)
+2025-10-30 16:17:42,064 - INFO - No 'Download All' button for d185329ea913cf2491fd385d84a98d43
+2025-10-30 16:17:42,953 - INFO - [25/647] Processing 42d687cf4d89db3268b27682e50e6c6a (fy2015_archived_opportunities)
+2025-10-30 16:17:56,159 - INFO - No 'Download All' button for 42d687cf4d89db3268b27682e50e6c6a
+2025-10-30 16:17:57,011 - INFO - [26/647] Processing 9f09b07dd47967f042d7e0eab548838f (fy2015_archived_opportunities)
+2025-10-30 16:18:07,044 - INFO - No 'Download All' button for 9f09b07dd47967f042d7e0eab548838f
+2025-10-30 16:18:07,625 - INFO - [27/647] Processing fa95b48a6ab3973e09093f368694b77b (fy2015_archived_opportunities)
+2025-10-30 16:18:17,565 - INFO - No 'Download All' button for fa95b48a6ab3973e09093f368694b77b
+2025-10-30 16:18:18,433 - INFO - [28/647] Processing e762fda2ae3e2da41eb6c11134e3759a (fy2015_archived_opportunities)
+2025-10-30 16:18:31,637 - INFO - No 'Download All' button for e762fda2ae3e2da41eb6c11134e3759a
+2025-10-30 16:18:32,225 - INFO - [29/647] Processing a37d412e47dacd629ecde3c0c3e1f5c8 (fy2015_archived_opportunities)
+2025-10-30 16:18:46,567 - INFO - No 'Download All' button for a37d412e47dacd629ecde3c0c3e1f5c8
+2025-10-30 16:18:47,318 - INFO - [30/647] Processing 92d3de0e8ca3031e568e177924e4601f (fy2015_archived_opportunities)
+2025-10-30 16:18:52,701 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/92d3de0e8ca3031e568e177924e4601f_PSO_Services_in_South_Florida.zip (PSO Services in South Florida)
+2025-10-30 16:18:53,589 - INFO - [31/647] Processing 1ddb213f6593e44cce16c7581fa3433c (fy2015_archived_opportunities)
+2025-10-30 16:18:58,339 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/1ddb213f6593e44cce16c7581fa3433c_PSO_Services_in_South_Florida.zip (PSO Services in South Florida)
+2025-10-30 16:18:58,932 - INFO - [32/647] Processing 71b10b61da068b1d6ba8349957c3ba91 (fy2015_archived_opportunities)
+2025-10-30 16:19:08,974 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/71b10b61da068b1d6ba8349957c3ba91_Protective_Security_Officer_PSO_Services_throughout_South_Texas.zip (Protective Security Officer (PSO) Services throughout South Texas)
+2025-10-30 16:19:09,566 - INFO - [33/647] Processing 9dec67c6368aea0a1b6b0f5ab212484e (fy2015_archived_opportunities)
+2025-10-30 16:19:14,448 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9dec67c6368aea0a1b6b0f5ab212484e_PSO_Services_in_South_Florida.zip (PSO Services in South Florida)
+2025-10-30 16:19:15,418 - INFO - [34/647] Processing 2c58ae8a09c0071cd1c19ec800193fb9 (fy2015_archived_opportunities)
+2025-10-30 16:19:20,387 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2c58ae8a09c0071cd1c19ec800193fb9_Limited_Source_Justification.zip (Limited Source Justification)
+2025-10-30 16:19:20,917 - INFO - [35/647] Processing 9ef86a4529eeda48333b8bd33af0ece1 (fy2015_archived_opportunities)
+2025-10-30 16:19:29,827 - INFO - No 'Download All' button for 9ef86a4529eeda48333b8bd33af0ece1
+2025-10-30 16:19:30,787 - INFO - [36/647] Processing f49baf0641b6f12527510ba11d2df5b9 (fy2015_archived_opportunities)
+2025-10-30 16:19:36,182 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/f49baf0641b6f12527510ba11d2df5b9_Limited_Source_Justification.zip (Limited Source Justification)
+2025-10-30 16:19:36,900 - INFO - [37/647] Processing 84a796c6e9341612f3e3348af675b66a (fy2015_archived_opportunities)
+2025-10-30 16:19:45,827 - INFO - No 'Download All' button for 84a796c6e9341612f3e3348af675b66a
+2025-10-30 16:19:46,467 - INFO - [38/647] Processing c9f0ce431577ff2a96097493275cc75e (fy2015_archived_opportunities)
+2025-10-30 16:19:52,644 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c9f0ce431577ff2a96097493275cc75e_PSO_Services_in_South_Florida.zip (PSO Services in South Florida)
+2025-10-30 16:19:53,257 - INFO - [39/647] Processing 9b4ffead05d345cd0e2308aaa83afeed (fy2015_archived_opportunities)
+2025-10-30 16:20:02,258 - INFO - No 'Download All' button for 9b4ffead05d345cd0e2308aaa83afeed
+2025-10-30 16:20:03,044 - INFO - [40/647] Processing 52a5a94de29e7f3dd00d8716ca616843 (fy2015_archived_opportunities)
+2025-10-30 16:20:11,989 - INFO - No 'Download All' button for 52a5a94de29e7f3dd00d8716ca616843
+2025-10-30 16:20:12,951 - INFO - [41/647] Processing 6cb964c60fdb815d59b3889e517ba017 (fy2015_archived_opportunities)
+2025-10-30 16:20:21,902 - INFO - No 'Download All' button for 6cb964c60fdb815d59b3889e517ba017
+2025-10-30 16:20:22,676 - INFO - [42/647] Processing 2cdcf942854c04aa084626206032b2d6 (fy2015_archived_opportunities)
+2025-10-30 16:20:27,546 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2cdcf942854c04aa084626206032b2d6_PSO_Services_in_South_Florida.zip (PSO Services in South Florida)
+2025-10-30 16:20:28,481 - INFO - [43/647] Processing dd82f3f72955f2f64d00bb873ed62f30 (fy2015_archived_opportunities)
+2025-10-30 16:20:43,442 - INFO - No 'Download All' button for dd82f3f72955f2f64d00bb873ed62f30
+2025-10-30 16:20:44,027 - INFO - [44/647] Processing 85e6701d0de5670e47efecdf0f586b8f (fy2015_archived_opportunities)
+2025-10-30 16:20:50,129 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/85e6701d0de5670e47efecdf0f586b8f_Guard_Services_FCC_Beaumont.zip (Guard Services FCC Beaumont)
+2025-10-30 16:20:51,123 - INFO - [45/647] Processing d287acba90a5e07169bbb24965571def (fy2015_archived_opportunities)
+2025-10-30 16:21:04,289 - INFO - No 'Download All' button for d287acba90a5e07169bbb24965571def
+2025-10-30 16:21:05,055 - INFO - [46/647] Processing 255b559a2f5463f77d3b64b4bc60efc1 (fy2015_archived_opportunities)
+2025-10-30 16:21:14,006 - INFO - No 'Download All' button for 255b559a2f5463f77d3b64b4bc60efc1
+2025-10-30 16:21:14,632 - INFO - [47/647] Processing 0860ac19a4f5e6256a3305eb5e166189 (fy2015_archived_opportunities)
+2025-10-30 16:21:27,777 - INFO - No 'Download All' button for 0860ac19a4f5e6256a3305eb5e166189
+2025-10-30 16:21:28,682 - INFO - [48/647] Processing 924e0d18145ef17669f1b4377e7ae369 (fy2015_archived_opportunities)
+2025-10-30 16:21:38,675 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/924e0d18145ef17669f1b4377e7ae369_Protective_Security_Officer_PSO_Services_throughout_South_Texas.zip (Protective Security Officer (PSO) Services throughout South Texas)
+2025-10-30 16:21:39,242 - INFO - [49/647] Processing 09f213bebc5d122ef5429d954a788239 (fy2015_archived_opportunities)
+2025-10-30 16:21:52,416 - INFO - No 'Download All' button for 09f213bebc5d122ef5429d954a788239
+2025-10-30 16:21:52,939 - INFO - [50/647] Processing 84f3fd074f9293e3a6a83f79c969e055 (fy2015_archived_opportunities)
+2025-10-30 16:21:57,800 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/84f3fd074f9293e3a6a83f79c969e055_PSO_Services_in_South_Florida.zip (PSO Services in South Florida)
+2025-10-30 16:21:58,661 - INFO - [51/647] Processing cfbad73a49ae1f05c76031678ba3e05f (fy2015_archived_opportunities)
+2025-10-30 16:22:04,202 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/cfbad73a49ae1f05c76031678ba3e05f_Unarmed_Guard_Services_-_FCI_Seagoville.zip (Unarmed Guard Services - FCI Seagoville)
+2025-10-30 16:22:04,922 - INFO - [52/647] Processing f35b448d1b956952f8eb2f9dbc51860c (fy2015_archived_opportunities)
+2025-10-30 16:22:14,121 - INFO - No 'Download All' button for f35b448d1b956952f8eb2f9dbc51860c
+2025-10-30 16:22:15,069 - INFO - [53/647] Processing d8adcc56bc43bdde27f4b9f0285aae0a (fy2015_archived_opportunities)
+2025-10-30 16:22:20,787 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/d8adcc56bc43bdde27f4b9f0285aae0a_Unarmed_Guard_Services_-_FCI_Seagoville.zip (Unarmed Guard Services - FCI Seagoville)
+2025-10-30 16:22:21,677 - INFO - [54/647] Processing e29086965758b140c3338e09bf71a9cb (fy2015_archived_opportunities)
+2025-10-30 16:22:35,934 - INFO - No 'Download All' button for e29086965758b140c3338e09bf71a9cb
+2025-10-30 16:22:36,868 - INFO - [55/647] Processing a76cede27a75bc76faf5a788e64db17c (fy2015_archived_opportunities)
+2025-10-30 16:22:41,857 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/a76cede27a75bc76faf5a788e64db17c_PSO_Services_in_South_Florida.zip (PSO Services in South Florida)
+2025-10-30 16:22:42,733 - INFO - [56/647] Processing 148422a10cc6af0d668b6302805df21a (fy2015_archived_opportunities)
+2025-10-30 16:22:51,685 - INFO - No 'Download All' button for 148422a10cc6af0d668b6302805df21a
+2025-10-30 16:22:52,607 - INFO - [57/647] Processing e68634bf266848f207d9e8ff28b05cd5 (fy2015_archived_opportunities)
+2025-10-30 16:23:06,297 - INFO - No 'Download All' button for e68634bf266848f207d9e8ff28b05cd5
+2025-10-30 16:23:07,157 - INFO - [58/647] Processing 94b7bd78fa7921f2a5b899321537c92d (fy2015_archived_opportunities)
+2025-10-30 16:23:16,116 - INFO - No 'Download All' button for 94b7bd78fa7921f2a5b899321537c92d
+2025-10-30 16:23:17,013 - INFO - [59/647] Processing 248e2d97d0b18f89e0d72669b785510b (fy2015_archived_opportunities)
+2025-10-30 16:23:31,227 - INFO - No 'Download All' button for 248e2d97d0b18f89e0d72669b785510b
+2025-10-30 16:23:32,012 - INFO - [60/647] Processing 3555ed546522777c3cbfff81cae260be (fy2015_archived_opportunities)
+2025-10-30 16:23:40,935 - INFO - No 'Download All' button for 3555ed546522777c3cbfff81cae260be
+2025-10-30 16:23:41,486 - INFO - [61/647] Processing 363a09aebc6a7b67190af0ea5b9c3890 (fy2015_archived_opportunities)
+2025-10-30 16:23:50,447 - INFO - No 'Download All' button for 363a09aebc6a7b67190af0ea5b9c3890
+2025-10-30 16:23:51,243 - INFO - [62/647] Processing 032e09e062d99aab68d06ed7c02750ff (fy2015_archived_opportunities)
+2025-10-30 16:24:00,181 - INFO - No 'Download All' button for 032e09e062d99aab68d06ed7c02750ff
+2025-10-30 16:24:01,100 - INFO - [63/647] Processing 9556ef965dfe77cfce1b297806d4c7af (fy2015_archived_opportunities)
+2025-10-30 16:24:11,047 - INFO - No 'Download All' button for 9556ef965dfe77cfce1b297806d4c7af
+2025-10-30 16:24:11,961 - INFO - [64/647] Processing ad58dc6d4ec01b832bbc10dac6360f54 (fy2015_archived_opportunities)
+2025-10-30 16:24:20,918 - INFO - No 'Download All' button for ad58dc6d4ec01b832bbc10dac6360f54
+2025-10-30 16:24:21,699 - INFO - [65/647] Processing 790f5588d5748ba8f2d54c88a59bc706 (fy2015_archived_opportunities)
+2025-10-30 16:24:34,862 - INFO - No 'Download All' button for 790f5588d5748ba8f2d54c88a59bc706
+2025-10-30 16:24:35,549 - INFO - [66/647] Processing e82eb0d3e6f61e74a6bd5077b4b9aed5 (fy2015_archived_opportunities)
+2025-10-30 16:24:44,497 - INFO - No 'Download All' button for e82eb0d3e6f61e74a6bd5077b4b9aed5
+2025-10-30 16:24:45,264 - INFO - [67/647] Processing 43673c1632d68ce794c1a0459ee45849 (fy2015_archived_opportunities)
+2025-10-30 16:24:54,462 - INFO - No 'Download All' button for 43673c1632d68ce794c1a0459ee45849
+2025-10-30 16:24:55,456 - INFO - [68/647] Processing 65625534dde7ee76433fbddf0cae881f (fy2015_archived_opportunities)
+2025-10-30 16:25:08,634 - INFO - No 'Download All' button for 65625534dde7ee76433fbddf0cae881f
+2025-10-30 16:25:09,603 - INFO - [69/647] Processing b9d3d631d79826f0e88ea2685ba4df2e (fy2015_archived_opportunities)
+2025-10-30 16:25:23,049 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b9d3d631d79826f0e88ea2685ba4df2e_Protective_Security_Officer_PSO_Services_throughout_South_Texas.zip (Protective Security Officer (PSO) Services throughout South Texas)
+2025-10-30 16:25:23,950 - INFO - [70/647] Processing 5871e60f225389d4bb1a4425e4907f1b (fy2015_archived_opportunities)
+2025-10-30 16:25:30,946 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/5871e60f225389d4bb1a4425e4907f1b_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 16:25:31,950 - INFO - [71/647] Processing c883687afce5e6eeeb2d30b92a57c61c (fy2015_archived_opportunities)
+2025-10-30 16:25:37,667 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c883687afce5e6eeeb2d30b92a57c61c_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 16:25:38,395 - INFO - [72/647] Processing efb4be2392659f999e822d74b8ea6d95 (fy2015_archived_opportunities)
+2025-10-30 16:25:51,547 - INFO - No 'Download All' button for efb4be2392659f999e822d74b8ea6d95
+2025-10-30 16:25:52,222 - INFO - [73/647] Processing 858f911d6469d86ddb1697c7f8c233c6 (fy2015_archived_opportunities)
+2025-10-30 16:26:01,179 - INFO - No 'Download All' button for 858f911d6469d86ddb1697c7f8c233c6
+2025-10-30 16:26:02,027 - INFO - [74/647] Processing 5070ee30860d8093cb1f7abe0aa9f741 (fy2015_archived_opportunities)
+2025-10-30 16:26:08,356 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/5070ee30860d8093cb1f7abe0aa9f741_CONTRACTOR_OWNED_CONTRACTOR_OPERATED_DETENTION_FACILITY.zip (CONTRACTOR OWNED, CONTRACTOR OPERATED DETENTION FACILITY)
+2025-10-30 16:26:09,184 - INFO - [75/647] Processing e3c9f6d5dd86123eccaef1bf7790a40b (fy2015_archived_opportunities)
+2025-10-30 16:26:18,096 - INFO - No 'Download All' button for e3c9f6d5dd86123eccaef1bf7790a40b
+2025-10-30 16:26:18,671 - INFO - [76/647] Processing c0b7e18582513183deef11609455d9a1 (fy2015_archived_opportunities)
+2025-10-30 16:26:25,509 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c0b7e18582513183deef11609455d9a1_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 16:26:26,414 - INFO - [77/647] Processing c7f365a51aa55662bb6ffbedd169ad6a (fy2015_archived_opportunities)
+2025-10-30 16:26:35,407 - INFO - No 'Download All' button for c7f365a51aa55662bb6ffbedd169ad6a
+2025-10-30 16:26:36,292 - INFO - [78/647] Processing fed2aa29507182cfe5accce7951fc62c (fy2015_archived_opportunities)
+2025-10-30 16:26:49,583 - INFO - No 'Download All' button for fed2aa29507182cfe5accce7951fc62c
+2025-10-30 16:26:50,117 - INFO - [79/647] Processing ce3a46ad711e9f47a39a50e8dc64726d (fy2015_archived_opportunities)
+2025-10-30 16:27:03,307 - INFO - No 'Download All' button for ce3a46ad711e9f47a39a50e8dc64726d
+2025-10-30 16:27:04,284 - INFO - [80/647] Processing 07bd2178be5be52253db1ca9a1e62e42 (fy2015_archived_opportunities)
+2025-10-30 16:27:15,425 - INFO - No 'Download All' button for 07bd2178be5be52253db1ca9a1e62e42
+2025-10-30 16:27:16,415 - INFO - [81/647] Processing 978b30521d1f43246b4ce03fbdebfd08 (fy2015_archived_opportunities)
+2025-10-30 16:27:23,543 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/978b30521d1f43246b4ce03fbdebfd08_CONTRACTOR_OWNED_CONTRACTOR_OPERATED_DETENTION_FACILITY.zip (CONTRACTOR OWNED, CONTRACTOR OPERATED DETENTION FACILITY)
+2025-10-30 16:27:24,156 - INFO - [82/647] Processing 7c271edd63d698121d0f1a6b473ad115 (fy2015_archived_opportunities)
+2025-10-30 16:27:37,364 - INFO - No 'Download All' button for 7c271edd63d698121d0f1a6b473ad115
+2025-10-30 16:27:38,026 - INFO - [83/647] Processing b379feaaa2b55bd75d64a62836b17a40 (fy2015_archived_opportunities)
+2025-10-30 16:27:45,720 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b379feaaa2b55bd75d64a62836b17a40_Passenger_Terminal_Security_and_Baggage_Screening_Service_at_the_Ramstein_Air_Mobility_Command_Passenger_Terminal_Germany.zip (Passenger Terminal Security and Baggage Screening Service at the Ramstein Air Mobility Command Passenger Terminal, Germany)
+2025-10-30 16:27:46,719 - INFO - [84/647] Processing 52088fcfaf7158bf473380ac94d025d7 (fy2015_archived_opportunities)
+2025-10-30 16:27:59,910 - INFO - No 'Download All' button for 52088fcfaf7158bf473380ac94d025d7
+2025-10-30 16:28:00,905 - INFO - [85/647] Processing 23f668d5a2b678ed208b318720e24417 (fy2015_archived_opportunities)
+2025-10-30 16:28:06,415 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/23f668d5a2b678ed208b318720e24417_Passenger_Terminal_Security_and_Baggage_Screening_Service_at_the_Ramstein_Air_Mobility_Command_Passenger_Terminal_Germany.zip (Passenger Terminal Security and Baggage Screening Service at the Ramstein Air Mobility Command Passenger Terminal, Germany)
+2025-10-30 16:28:06,987 - INFO - [86/647] Processing b1c35944cff13014a73dd431613060e4 (fy2015_archived_opportunities)
+2025-10-30 16:28:11,665 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b1c35944cff13014a73dd431613060e4_Protective_Security_Officer_PSO_Services.zip (Protective Security Officer (PSO) Services)
+2025-10-30 16:28:12,193 - INFO - [87/647] Processing b40c27eba671bac1bbe655303781187c (fy2015_archived_opportunities)
+2025-10-30 16:28:21,105 - INFO - No 'Download All' button for b40c27eba671bac1bbe655303781187c
+2025-10-30 16:28:21,670 - INFO - [88/647] Processing 28a61c7629bd444e4973c025c757e6df (fy2015_archived_opportunities)
+2025-10-30 16:28:28,494 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/28a61c7629bd444e4973c025c757e6df_CONTRACTOR_OWNED_CONTRACTOR_OPERATED_DETENTION_FACILITY.zip (CONTRACTOR OWNED, CONTRACTOR OPERATED DETENTION FACILITY)
+2025-10-30 16:28:29,316 - INFO - [89/647] Processing e8a8f99ccd121cdd4ec4385ad4623d5d (fy2015_archived_opportunities)
+2025-10-30 16:28:34,098 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e8a8f99ccd121cdd4ec4385ad4623d5d_Unarmed_Guard_Services_-_FCI_Seagoville.zip (Unarmed Guard Services - FCI Seagoville)
+2025-10-30 16:28:35,011 - INFO - [90/647] Processing 979212e4a161674aac7457085884e386 (fy2015_archived_opportunities)
+2025-10-30 16:28:48,176 - INFO - No 'Download All' button for 979212e4a161674aac7457085884e386
+2025-10-30 16:28:49,057 - INFO - [91/647] Processing d0c6af831b2cf0a17627d8cfc5ab8f42 (fy2015_archived_opportunities)
+2025-10-30 16:29:02,245 - INFO - No 'Download All' button for d0c6af831b2cf0a17627d8cfc5ab8f42
+2025-10-30 16:29:03,227 - INFO - [92/647] Processing 95f4ee2ef12ada31a9151ae9274afb46 (fy2015_archived_opportunities)
+2025-10-30 16:29:12,170 - INFO - No 'Download All' button for 95f4ee2ef12ada31a9151ae9274afb46
+2025-10-30 16:29:13,010 - INFO - [93/647] Processing 723a332e8e28aeaebba79c698c9ad28e (fy2015_archived_opportunities)
+2025-10-30 16:29:22,061 - INFO - No 'Download All' button for 723a332e8e28aeaebba79c698c9ad28e
+2025-10-30 16:29:22,622 - INFO - [94/647] Processing 2f3f6ec80175b3aa49c8d14d7ed8af37 (fy2015_archived_opportunities)
+2025-10-30 16:29:28,149 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2f3f6ec80175b3aa49c8d14d7ed8af37_Screening_Partnership_Program_Industry_Day_2015.zip (Screening Partnership Program Industry Day 2015)
+2025-10-30 16:29:28,702 - INFO - [95/647] Processing a3116992cf91e9d82b7fb8c30fd01777 (fy2015_archived_opportunities)
+2025-10-30 16:29:41,884 - INFO - No 'Download All' button for a3116992cf91e9d82b7fb8c30fd01777
+2025-10-30 16:29:42,543 - INFO - [96/647] Processing bfb82317860d85768b6cb9cc4d67486b (fy2015_archived_opportunities)
+2025-10-30 16:29:51,479 - INFO - No 'Download All' button for bfb82317860d85768b6cb9cc4d67486b
+2025-10-30 16:29:52,432 - INFO - [97/647] Processing 886915feca0c392f5005206c51429ed5 (fy2015_archived_opportunities)
+2025-10-30 16:30:01,550 - INFO - No 'Download All' button for 886915feca0c392f5005206c51429ed5
+2025-10-30 16:30:02,121 - INFO - [98/647] Processing bd8a12534b76cf84bf37d24354c3e327 (fy2015_archived_opportunities)
+2025-10-30 16:30:12,772 - INFO - No 'Download All' button for bd8a12534b76cf84bf37d24354c3e327
+2025-10-30 16:30:13,456 - INFO - [99/647] Processing 5aa71aa1cf4dd219dbacfbe9724b1753 (fy2015_archived_opportunities)
+2025-10-30 16:30:26,720 - INFO - No 'Download All' button for 5aa71aa1cf4dd219dbacfbe9724b1753
+2025-10-30 16:30:27,681 - INFO - [100/647] Processing 283e2af1b519e3cfdbff57f5ce53b65a (fy2015_archived_opportunities)
+2025-10-30 16:30:38,600 - INFO - No 'Download All' button for 283e2af1b519e3cfdbff57f5ce53b65a
+2025-10-30 16:30:39,140 - INFO - [101/647] Processing dd665b843fd6f2a233885c71b3164492 (fy2015_archived_opportunities)
+2025-10-30 16:30:52,305 - INFO - No 'Download All' button for dd665b843fd6f2a233885c71b3164492
+2025-10-30 16:30:53,163 - INFO - [102/647] Processing 3120234b240f08e945f67c3341fc1227 (fy2015_archived_opportunities)
+2025-10-30 16:31:06,324 - INFO - No 'Download All' button for 3120234b240f08e945f67c3341fc1227
+2025-10-30 16:31:06,845 - INFO - [103/647] Processing 3a388040a97c98e20d0e1bfdb1736cf6 (fy2015_archived_opportunities)
+2025-10-30 16:31:14,180 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/3a388040a97c98e20d0e1bfdb1736cf6_CONTRACTOR_OWNED_CONTRACTOR_OPERATED_DETENTION_FACILITY.zip (CONTRACTOR OWNED, CONTRACTOR OPERATED DETENTION FACILITY)
+2025-10-30 16:31:15,013 - INFO - [104/647] Processing 0a31d9aa6b894ed3ed5e389fe04fb144 (fy2015_archived_opportunities)
+2025-10-30 16:31:28,172 - INFO - No 'Download All' button for 0a31d9aa6b894ed3ed5e389fe04fb144
+2025-10-30 16:31:29,115 - INFO - [105/647] Processing 066a1cfa24c81b9bfdbc642dffbd5436 (fy2015_archived_opportunities)
+2025-10-30 16:31:42,357 - INFO - No 'Download All' button for 066a1cfa24c81b9bfdbc642dffbd5436
+2025-10-30 16:31:43,289 - INFO - [106/647] Processing 627bfcb0390415e116df963684c18f27 (fy2015_archived_opportunities)
+2025-10-30 16:31:53,280 - INFO - No 'Download All' button for 627bfcb0390415e116df963684c18f27
+2025-10-30 16:31:53,814 - INFO - [107/647] Processing 3d9832639564bfb7770702733af9798a (fy2015_archived_opportunities)
+2025-10-30 16:32:07,038 - INFO - No 'Download All' button for 3d9832639564bfb7770702733af9798a
+2025-10-30 16:32:08,040 - INFO - [108/647] Processing 6e6470ef647fe0f50e861c04b16ae177 (fy2015_archived_opportunities)
+2025-10-30 16:32:16,979 - INFO - No 'Download All' button for 6e6470ef647fe0f50e861c04b16ae177
+2025-10-30 16:32:17,632 - INFO - [109/647] Processing 941c1af2ec576bf6b1cab1b185d3a8fe (fy2015_archived_opportunities)
+2025-10-30 16:32:26,576 - INFO - No 'Download All' button for 941c1af2ec576bf6b1cab1b185d3a8fe
+2025-10-30 16:32:27,421 - INFO - [110/647] Processing 6894e0047dad1f367b1f9fb769e87cf7 (fy2015_archived_opportunities)
+2025-10-30 16:32:32,713 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/6894e0047dad1f367b1f9fb769e87cf7_PROTECTIVE_SECURITY_OFFICER_SERVICES_FOR_THE_STATE_OF_NEW_MEXICO.zip (PROTECTIVE SECURITY OFFICER SERVICES FOR THE STATE OF NEW MEXICO)
+2025-10-30 16:32:33,331 - INFO - [111/647] Processing eb89c307ccf5b41e2cc7a7a13bc5076a (fy2015_archived_opportunities)
+2025-10-30 16:32:39,904 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/eb89c307ccf5b41e2cc7a7a13bc5076a_Passenger_Terminal_Security_and_Baggage_Screening_Service_at_the_Ramstein_Air_Mobility_Command_Passenger_Terminal_Germany.zip (Passenger Terminal Security and Baggage Screening Service at the Ramstein Air Mobility Command Passenger Terminal, Germany)
+2025-10-30 16:32:40,621 - INFO - [112/647] Processing 75d85c320d0311b06621da40f4cb1df3 (fy2015_archived_opportunities)
+2025-10-30 16:32:49,529 - INFO - No 'Download All' button for 75d85c320d0311b06621da40f4cb1df3
+2025-10-30 16:32:50,344 - INFO - [113/647] Processing 0b792ffa6e0197881e67d657eb9f2582 (fy2015_archived_opportunities)
+2025-10-30 16:33:03,510 - INFO - No 'Download All' button for 0b792ffa6e0197881e67d657eb9f2582
+2025-10-30 16:33:04,487 - INFO - [114/647] Processing 5bbb0e5d838ea086f87893124a7a77fe (fy2015_archived_opportunities)
+2025-10-30 16:33:17,643 - INFO - No 'Download All' button for 5bbb0e5d838ea086f87893124a7a77fe
+2025-10-30 16:33:18,220 - INFO - [115/647] Processing b39f5c926fc44e2ab06b50708ed97c46 (fy2015_archived_opportunities)
+2025-10-30 16:33:31,407 - INFO - No 'Download All' button for b39f5c926fc44e2ab06b50708ed97c46
+2025-10-30 16:33:32,039 - INFO - [116/647] Processing ec9350bb518ca79315100e453c50216f (fy2015_archived_opportunities)
+2025-10-30 16:33:45,213 - INFO - No 'Download All' button for ec9350bb518ca79315100e453c50216f
+2025-10-30 16:33:45,841 - INFO - [117/647] Processing 5b996fec8d7f677d8fe178c0506eebb9 (fy2015_archived_opportunities)
+2025-10-30 16:33:58,993 - INFO - No 'Download All' button for 5b996fec8d7f677d8fe178c0506eebb9
+2025-10-30 16:33:59,871 - INFO - [118/647] Processing 6db0bf217a801757e493e4a3754807e3 (fy2015_archived_opportunities)
+2025-10-30 16:34:20,115 - INFO - No 'Download All' button for 6db0bf217a801757e493e4a3754807e3
+2025-10-30 16:34:20,834 - INFO - [119/647] Processing 03e313d45a8088dfc862b29c8299ce39 (fy2015_archived_opportunities)
+2025-10-30 16:34:34,066 - INFO - No 'Download All' button for 03e313d45a8088dfc862b29c8299ce39
+2025-10-30 16:34:34,679 - INFO - [120/647] Processing 27a1ee84e69dce4457d12a9796419585 (fy2015_archived_opportunities)
+2025-10-30 16:34:43,626 - INFO - No 'Download All' button for 27a1ee84e69dce4457d12a9796419585
+2025-10-30 16:34:44,146 - INFO - [121/647] Processing f9de47f9031a75a751ba917375998166 (fy2015_archived_opportunities)
+2025-10-30 16:34:57,306 - INFO - No 'Download All' button for f9de47f9031a75a751ba917375998166
+2025-10-30 16:34:58,103 - INFO - [122/647] Processing f64021ade58a9c1713767647239e38e9 (fy2015_archived_opportunities)
+2025-10-30 16:35:11,309 - INFO - No 'Download All' button for f64021ade58a9c1713767647239e38e9
+2025-10-30 16:35:12,251 - INFO - [123/647] Processing 358a3db8d8fb02bdc672782eecddbb9e (fy2015_archived_opportunities)
+2025-10-30 16:35:25,399 - INFO - No 'Download All' button for 358a3db8d8fb02bdc672782eecddbb9e
+2025-10-30 16:35:26,101 - INFO - [124/647] Processing 2921728b1a94be7f234245e2193a4486 (fy2015_archived_opportunities)
+2025-10-30 16:35:35,073 - INFO - No 'Download All' button for 2921728b1a94be7f234245e2193a4486
+2025-10-30 16:35:35,874 - INFO - [125/647] Processing 3b2a635ad266ca67b969613cd58ea1fd (fy2015_archived_opportunities)
+2025-10-30 16:35:49,125 - INFO - No 'Download All' button for 3b2a635ad266ca67b969613cd58ea1fd
+2025-10-30 16:35:49,898 - INFO - [126/647] Processing 722dacb1b5e9b1f36c1b7dfbc8d3f1b0 (fy2015_archived_opportunities)
+2025-10-30 16:35:58,820 - INFO - No 'Download All' button for 722dacb1b5e9b1f36c1b7dfbc8d3f1b0
+2025-10-30 16:35:59,798 - INFO - [127/647] Processing 0373bd3d810bcc06a7666d2a085dc40e (fy2015_archived_opportunities)
+2025-10-30 16:36:08,753 - INFO - No 'Download All' button for 0373bd3d810bcc06a7666d2a085dc40e
+2025-10-30 16:36:09,613 - INFO - [128/647] Processing e01e5d1dcdec79a9e056c7cc235e7481 (fy2015_archived_opportunities)
+2025-10-30 16:36:16,249 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e01e5d1dcdec79a9e056c7cc235e7481_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 16:36:16,898 - INFO - [129/647] Processing ec8fdb7f1f711dabe1c23a887d2f342a (fy2015_archived_opportunities)
+2025-10-30 16:36:30,107 - INFO - No 'Download All' button for ec8fdb7f1f711dabe1c23a887d2f342a
+2025-10-30 16:36:30,687 - INFO - [130/647] Processing a788c6c342d62f8715b50572e90f9347 (fy2015_archived_opportunities)
+2025-10-30 16:36:37,284 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/a788c6c342d62f8715b50572e90f9347_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 16:36:37,827 - INFO - [131/647] Processing 3f93c28ab8368990da24882fd799637b (fy2015_archived_opportunities)
+2025-10-30 16:36:51,008 - INFO - No 'Download All' button for 3f93c28ab8368990da24882fd799637b
+2025-10-30 16:36:51,549 - INFO - [132/647] Processing dab5b446bb0baaa29bdc21359a9be4e5 (fy2015_archived_opportunities)
+2025-10-30 16:37:04,758 - INFO - No 'Download All' button for dab5b446bb0baaa29bdc21359a9be4e5
+2025-10-30 16:37:05,410 - INFO - [133/647] Processing 7388e3f1f66a46d5db89ce76501ca0c2 (fy2015_archived_opportunities)
+2025-10-30 16:37:18,587 - INFO - No 'Download All' button for 7388e3f1f66a46d5db89ce76501ca0c2
+2025-10-30 16:37:19,534 - INFO - [134/647] Processing 5ee20bd685b642a8ef80ca0fb15c38b5 (fy2015_archived_opportunities)
+2025-10-30 16:37:28,500 - INFO - No 'Download All' button for 5ee20bd685b642a8ef80ca0fb15c38b5
+2025-10-30 16:37:29,237 - INFO - [135/647] Processing fdf9784ee51d09c8aa7391f9ecaba643 (fy2015_archived_opportunities)
+2025-10-30 16:37:38,182 - INFO - No 'Download All' button for fdf9784ee51d09c8aa7391f9ecaba643
+2025-10-30 16:37:39,061 - INFO - [136/647] Processing 2d97376140bdbb03befed3d62bc11bfe (fy2015_archived_opportunities)
+2025-10-30 16:37:44,288 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2d97376140bdbb03befed3d62bc11bfe_R--IGF__OT__IGFLITTLE_SAHARA_LAW_ENFORCEMENT_CONTRACT.zip (R--IGF::OT::IGFLITTLE SAHARA LAW ENFORCEMENT CONTRACT)
+2025-10-30 16:37:44,835 - INFO - [137/647] Processing 01b1e4cc23c42fb249457360c21baae3 (fy2015_archived_opportunities)
+2025-10-30 16:37:49,471 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/01b1e4cc23c42fb249457360c21baae3_PSO_Services_Northern_New_Jersey.zip (PSO Services Northern New Jersey)
+2025-10-30 16:37:50,189 - INFO - [138/647] Processing cbf1bf5b79b54e371a242cff381bad2b (fy2015_archived_opportunities)
+2025-10-30 16:37:59,132 - INFO - No 'Download All' button for cbf1bf5b79b54e371a242cff381bad2b
+2025-10-30 16:38:00,021 - INFO - [139/647] Processing b2a1cbe0d6a3c77e5fa7459bf8e5d9e0 (fy2015_archived_opportunities)
+2025-10-30 16:38:05,864 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b2a1cbe0d6a3c77e5fa7459bf8e5d9e0_PSO_Services_Northern_New_Jersey.zip (PSO Services Northern New Jersey)
+2025-10-30 16:38:06,701 - INFO - [140/647] Processing be0e8f6abecffb2e048992ecfad19a92 (fy2015_archived_opportunities)
+2025-10-30 16:38:15,665 - INFO - No 'Download All' button for be0e8f6abecffb2e048992ecfad19a92
+2025-10-30 16:38:16,294 - INFO - [141/647] Processing bd6adbbc3ea8d81c546e7ff709033d30 (fy2015_archived_opportunities)
+2025-10-30 16:38:29,512 - INFO - No 'Download All' button for bd6adbbc3ea8d81c546e7ff709033d30
+2025-10-30 16:38:30,084 - INFO - [142/647] Processing f869e2f593b40e727e167381e6b4abd9 (fy2015_archived_opportunities)
+2025-10-30 16:38:35,595 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/f869e2f593b40e727e167381e6b4abd9_Unarmed_Security_Guard_Services_-_Treasure_Lake_Job_Corps_Center.zip (Unarmed Security Guard Services - Treasure Lake Job Corps Center)
+2025-10-30 16:38:36,512 - INFO - [143/647] Processing 91457aded223c1e13fca253b6401bbeb (fy2015_archived_opportunities)
+2025-10-30 16:38:41,132 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/91457aded223c1e13fca253b6401bbeb_PSO_Services_Northern_New_Jersey.zip (PSO Services Northern New Jersey)
+2025-10-30 16:38:41,717 - INFO - [144/647] Processing ec9bb8afe61fe3ffd62d2a970fc53f91 (fy2015_archived_opportunities)
+2025-10-30 16:38:48,759 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ec9bb8afe61fe3ffd62d2a970fc53f91_Screening_Partnership_Program_Industry_Day_2015.zip (Screening Partnership Program Industry Day 2015)
+2025-10-30 16:38:49,560 - INFO - [145/647] Processing d268e0d87315fe7e7b75dc24a529da5b (fy2015_archived_opportunities)
+2025-10-30 16:38:58,513 - INFO - No 'Download All' button for d268e0d87315fe7e7b75dc24a529da5b
+2025-10-30 16:38:59,124 - INFO - [146/647] Processing 371392310e6b83591aa456f200746cff (fy2015_archived_opportunities)
+2025-10-30 16:39:05,309 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/371392310e6b83591aa456f200746cff_Unarmed_Security_Guard_Services_-_Treasure_Lake_Job_Corps_Center.zip (Unarmed Security Guard Services - Treasure Lake Job Corps Center)
+2025-10-30 16:39:05,985 - INFO - [147/647] Processing 0cfece7e8636c8f27d61fe801bb90a15 (fy2015_archived_opportunities)
+2025-10-30 16:39:10,657 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/0cfece7e8636c8f27d61fe801bb90a15_PSO_Services_Northern_New_Jersey.zip (PSO Services Northern New Jersey)
+2025-10-30 16:39:11,405 - INFO - [148/647] Processing 2b141feb33910806eb44a5e431e01ed8 (fy2015_archived_opportunities)
+2025-10-30 16:39:20,328 - INFO - No 'Download All' button for 2b141feb33910806eb44a5e431e01ed8
+2025-10-30 16:39:20,874 - INFO - [149/647] Processing 38c3d2703bfca0fecb8084132ed6039f (fy2015_archived_opportunities)
+2025-10-30 16:39:25,874 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/38c3d2703bfca0fecb8084132ed6039f_PSO_Services_Northern_New_Jersey.zip (PSO Services Northern New Jersey)
+2025-10-30 16:39:26,865 - INFO - [150/647] Processing 1a22d5496bb5c0db385999f946c1b953 (fy2015_archived_opportunities)
+2025-10-30 16:39:35,846 - INFO - No 'Download All' button for 1a22d5496bb5c0db385999f946c1b953
+2025-10-30 16:39:36,530 - INFO - [151/647] Processing 1aa70d5e218c2b17f56b9b8bd21e4ee7 (fy2015_archived_opportunities)
+2025-10-30 16:39:49,789 - INFO - No 'Download All' button for 1aa70d5e218c2b17f56b9b8bd21e4ee7
+2025-10-30 16:39:50,693 - INFO - [152/647] Processing 1a49db7ba95e499dca779863f8078939 (fy2015_archived_opportunities)
+2025-10-30 16:39:59,671 - INFO - No 'Download All' button for 1a49db7ba95e499dca779863f8078939
+2025-10-30 16:40:00,403 - INFO - [153/647] Processing 317b4eeba4a4664844804b5f7d571e4e (fy2015_archived_opportunities)
+2025-10-30 16:40:05,310 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/317b4eeba4a4664844804b5f7d571e4e_PSO_Services_Northern_New_Jersey.zip (PSO Services Northern New Jersey)
+2025-10-30 16:40:06,279 - INFO - [154/647] Processing 05693e056bfbc8a118ac0883d0311d99 (fy2015_archived_opportunities)
+2025-10-30 16:40:11,692 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/05693e056bfbc8a118ac0883d0311d99_Screening_Partnership_Program_Industry_Day_2015.zip (Screening Partnership Program Industry Day 2015)
+2025-10-30 16:40:12,250 - INFO - [155/647] Processing 7485ec98da6c7182deebb2ac066621a8 (fy2015_archived_opportunities)
+2025-10-30 16:40:26,306 - INFO - No 'Download All' button for 7485ec98da6c7182deebb2ac066621a8
+2025-10-30 16:40:26,934 - INFO - [156/647] Processing 9edee0e0d4f09990736cc12d8fb149bd (fy2015_archived_opportunities)
+2025-10-30 16:40:32,548 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9edee0e0d4f09990736cc12d8fb149bd_FY15_SOO_SECURITY_SERVICES.zip (FY15 SOO SECURITY SERVICES)
+2025-10-30 16:40:33,055 - INFO - [157/647] Processing 553265445818dd999a3284cbbd2b40b9 (fy2015_archived_opportunities)
+2025-10-30 16:40:42,015 - INFO - No 'Download All' button for 553265445818dd999a3284cbbd2b40b9
+2025-10-30 16:40:42,592 - INFO - [158/647] Processing 219621ed8b361c9d75be6e4d06b59304 (fy2015_archived_opportunities)
+2025-10-30 16:40:47,483 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/219621ed8b361c9d75be6e4d06b59304_PSO_Services_Northern_New_Jersey.zip (PSO Services Northern New Jersey)
+2025-10-30 16:40:48,295 - INFO - [159/647] Processing 4d022cac913ae668beca0d4d383d3675 (fy2015_archived_opportunities)
+2025-10-30 16:41:01,461 - INFO - No 'Download All' button for 4d022cac913ae668beca0d4d383d3675
+2025-10-30 16:41:02,335 - INFO - [160/647] Processing a6f20fdf1568c3bd26438894e2b7c947 (fy2015_archived_opportunities)
+2025-10-30 16:41:09,745 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/a6f20fdf1568c3bd26438894e2b7c947_FY15_SOO_SECURITY_SERVICES.zip (FY15 SOO SECURITY SERVICES)
+2025-10-30 16:41:10,439 - INFO - [161/647] Processing bb955f4cd192cf85d9229219c3641651 (fy2015_archived_opportunities)
+2025-10-30 16:41:23,914 - INFO - No 'Download All' button for bb955f4cd192cf85d9229219c3641651
+2025-10-30 16:41:24,631 - INFO - [162/647] Processing e35452cb338ce65119698341155827ee (fy2015_archived_opportunities)
+2025-10-30 16:41:34,641 - INFO - No 'Download All' button for e35452cb338ce65119698341155827ee
+2025-10-30 16:41:35,584 - INFO - [163/647] Processing 1faae223aea6987aed2ababcef9f21e4 (fy2015_archived_opportunities)
+2025-10-30 16:41:44,560 - INFO - No 'Download All' button for 1faae223aea6987aed2ababcef9f21e4
+2025-10-30 16:41:45,273 - INFO - [164/647] Processing 07b318c052eed3396b508faa4493f2d5 (fy2015_archived_opportunities)
+2025-10-30 16:41:54,228 - INFO - No 'Download All' button for 07b318c052eed3396b508faa4493f2d5
+2025-10-30 16:41:54,903 - INFO - [165/647] Processing bf9c6b8a5d95bd08e687969dbfbc7f14 (fy2015_archived_opportunities)
+2025-10-30 16:42:08,052 - INFO - No 'Download All' button for bf9c6b8a5d95bd08e687969dbfbc7f14
+2025-10-30 16:42:08,555 - INFO - [166/647] Processing 7bef5e77a6345130336b01eec542ddfd (fy2015_archived_opportunities)
+2025-10-30 16:42:13,526 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7bef5e77a6345130336b01eec542ddfd_PSO_Services_Northern_New_Jersey.zip (PSO Services Northern New Jersey)
+2025-10-30 16:42:14,382 - INFO - [167/647] Processing e828de4cb0dbc277ff1dc0e3764739ba (fy2015_archived_opportunities)
+2025-10-30 16:42:27,548 - INFO - No 'Download All' button for e828de4cb0dbc277ff1dc0e3764739ba
+2025-10-30 16:42:28,339 - INFO - [168/647] Processing 9ce38ce05753a80d4f774c346b3d4b0a (fy2015_archived_opportunities)
+2025-10-30 16:42:33,651 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9ce38ce05753a80d4f774c346b3d4b0a_FY15_SOO_SECURITY_SERVICES.zip (FY15 SOO SECURITY SERVICES)
+2025-10-30 16:42:34,610 - INFO - [169/647] Processing 5dfe30cadc5d3da1a6d2cc0f509e542d (fy2015_archived_opportunities)
+2025-10-30 16:42:44,438 - INFO - No 'Download All' button for 5dfe30cadc5d3da1a6d2cc0f509e542d
+2025-10-30 16:42:45,042 - INFO - [170/647] Processing 25ad039b4d61c1809dd4d1cea72a0563 (fy2015_archived_opportunities)
+2025-10-30 16:42:58,210 - INFO - No 'Download All' button for 25ad039b4d61c1809dd4d1cea72a0563
+2025-10-30 16:42:58,857 - INFO - [171/647] Processing 64b3c70a36038f3e9347c91d4d3070dd (fy2015_archived_opportunities)
+2025-10-30 16:43:04,282 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/64b3c70a36038f3e9347c91d4d3070dd_FY15_SOO_SECURITY_SERVICES.zip (FY15 SOO SECURITY SERVICES)
+2025-10-30 16:43:05,168 - INFO - [172/647] Processing 4962f3ecb33ec5ad2a512d5e55d91617 (fy2015_archived_opportunities)
+2025-10-30 16:43:14,638 - INFO - No 'Download All' button for 4962f3ecb33ec5ad2a512d5e55d91617
+2025-10-30 16:43:15,151 - INFO - [173/647] Processing 318b24f344c4ddf9265e7beff1ac3786 (fy2015_archived_opportunities)
+2025-10-30 16:44:00,156 - WARNING - Navigation timed out for https://sam.gov/workspace/contract/opp/318b24f344c4ddf9265e7beff1ac3786/view
+2025-10-30 16:44:00,695 - INFO - [174/647] Processing 10b3382efed26f918aff3e5e41d3819d (fy2015_archived_opportunities)
+2025-10-30 16:44:06,200 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/10b3382efed26f918aff3e5e41d3819d_FY15_SOO_SECURITY_SERVICES.zip (FY15 SOO SECURITY SERVICES)
+2025-10-30 16:44:06,856 - INFO - [175/647] Processing e96c4b8d3da0fcb0ab4a0dba29a613fb (fy2015_archived_opportunities)
+2025-10-30 16:44:15,860 - INFO - No 'Download All' button for e96c4b8d3da0fcb0ab4a0dba29a613fb
+2025-10-30 16:44:16,714 - INFO - [176/647] Processing 3d64eb93397eedf6709f79a75f088495 (fy2015_archived_opportunities)
+2025-10-30 16:44:22,935 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/3d64eb93397eedf6709f79a75f088495_PROTECTIVE_SECURITY_OFFICER_SERVICES_FOR_THE_STATE_OF_NEW_MEXICO.zip (PROTECTIVE SECURITY OFFICER SERVICES FOR THE STATE OF NEW MEXICO)
+2025-10-30 16:44:23,643 - INFO - [177/647] Processing f464803fe4ecf2be8d2e6b5bdb4abe91 (fy2015_archived_opportunities)
+2025-10-30 16:44:28,636 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/f464803fe4ecf2be8d2e6b5bdb4abe91_Court_Security_Officer_Services_Circuits_1_5_and_8_-_U.S._Marshals_Service.zip (Court Security Officer Services (Circuits 1, 5, and 8) - U.S. Marshals Service)
+2025-10-30 16:44:29,424 - INFO - [178/647] Processing b46a76d76feabf29f9a11976f709a24f (fy2015_archived_opportunities)
+2025-10-30 16:44:38,597 - INFO - No 'Download All' button for b46a76d76feabf29f9a11976f709a24f
+2025-10-30 16:44:39,283 - INFO - [179/647] Processing b663c2cad333f21baf581dbf251c6db5 (fy2015_archived_opportunities)
+2025-10-30 16:44:48,352 - INFO - No 'Download All' button for b663c2cad333f21baf581dbf251c6db5
+2025-10-30 16:44:48,857 - INFO - [180/647] Processing 74f5103e33882d0bdbb3a6a5d2dc3502 (fy2015_archived_opportunities)
+2025-10-30 16:44:54,069 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/74f5103e33882d0bdbb3a6a5d2dc3502_Onboard_Security_Watch_.zip (Onboard Security Watch)
+2025-10-30 16:44:54,599 - INFO - [181/647] Processing fb8bf5192d167164d2ad229b1810e4fc (fy2015_archived_opportunities)
+2025-10-30 16:44:59,339 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/fb8bf5192d167164d2ad229b1810e4fc_Onboard_Security_Watch_.zip (Onboard Security Watch)
+2025-10-30 16:45:00,054 - INFO - [182/647] Processing 00f3bfd94af5886cd3ab826a0d5a3d1b (fy2015_archived_opportunities)
+2025-10-30 16:45:08,992 - INFO - No 'Download All' button for 00f3bfd94af5886cd3ab826a0d5a3d1b
+2025-10-30 16:45:09,797 - INFO - [183/647] Processing 799a515f4d91fdc2fe72f3063907dd74 (fy2015_archived_opportunities)
+2025-10-30 16:45:15,113 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/799a515f4d91fdc2fe72f3063907dd74_DMEA_Security_Services.zip (DMEA Security Services)
+2025-10-30 16:45:15,840 - INFO - [184/647] Processing 2db1799a608695707b6325a1109cd123 (fy2015_archived_opportunities)
+2025-10-30 16:45:22,377 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2db1799a608695707b6325a1109cd123_FY15_SOO_SECURITY_SERVICES.zip (FY15 SOO SECURITY SERVICES)
+2025-10-30 16:45:23,196 - INFO - [185/647] Processing 07d2c794f6fe9ab55e32e77c37ac04d4 (fy2015_archived_opportunities)
+2025-10-30 16:45:36,376 - INFO - No 'Download All' button for 07d2c794f6fe9ab55e32e77c37ac04d4
+2025-10-30 16:45:37,110 - INFO - [186/647] Processing 058b66b359c58f8e231bfb821f6cebde (fy2015_archived_opportunities)
+2025-10-30 16:45:42,847 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/058b66b359c58f8e231bfb821f6cebde_FY15_SOO_SECURITY_SERVICES.zip (FY15 SOO SECURITY SERVICES)
+2025-10-30 16:45:43,382 - INFO - [187/647] Processing a0d4540e1c064243dfdb825372046262 (fy2015_archived_opportunities)
+2025-10-30 16:45:56,535 - INFO - No 'Download All' button for a0d4540e1c064243dfdb825372046262
+2025-10-30 16:45:57,424 - INFO - [188/647] Processing d9c2fe9e3254f8601093c9964400eca1 (fy2015_archived_opportunities)
+2025-10-30 16:46:02,916 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/d9c2fe9e3254f8601093c9964400eca1_FY15_SOO_SECURITY_SERVICES.zip (FY15 SOO SECURITY SERVICES)
+2025-10-30 16:46:03,539 - INFO - [189/647] Processing 13da5131418fce94c5bebc2a1c40fc5a (fy2015_archived_opportunities)
+2025-10-30 16:46:08,128 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/13da5131418fce94c5bebc2a1c40fc5a_Onboard_Security_Watch_.zip (Onboard Security Watch)
+2025-10-30 16:46:08,867 - INFO - [190/647] Processing ffb2052e8796a28bbbc1c64e5ba568ec (fy2015_archived_opportunities)
+2025-10-30 16:46:17,828 - INFO - No 'Download All' button for ffb2052e8796a28bbbc1c64e5ba568ec
+2025-10-30 16:46:18,610 - INFO - [191/647] Processing 4febcfd139f9f6d1cd72a82925bf3c07 (fy2015_archived_opportunities)
+2025-10-30 16:46:28,096 - INFO - No 'Download All' button for 4febcfd139f9f6d1cd72a82925bf3c07
+2025-10-30 16:46:28,993 - INFO - [192/647] Processing 0ffc8e2cda9fbe1e1f25fbee1d70c275 (fy2015_archived_opportunities)
+2025-10-30 16:46:38,029 - INFO - No 'Download All' button for 0ffc8e2cda9fbe1e1f25fbee1d70c275
+2025-10-30 16:46:38,873 - INFO - [193/647] Processing 1ee497d8a9cbd55ad3ebd3344f349e83 (fy2015_archived_opportunities)
+2025-10-30 16:46:47,847 - INFO - No 'Download All' button for 1ee497d8a9cbd55ad3ebd3344f349e83
+2025-10-30 16:46:48,512 - INFO - [194/647] Processing a5617abccf514e2d1847d37788b73b25 (fy2015_archived_opportunities)
+2025-10-30 16:46:54,779 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/a5617abccf514e2d1847d37788b73b25_Protective_Security_Officer_PSO_Services_-_Southern_Florida.zip (Protective Security Officer (PSO) Services - Southern Florida)
+2025-10-30 16:46:55,290 - INFO - [195/647] Processing c6f437355004dff25ca2e5b76304282f (fy2015_archived_opportunities)
+2025-10-30 16:47:04,246 - INFO - No 'Download All' button for c6f437355004dff25ca2e5b76304282f
+2025-10-30 16:47:05,097 - INFO - [196/647] Processing cf49ac5d282b6dc1cd79eaaeed297451 (fy2015_archived_opportunities)
+2025-10-30 16:47:14,079 - INFO - No 'Download All' button for cf49ac5d282b6dc1cd79eaaeed297451
+2025-10-30 16:47:15,021 - INFO - [197/647] Processing 0baafe3447cfabcc5c978c8362bd0fe7 (fy2015_archived_opportunities)
+2025-10-30 16:47:24,010 - INFO - No 'Download All' button for 0baafe3447cfabcc5c978c8362bd0fe7
+2025-10-30 16:47:24,722 - INFO - [198/647] Processing 7954d8ffc20cf2409d36c09346fb436e (fy2015_archived_opportunities)
+2025-10-30 16:47:30,014 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7954d8ffc20cf2409d36c09346fb436e_S--NATO_School_Guards.zip (S--NATO School Guards)
+2025-10-30 16:47:30,910 - INFO - [199/647] Processing 884dc60a3742b967ba25b3c1ccffdf5d (fy2015_archived_opportunities)
+2025-10-30 16:47:37,275 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/884dc60a3742b967ba25b3c1ccffdf5d_MPS_Guard_Admin_Services.zip (MPS Guard & Admin Services)
+2025-10-30 16:47:37,914 - INFO - [200/647] Processing 1978043c4517ba1f7a1fcce37e25c418 (fy2015_archived_opportunities)
+2025-10-30 16:47:52,146 - INFO - No 'Download All' button for 1978043c4517ba1f7a1fcce37e25c418
+2025-10-30 16:47:53,024 - INFO - [201/647] Processing f3558ed985990c291d6501235e079f47 (fy2015_archived_opportunities)
+2025-10-30 16:48:02,040 - INFO - No 'Download All' button for f3558ed985990c291d6501235e079f47
+2025-10-30 16:48:02,714 - INFO - [202/647] Processing 9e7af99c78d581c5e0355f600de6fd71 (fy2015_archived_opportunities)
+2025-10-30 16:48:11,674 - INFO - No 'Download All' button for 9e7af99c78d581c5e0355f600de6fd71
+2025-10-30 16:48:12,585 - INFO - [203/647] Processing 3a96268b2b96735bcb41429b590355d1 (fy2015_archived_opportunities)
+2025-10-30 16:48:27,005 - INFO - No 'Download All' button for 3a96268b2b96735bcb41429b590355d1
+2025-10-30 16:48:27,555 - INFO - [204/647] Processing df35dcd51446518debd365b4f48695ac (fy2015_archived_opportunities)
+2025-10-30 16:48:37,523 - INFO - No 'Download All' button for df35dcd51446518debd365b4f48695ac
+2025-10-30 16:48:38,500 - INFO - [205/647] Processing 2213c905e903d08774591fad61005f03 (fy2015_archived_opportunities)
+2025-10-30 16:48:45,777 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2213c905e903d08774591fad61005f03_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 16:48:46,483 - INFO - [206/647] Processing 554e0a1e991313edc0da363b0a9b8360 (fy2015_archived_opportunities)
+2025-10-30 16:48:55,507 - INFO - No 'Download All' button for 554e0a1e991313edc0da363b0a9b8360
+2025-10-30 16:48:56,044 - INFO - [207/647] Processing 55add69bfc5b6025ababedbbfcd15552 (fy2015_archived_opportunities)
+2025-10-30 16:49:05,004 - INFO - No 'Download All' button for 55add69bfc5b6025ababedbbfcd15552
+2025-10-30 16:49:05,907 - INFO - [208/647] Processing 0c567534c1eae75d409e596e88459125 (fy2015_archived_opportunities)
+2025-10-30 16:49:12,115 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/0c567534c1eae75d409e596e88459125_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 16:49:12,874 - INFO - [209/647] Processing 8d8790203061f5b7b2970b5ff5c8cfe9 (fy2015_archived_opportunities)
+2025-10-30 16:49:17,712 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/8d8790203061f5b7b2970b5ff5c8cfe9_MPS_Guard_Admin_Svs.zip (MPS Guard & Admin Svs)
+2025-10-30 16:49:18,454 - INFO - [210/647] Processing 2cef63638408a4d6c9f006aac33abb97 (fy2015_archived_opportunities)
+2025-10-30 16:49:23,153 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2cef63638408a4d6c9f006aac33abb97_MPS_Guard_Admin_Services.zip (MPS Guard & Admin Services)
+2025-10-30 16:49:24,027 - INFO - [211/647] Processing 649b50b61ff3c921fb38f36afd8ae3d4 (fy2015_archived_opportunities)
+2025-10-30 16:49:37,243 - INFO - No 'Download All' button for 649b50b61ff3c921fb38f36afd8ae3d4
+2025-10-30 16:49:38,237 - INFO - [212/647] Processing b91337ffc5f0dd49856ed7a75d853766 (fy2015_archived_opportunities)
+2025-10-30 16:49:48,154 - INFO - No 'Download All' button for b91337ffc5f0dd49856ed7a75d853766
+2025-10-30 16:49:48,867 - INFO - [213/647] Processing 9c467d32792c3161474b437a40a1cd81 (fy2015_archived_opportunities)
+2025-10-30 16:49:54,179 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9c467d32792c3161474b437a40a1cd81_MPS_Guard_Admin_Services.zip (MPS Guard & Admin Services)
+2025-10-30 16:49:54,732 - INFO - [214/647] Processing d8137cdf1471d9984d9513ff40f38553 (fy2015_archived_opportunities)
+2025-10-30 16:50:03,690 - INFO - No 'Download All' button for d8137cdf1471d9984d9513ff40f38553
+2025-10-30 16:50:04,194 - INFO - [215/647] Processing a9a4e2225e7241c8f372922eb800e4d9 (fy2015_archived_opportunities)
+2025-10-30 16:50:17,355 - INFO - No 'Download All' button for a9a4e2225e7241c8f372922eb800e4d9
+2025-10-30 16:50:18,111 - INFO - [216/647] Processing 61509c7ccca3493e69d480bef569061a (fy2015_archived_opportunities)
+2025-10-30 16:50:31,292 - INFO - No 'Download All' button for 61509c7ccca3493e69d480bef569061a
+2025-10-30 16:50:32,089 - INFO - [217/647] Processing 5d9c9f52faefa2fed30b12ff692e7abe (fy2015_archived_opportunities)
+2025-10-30 16:50:37,310 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/5d9c9f52faefa2fed30b12ff692e7abe_PSO_Services_State_of_Oklahoma.zip (PSO Services State of Oklahoma)
+2025-10-30 16:50:38,048 - INFO - [218/647] Processing 403f45bceb8f08d67751eccdf6b602ca (fy2015_archived_opportunities)
+2025-10-30 16:50:43,176 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/403f45bceb8f08d67751eccdf6b602ca_ZNRE_15-0701_Replace_Actuator_Drive_for_Automotive_Vehicle_Barrier_System_Add_Grounding_Braid_for_Lighting_Protection_.zip (ZNRE 15-0701, Replace Actuator & Drive for Automotive Vehicle Barrier System & Add Grounding Braid for Lighting Protection)
+2025-10-30 16:50:43,901 - INFO - [219/647] Processing 8117973c5822efc81fccb62f4fdfdefe (fy2015_archived_opportunities)
+2025-10-30 16:50:48,766 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/8117973c5822efc81fccb62f4fdfdefe_ZNRE_15-0701_Replace_Actuator_Drive_for_Automotive_Vehicle_Barrier_System_Add_Grounding_Braid_for_Lighting_Protection_.zip (ZNRE 15-0701, Replace Actuator & Drive for Automotive Vehicle Barrier System & Add Grounding Braid for Lighting Protection)
+2025-10-30 16:50:49,449 - INFO - [220/647] Processing 04886e547e8203bef86908715ff02b4d (fy2015_archived_opportunities)
+2025-10-30 16:50:58,383 - INFO - No 'Download All' button for 04886e547e8203bef86908715ff02b4d
+2025-10-30 16:50:59,374 - INFO - [221/647] Processing 7babc23a6fbece933b23b51b2613f5cd (fy2015_archived_opportunities)
+2025-10-30 16:51:10,987 - INFO - No 'Download All' button for 7babc23a6fbece933b23b51b2613f5cd
+2025-10-30 16:51:11,696 - INFO - [222/647] Processing d80026587b3aa345410de9c44ab43a0a (fy2015_archived_opportunities)
+2025-10-30 16:51:20,642 - INFO - No 'Download All' button for d80026587b3aa345410de9c44ab43a0a
+2025-10-30 16:51:21,403 - INFO - [223/647] Processing 88003f164548a2813218d20d187b4e95 (fy2015_archived_opportunities)
+2025-10-30 16:51:34,590 - INFO - No 'Download All' button for 88003f164548a2813218d20d187b4e95
+2025-10-30 16:51:35,583 - INFO - [224/647] Processing f2fa3d28cd8dd0492c0452a7e4843e99 (fy2015_archived_opportunities)
+2025-10-30 16:51:41,053 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/f2fa3d28cd8dd0492c0452a7e4843e99_MPS_Guard_Admin_Services.zip (MPS Guard & Admin Services)
+2025-10-30 16:51:41,776 - INFO - [225/647] Processing 17ec18b89a19bd721429db2daa5af77e (fy2015_archived_opportunities)
+2025-10-30 16:51:54,912 - INFO - No 'Download All' button for 17ec18b89a19bd721429db2daa5af77e
+2025-10-30 16:51:55,670 - INFO - [226/647] Processing 105657f90e1c6570f3e73860e8596eed (fy2015_archived_opportunities)
+2025-10-30 16:52:05,582 - INFO - No 'Download All' button for 105657f90e1c6570f3e73860e8596eed
+2025-10-30 16:52:06,159 - INFO - [227/647] Processing 583d73dfe100a9daa08b6423fe0a56f5 (fy2015_archived_opportunities)
+2025-10-30 16:52:19,393 - INFO - No 'Download All' button for 583d73dfe100a9daa08b6423fe0a56f5
+2025-10-30 16:52:19,895 - INFO - [228/647] Processing c2635c9ed7d98306859032b3336d73d9 (fy2015_archived_opportunities)
+2025-10-30 16:52:33,051 - INFO - No 'Download All' button for c2635c9ed7d98306859032b3336d73d9
+2025-10-30 16:52:33,682 - INFO - [229/647] Processing 477e25b777d26b438febe9dff65c6920 (fy2015_archived_opportunities)
+2025-10-30 16:52:46,880 - INFO - No 'Download All' button for 477e25b777d26b438febe9dff65c6920
+2025-10-30 16:52:47,776 - INFO - [230/647] Processing 92118291b0586f74c616607764dd6515 (fy2015_archived_opportunities)
+2025-10-30 16:52:55,391 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/92118291b0586f74c616607764dd6515_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 16:52:55,939 - INFO - [231/647] Processing 9b97b46606a1e507c0a206bb00a196c7 (fy2015_archived_opportunities)
+2025-10-30 16:53:01,445 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9b97b46606a1e507c0a206bb00a196c7_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 16:53:02,132 - INFO - [232/647] Processing cc141d364233ce8cff53463db8bbbd7c (fy2015_archived_opportunities)
+2025-10-30 16:53:07,107 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/cc141d364233ce8cff53463db8bbbd7c_Request_For_Information_-_Intrusion_Detection_Alarm_Response.zip (Request For Information - Intrusion Detection Alarm Response)
+2025-10-30 16:53:07,726 - INFO - [233/647] Processing aa4b4291f1c02ad3813b495b18a22a1e (fy2015_archived_opportunities)
+2025-10-30 16:53:17,163 - INFO - No 'Download All' button for aa4b4291f1c02ad3813b495b18a22a1e
+2025-10-30 16:53:17,671 - INFO - [234/647] Processing fce684cd95703cca7ec590c853d43867 (fy2015_archived_opportunities)
+2025-10-30 16:53:22,847 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/fce684cd95703cca7ec590c853d43867_Protective_Security_Officer_PSO_Services.zip (Protective Security Officer (PSO) Services)
+2025-10-30 16:53:23,788 - INFO - [235/647] Processing e14d8a0fc10f74cb99e75281a8e15209 (fy2015_archived_opportunities)
+2025-10-30 16:53:33,263 - INFO - No 'Download All' button for e14d8a0fc10f74cb99e75281a8e15209
+2025-10-30 16:53:34,046 - INFO - [236/647] Processing e49107baf608469d978794dc302fdeb9 (fy2015_archived_opportunities)
+2025-10-30 16:53:43,076 - INFO - No 'Download All' button for e49107baf608469d978794dc302fdeb9
+2025-10-30 16:53:43,829 - INFO - [237/647] Processing d22c475704a7b7567b76b841ca24ba21 (fy2015_archived_opportunities)
+2025-10-30 16:53:49,218 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/d22c475704a7b7567b76b841ca24ba21_MPS_Guard_Admin_Services.zip (MPS Guard & Admin Services)
+2025-10-30 16:53:50,033 - INFO - [238/647] Processing 74079d9740954e2e7ead5ff2f1b53ec9 (fy2015_archived_opportunities)
+2025-10-30 16:54:00,002 - INFO - No 'Download All' button for 74079d9740954e2e7ead5ff2f1b53ec9
+2025-10-30 16:54:00,810 - INFO - [239/647] Processing 4100c9e8617b26aa61cf569b848c92b0 (fy2015_archived_opportunities)
+2025-10-30 16:54:07,315 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/4100c9e8617b26aa61cf569b848c92b0_Unarmed_Guard_Services.zip (Unarmed Guard Services)
+2025-10-30 16:54:08,081 - INFO - [240/647] Processing fe9b9d89a3cf4b5416063ebabccb0043 (fy2015_archived_opportunities)
+2025-10-30 16:54:22,108 - INFO - No 'Download All' button for fe9b9d89a3cf4b5416063ebabccb0043
+2025-10-30 16:54:22,835 - INFO - [241/647] Processing 4293f640473b546f99a705f460c8bf89 (fy2015_archived_opportunities)
+2025-10-30 16:54:36,099 - INFO - No 'Download All' button for 4293f640473b546f99a705f460c8bf89
+2025-10-30 16:54:36,933 - INFO - [242/647] Processing 807cc38d13151f1840b3315b9e22b537 (fy2015_archived_opportunities)
+2025-10-30 16:54:50,126 - INFO - No 'Download All' button for 807cc38d13151f1840b3315b9e22b537
+2025-10-30 16:54:50,858 - INFO - [243/647] Processing b03576af32e19f71543cc18384c39033 (fy2015_archived_opportunities)
+2025-10-30 16:54:57,935 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b03576af32e19f71543cc18384c39033_Protective_Security_Officer_PSO_Services.zip (Protective Security Officer (PSO) Services)
+2025-10-30 16:54:58,831 - INFO - [244/647] Processing 159daf6fd0be600ea15a1753d95ccf2f (fy2015_archived_opportunities)
+2025-10-30 16:55:12,009 - INFO - No 'Download All' button for 159daf6fd0be600ea15a1753d95ccf2f
+2025-10-30 16:55:12,727 - INFO - [245/647] Processing d3b95d11c0bef44a0b980b29943f2dc7 (fy2015_archived_opportunities)
+2025-10-30 16:55:18,232 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/d3b95d11c0bef44a0b980b29943f2dc7_MPS_Guard_Admin_Services.zip (MPS Guard & Admin Services)
+2025-10-30 16:55:19,133 - INFO - [246/647] Processing 5d39cc4c45201b07bf938737772acdab (fy2015_archived_opportunities)
+2025-10-30 16:55:23,962 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/5d39cc4c45201b07bf938737772acdab_MPS_Guard_Admin_Services.zip (MPS Guard & Admin Services)
+2025-10-30 16:55:24,853 - INFO - [247/647] Processing 062324cb062d86bad35dd239ad730759 (fy2015_archived_opportunities)
+2025-10-30 16:55:30,203 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/062324cb062d86bad35dd239ad730759_Protective_Security_Officer_PSO_Services.zip (Protective Security Officer (PSO) Services)
+2025-10-30 16:55:30,948 - INFO - [248/647] Processing 69c69280c95ae99596b744e4e35fd375 (fy2015_archived_opportunities)
+2025-10-30 16:55:45,169 - INFO - No 'Download All' button for 69c69280c95ae99596b744e4e35fd375
+2025-10-30 16:55:45,873 - INFO - [249/647] Processing e43e2c7ca8addf60a35e91531981cc4b (fy2015_archived_opportunities)
+2025-10-30 16:55:56,155 - INFO - No 'Download All' button for e43e2c7ca8addf60a35e91531981cc4b
+2025-10-30 16:55:56,979 - INFO - [250/647] Processing 931048dae0952819b672ec90b776f23a (fy2015_archived_opportunities)
+2025-10-30 16:56:02,209 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/931048dae0952819b672ec90b776f23a_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 16:56:03,057 - INFO - [251/647] Processing 744c531ea6994272e14fba2e126dafc7 (fy2015_archived_opportunities)
+2025-10-30 16:56:13,170 - INFO - No 'Download All' button for 744c531ea6994272e14fba2e126dafc7
+2025-10-30 16:56:13,977 - INFO - [252/647] Processing 8f04a6ba44befeee00383b1a6f052c8a (fy2015_archived_opportunities)
+2025-10-30 16:56:23,206 - INFO - No 'Download All' button for 8f04a6ba44befeee00383b1a6f052c8a
+2025-10-30 16:56:23,878 - INFO - [253/647] Processing 1741bd9c8dfa24e55906d2a08d15a21e (fy2015_archived_opportunities)
+2025-10-30 16:56:29,401 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/1741bd9c8dfa24e55906d2a08d15a21e_GUIS_SPEED_ZONE_ENFORCEMENT_ON_SR_399_ESCAMBIA_COUNTY_FL_.zip (GUIS SPEED ZONE ENFORCEMENT ON SR 399 (ESCAMBIA COUNTY, FL))
+2025-10-30 16:56:30,196 - INFO - [254/647] Processing 29677510859fce103c96720be9291454 (fy2015_archived_opportunities)
+2025-10-30 16:56:39,187 - INFO - No 'Download All' button for 29677510859fce103c96720be9291454
+2025-10-30 16:56:39,883 - INFO - [255/647] Processing ea0bf64e7548d1dbef04a78328cbc8ad (fy2015_archived_opportunities)
+2025-10-30 16:56:53,115 - INFO - No 'Download All' button for ea0bf64e7548d1dbef04a78328cbc8ad
+2025-10-30 16:56:53,623 - INFO - [256/647] Processing f5e55a8bef173078f2da52b199cda08a (fy2015_archived_opportunities)
+2025-10-30 16:57:07,064 - INFO - No 'Download All' button for f5e55a8bef173078f2da52b199cda08a
+2025-10-30 16:57:07,652 - INFO - [257/647] Processing 8baa0762dead8f5fbf891d4f1199fe5a (fy2015_archived_opportunities)
+2025-10-30 16:57:17,050 - INFO - No 'Download All' button for 8baa0762dead8f5fbf891d4f1199fe5a
+2025-10-30 16:57:17,998 - INFO - [258/647] Processing 41b0c076056c721470044d76de53b7de (fy2015_archived_opportunities)
+2025-10-30 16:57:23,390 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/41b0c076056c721470044d76de53b7de_S--J_A__W912PP-15-V-0014_-_Law_Enforcement_Services_for_the_U.S._Army_Corps_of_Engineers_Conchas_Dam_project_office_-_W912PP-15-T-0037.zip (S--J&A: W912PP-15-V-0014 - Law Enforcement Services for the U.S. Army Corps of Engineers, Conchas Dam project office - W912PP-15-T-0037)
+2025-10-30 16:57:24,349 - INFO - [259/647] Processing 5cb6af6dea774b4f35b7e1565e1c4fec (fy2015_archived_opportunities)
+2025-10-30 16:57:33,284 - INFO - No 'Download All' button for 5cb6af6dea774b4f35b7e1565e1c4fec
+2025-10-30 16:57:33,938 - INFO - [260/647] Processing 54a84a74c282acd7cadedc77096661d3 (fy2015_archived_opportunities)
+2025-10-30 16:57:40,268 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/54a84a74c282acd7cadedc77096661d3_PROTECTIVE_SECURITY_OFFICER_SERVICES_FOR_THE_STATE_OF_NEW_MEXICO.zip (PROTECTIVE SECURITY OFFICER SERVICES FOR THE STATE OF NEW MEXICO)
+2025-10-30 16:57:41,260 - INFO - [261/647] Processing df7fbe5e42e7c19ee89dbe8121bbf570 (fy2015_archived_opportunities)
+2025-10-30 16:57:46,022 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/df7fbe5e42e7c19ee89dbe8121bbf570_Remove_existign_fire_alarm_panel.zip (Remove existign fire alarm panel)
+2025-10-30 16:57:46,546 - INFO - [262/647] Processing ebe828381f0526447d6bbf675104bcbc (fy2015_archived_opportunities)
+2025-10-30 16:57:51,131 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ebe828381f0526447d6bbf675104bcbc_Remove_existign_fire_alarm_panel.zip (Remove existign fire alarm panel)
+2025-10-30 16:57:51,863 - INFO - [263/647] Processing ff87937ad510ebf4043568d57fe34b36 (fy2015_archived_opportunities)
+2025-10-30 16:57:57,344 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ff87937ad510ebf4043568d57fe34b36_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 16:57:57,967 - INFO - [264/647] Processing 4fad638c80505bb6d60c1b914b457262 (fy2015_archived_opportunities)
+2025-10-30 16:58:04,343 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/4fad638c80505bb6d60c1b914b457262_S--IGF__OT__IGF_Security_Patrols_and_Law_Enforcement_on_Reclamation_lands_in_Power.zip (S--IGF::OT::IGF Security Patrols and Law Enforcement on Reclamation lands in Power)
+2025-10-30 16:58:04,914 - INFO - [265/647] Processing bde8bf80247d337165a1601032a79885 (fy2015_archived_opportunities)
+2025-10-30 16:58:13,934 - INFO - No 'Download All' button for bde8bf80247d337165a1601032a79885
+2025-10-30 16:58:14,615 - INFO - [266/647] Processing aabb8259a05b30987ccf2884f7f9d08d (fy2015_archived_opportunities)
+2025-10-30 16:58:27,783 - INFO - No 'Download All' button for aabb8259a05b30987ccf2884f7f9d08d
+2025-10-30 16:58:28,393 - INFO - [267/647] Processing 01e70a52a4fbf77074093db06448bb42 (fy2015_archived_opportunities)
+2025-10-30 16:58:35,476 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/01e70a52a4fbf77074093db06448bb42_Protective_Security_Officer_PSO_Services.zip (Protective Security Officer (PSO) Services)
+2025-10-30 16:58:36,071 - INFO - [268/647] Processing 9f1ef0a660b21e09c0daeb04e2810ab3 (fy2015_archived_opportunities)
+2025-10-30 16:58:41,855 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9f1ef0a660b21e09c0daeb04e2810ab3_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 16:58:42,804 - INFO - [269/647] Processing 0545883159959f9070973ac6816fdf60 (fy2015_archived_opportunities)
+2025-10-30 16:58:51,748 - INFO - No 'Download All' button for 0545883159959f9070973ac6816fdf60
+2025-10-30 16:58:52,714 - INFO - [270/647] Processing f8684c17f84e431486f15268ac7d9854 (fy2015_archived_opportunities)
+2025-10-30 16:59:01,717 - INFO - No 'Download All' button for f8684c17f84e431486f15268ac7d9854
+2025-10-30 16:59:02,599 - INFO - [271/647] Processing da106b47cee19dc595337a35017cf4ce (fy2015_archived_opportunities)
+2025-10-30 16:59:15,751 - INFO - No 'Download All' button for da106b47cee19dc595337a35017cf4ce
+2025-10-30 16:59:16,506 - INFO - [272/647] Processing ce3e5e346c571274c67597c3c98a5cbc (fy2015_archived_opportunities)
+2025-10-30 16:59:29,688 - INFO - No 'Download All' button for ce3e5e346c571274c67597c3c98a5cbc
+2025-10-30 16:59:30,585 - INFO - [273/647] Processing 6fa704e5e9d389f0bc5280f07557f2fc (fy2015_archived_opportunities)
+2025-10-30 16:59:43,853 - INFO - No 'Download All' button for 6fa704e5e9d389f0bc5280f07557f2fc
+2025-10-30 16:59:44,499 - INFO - [274/647] Processing 54aad24a42da59eab8f45c6f63fa1e7d (fy2015_archived_opportunities)
+2025-10-30 16:59:57,682 - INFO - No 'Download All' button for 54aad24a42da59eab8f45c6f63fa1e7d
+2025-10-30 16:59:58,427 - INFO - [275/647] Processing c5d0393f25bbd3476ab4fb65221f321c (fy2015_archived_opportunities)
+2025-10-30 17:00:11,580 - INFO - No 'Download All' button for c5d0393f25bbd3476ab4fb65221f321c
+2025-10-30 17:00:12,244 - INFO - [276/647] Processing 5e779141421e7df6cbb495c9dd16a545 (fy2015_archived_opportunities)
+2025-10-30 17:00:21,850 - INFO - No 'Download All' button for 5e779141421e7df6cbb495c9dd16a545
+2025-10-30 17:00:22,634 - INFO - [277/647] Processing 8f4dfa6d58af816b148caf4641fa96d1 (fy2015_archived_opportunities)
+2025-10-30 17:00:31,564 - INFO - No 'Download All' button for 8f4dfa6d58af816b148caf4641fa96d1
+2025-10-30 17:00:32,208 - INFO - [278/647] Processing eb7a93af690b6d9cdada9d9b615bd805 (fy2015_archived_opportunities)
+2025-10-30 17:00:41,194 - INFO - No 'Download All' button for eb7a93af690b6d9cdada9d9b615bd805
+2025-10-30 17:00:41,781 - INFO - [279/647] Processing 6ed9f79c661a866c0d351e4622659b0c (fy2015_archived_opportunities)
+2025-10-30 17:00:48,171 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/6ed9f79c661a866c0d351e4622659b0c_DHSFPS_-_Protective_Security_Officer_Services_for_the_State_of_West_Virginia_excluding_Berkley_Jefferson_and_Morgan_Counties_.zip (DHS/FPS - Protective Security Officer Services for the State of West Virginia excluding Berkley, Jefferson and Morgan Counties))
+2025-10-30 17:00:49,060 - INFO - [280/647] Processing 535f7a82c9150253a053908b86223777 (fy2015_archived_opportunities)
+2025-10-30 17:00:58,128 - INFO - No 'Download All' button for 535f7a82c9150253a053908b86223777
+2025-10-30 17:00:58,950 - INFO - [281/647] Processing 9b60eddfb938eb2aa63f2b8b72900db0 (fy2015_archived_opportunities)
+2025-10-30 17:01:04,575 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9b60eddfb938eb2aa63f2b8b72900db0_PATROL_SERVICES.zip (PATROL SERVICES)
+2025-10-30 17:01:05,301 - INFO - [282/647] Processing 8a52e609b9bc30e8d284e6a6a630290d (fy2015_archived_opportunities)
+2025-10-30 17:01:14,809 - INFO - No 'Download All' button for 8a52e609b9bc30e8d284e6a6a630290d
+2025-10-30 17:01:15,756 - INFO - [283/647] Processing 0c846d0d61c0346385e36b5f6270203d (fy2015_archived_opportunities)
+2025-10-30 17:01:24,692 - INFO - No 'Download All' button for 0c846d0d61c0346385e36b5f6270203d
+2025-10-30 17:01:25,579 - INFO - [284/647] Processing 47cf5142b9f2c7b965c9a7c5280e23c1 (fy2015_archived_opportunities)
+2025-10-30 17:01:34,863 - INFO - No 'Download All' button for 47cf5142b9f2c7b965c9a7c5280e23c1
+2025-10-30 17:01:35,706 - INFO - [285/647] Processing a24398d8b09a7e913856769e0c4f6f81 (fy2015_archived_opportunities)
+2025-10-30 17:01:44,943 - INFO - No 'Download All' button for a24398d8b09a7e913856769e0c4f6f81
+2025-10-30 17:01:45,664 - INFO - [286/647] Processing 6247a35a5d9816a4b5e4f067b8758ecc (fy2015_archived_opportunities)
+2025-10-30 17:01:58,887 - INFO - No 'Download All' button for 6247a35a5d9816a4b5e4f067b8758ecc
+2025-10-30 17:01:59,495 - INFO - [287/647] Processing 22ebf3f4b713ed230f4c233754095781 (fy2015_archived_opportunities)
+2025-10-30 17:02:12,711 - INFO - No 'Download All' button for 22ebf3f4b713ed230f4c233754095781
+2025-10-30 17:02:13,496 - INFO - [288/647] Processing 1b04dcdb674990e5df4ccd621c524b88 (fy2015_archived_opportunities)
+2025-10-30 17:02:19,699 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/1b04dcdb674990e5df4ccd621c524b88_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 17:02:20,375 - INFO - [289/647] Processing 6e24f4b422894b7fd027dfe8845606a5 (fy2015_archived_opportunities)
+2025-10-30 17:02:34,515 - INFO - No 'Download All' button for 6e24f4b422894b7fd027dfe8845606a5
+2025-10-30 17:02:35,260 - INFO - [290/647] Processing 4b059052ad46de0c6f3f597d74fedc8f (fy2015_archived_opportunities)
+2025-10-30 17:02:44,206 - INFO - No 'Download All' button for 4b059052ad46de0c6f3f597d74fedc8f
+2025-10-30 17:02:44,731 - INFO - [291/647] Processing f5ddad43c747e06600277995ff8df0f0 (fy2015_archived_opportunities)
+2025-10-30 17:02:57,972 - INFO - No 'Download All' button for f5ddad43c747e06600277995ff8df0f0
+2025-10-30 17:02:58,546 - INFO - [292/647] Processing 602239ed81129f6afa271394a1cf0ac6 (fy2015_archived_opportunities)
+2025-10-30 17:03:04,753 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/602239ed81129f6afa271394a1cf0ac6_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 17:03:05,740 - INFO - [293/647] Processing c7165dd5b7b5c7d52e2e31a12d52727a (fy2015_archived_opportunities)
+2025-10-30 17:03:18,965 - INFO - No 'Download All' button for c7165dd5b7b5c7d52e2e31a12d52727a
+2025-10-30 17:03:19,504 - INFO - [294/647] Processing 3d6eac4da056b43af583ef6aa812bfbc (fy2015_archived_opportunities)
+2025-10-30 17:03:28,455 - INFO - No 'Download All' button for 3d6eac4da056b43af583ef6aa812bfbc
+2025-10-30 17:03:29,091 - INFO - [295/647] Processing ef3814ad9a1eb5d846be5f5dde6cc913 (fy2015_archived_opportunities)
+2025-10-30 17:03:38,806 - INFO - No 'Download All' button for ef3814ad9a1eb5d846be5f5dde6cc913
+2025-10-30 17:03:39,637 - INFO - [296/647] Processing 6de225ec27e9a434f2cf4bc47403fda9 (fy2015_archived_opportunities)
+2025-10-30 17:03:52,939 - INFO - No 'Download All' button for 6de225ec27e9a434f2cf4bc47403fda9
+2025-10-30 17:03:53,477 - INFO - [297/647] Processing b4f4301ec330d136c91d2bec283bd9a0 (fy2015_archived_opportunities)
+2025-10-30 17:04:01,119 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b4f4301ec330d136c91d2bec283bd9a0_DHSFPS_-_Protective_Security_Officer_Services_for_the_State_of_West_Virginia_excluding_Berkley_Jefferson_and_Morgan_Counties_.zip (DHS/FPS - Protective Security Officer Services for the State of West Virginia excluding Berkley, Jefferson and Morgan Counties))
+2025-10-30 17:04:01,812 - INFO - [298/647] Processing fe09af230da8b33fed484bf96acaf588 (fy2015_archived_opportunities)
+2025-10-30 17:04:15,046 - INFO - No 'Download All' button for fe09af230da8b33fed484bf96acaf588
+2025-10-30 17:04:15,973 - INFO - [299/647] Processing 471c6db1af1227446bfe0a45acd462f0 (fy2015_archived_opportunities)
+2025-10-30 17:04:25,654 - INFO - No 'Download All' button for 471c6db1af1227446bfe0a45acd462f0
+2025-10-30 17:04:26,605 - INFO - [300/647] Processing e6afcd859e37167214b32c0368873e83 (fy2015_archived_opportunities)
+2025-10-30 17:04:32,896 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e6afcd859e37167214b32c0368873e83_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 17:04:33,524 - INFO - [301/647] Processing 9af8546c606dc3efb448f5b080b7ee8a (fy2015_archived_opportunities)
+2025-10-30 17:04:39,998 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9af8546c606dc3efb448f5b080b7ee8a_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES)
+2025-10-30 17:04:40,919 - INFO - [302/647] Processing 4c84e1e71615a2943da81675b3d26bb5 (fy2015_archived_opportunities)
+2025-10-30 17:04:49,845 - INFO - No 'Download All' button for 4c84e1e71615a2943da81675b3d26bb5
+2025-10-30 17:04:50,386 - INFO - [303/647] Processing 419b364d1f6c4a1a337cbb31ba6c2170 (fy2015_archived_opportunities)
+2025-10-30 17:04:55,812 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/419b364d1f6c4a1a337cbb31ba6c2170_Armed_and_Unarmed_Security_Guard_Services_CG_Base_Miami_Beach_and_Air_Station_Miami_FL.zip (Armed and Unarmed Security Guard Services @ CG Base Miami Beach and Air Station Miami FL)
+2025-10-30 17:04:56,360 - INFO - [304/647] Processing ef24349b63349899ae54a98c0f44349d (fy2015_archived_opportunities)
+2025-10-30 17:05:03,607 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ef24349b63349899ae54a98c0f44349d_Protective_Security_Officer_Services.zip (Protective Security Officer Services)
+2025-10-30 17:05:04,308 - INFO - [305/647] Processing 4987879a3b8a4c866a299399d0d2fca0 (fy2015_archived_opportunities)
+2025-10-30 17:05:17,489 - INFO - No 'Download All' button for 4987879a3b8a4c866a299399d0d2fca0
+2025-10-30 17:05:18,279 - INFO - [306/647] Processing aed2f8062010c5320130de7939731c09 (fy2015_archived_opportunities)
+2025-10-30 17:05:27,365 - INFO - No 'Download All' button for aed2f8062010c5320130de7939731c09
+2025-10-30 17:05:28,164 - INFO - [307/647] Processing 59ad1ba6548d1c567584f392292c4f35 (fy2015_archived_opportunities)
+2025-10-30 17:05:34,120 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/59ad1ba6548d1c567584f392292c4f35_S--Unarmed_Security_Services.zip (S--Unarmed Security Services)
+2025-10-30 17:05:35,029 - INFO - [308/647] Processing cf973e3dd75d604097f6387d8de71e99 (fy2015_archived_opportunities)
+2025-10-30 17:05:49,414 - INFO - No 'Download All' button for cf973e3dd75d604097f6387d8de71e99
+2025-10-30 17:05:50,122 - INFO - [309/647] Processing 4ee01f8a85c9ff328b66c62dc6c553af (fy2015_archived_opportunities)
+2025-10-30 17:05:59,082 - INFO - No 'Download All' button for 4ee01f8a85c9ff328b66c62dc6c553af
+2025-10-30 17:06:00,059 - INFO - [310/647] Processing ee673547aea98cbba1be6b6a1ef0bb97 (fy2015_archived_opportunities)
+2025-10-30 17:06:05,317 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ee673547aea98cbba1be6b6a1ef0bb97_S--Unarmed_Security_Services.zip (S--Unarmed Security Services)
+2025-10-30 17:06:06,115 - INFO - [311/647] Processing 5c8978d5b4b443035fb48d388fa2dc7b (fy2015_archived_opportunities)
+2025-10-30 17:06:15,249 - INFO - No 'Download All' button for 5c8978d5b4b443035fb48d388fa2dc7b
+2025-10-30 17:06:16,206 - INFO - [312/647] Processing 4aae35667f12b66260074270c76dd4e7 (fy2015_archived_opportunities)
+2025-10-30 17:06:30,233 - INFO - No 'Download All' button for 4aae35667f12b66260074270c76dd4e7
+2025-10-30 17:06:31,051 - INFO - [313/647] Processing 51061271b2c0f949768781d9074d85a9 (fy2015_archived_opportunities)
+2025-10-30 17:06:44,271 - INFO - No 'Download All' button for 51061271b2c0f949768781d9074d85a9
+2025-10-30 17:06:45,176 - INFO - [314/647] Processing 77ffe01936ea3dae1f741479bf314088 (fy2015_archived_opportunities)
+2025-10-30 17:06:50,629 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/77ffe01936ea3dae1f741479bf314088_Small_Business_Event-USCG_SILC_BASE_SUPPORT_AND_SERVICES_INDUSTRY_DAY.zip (Small Business Event-USCG SILC BASE SUPPORT AND SERVICES INDUSTRY DAY)
+2025-10-30 17:06:51,348 - INFO - [315/647] Processing f9826b8a232716841ff633a08fd3e016 (fy2015_archived_opportunities)
+2025-10-30 17:06:56,454 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/f9826b8a232716841ff633a08fd3e016_99--Single_Award_Task_Order_SATOC_Indefinite-Delivery_Indefinite-Quantity_IDIQ_Construction_Security_Monitoring_CSM_Services_Korea.zip (99--Single Award Task Order (SATOC), Indefinite-Delivery, Indefinite-Quantity (IDIQ), Construction Security Monitoring (CSM) Services, Korea)
+2025-10-30 17:06:57,165 - INFO - [316/647] Processing fa6d3402fa96862d80e0533d7979bd54 (fy2015_archived_opportunities)
+2025-10-30 17:07:04,458 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/fa6d3402fa96862d80e0533d7979bd54_Protective_Security_Officer_Services.zip (Protective Security Officer Services)
+2025-10-30 17:07:05,345 - INFO - [317/647] Processing 7bf915d82cdcb361ffe41beb5bbde40d (fy2015_archived_opportunities)
+2025-10-30 17:07:19,566 - INFO - No 'Download All' button for 7bf915d82cdcb361ffe41beb5bbde40d
+2025-10-30 17:07:20,351 - INFO - [318/647] Processing 12ecbec8ca1d9f6c1bd996c640eb01d4 (fy2015_archived_opportunities)
+2025-10-30 17:07:33,546 - INFO - No 'Download All' button for 12ecbec8ca1d9f6c1bd996c640eb01d4
+2025-10-30 17:07:34,361 - INFO - [319/647] Processing 89a133556f583547fa872b48f005f952 (fy2015_archived_opportunities)
+2025-10-30 17:07:47,521 - INFO - No 'Download All' button for 89a133556f583547fa872b48f005f952
+2025-10-30 17:07:48,045 - INFO - [320/647] Processing fb7c4a1213e3c69aed98ea348a55a8b3 (fy2015_archived_opportunities)
+2025-10-30 17:07:54,710 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/fb7c4a1213e3c69aed98ea348a55a8b3_DHSFPS_-_Protective_Security_Officer_Services_for_the_State_of_West_Virginia_excluding_Berkley_Jefferson_and_Morgan_Counties_.zip (DHS/FPS - Protective Security Officer Services for the State of West Virginia excluding Berkley, Jefferson and Morgan Counties))
+2025-10-30 17:07:55,272 - INFO - [321/647] Processing 7c14399746605c872d249b8a8c69b74b (fy2015_archived_opportunities)
+2025-10-30 17:08:01,333 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7c14399746605c872d249b8a8c69b74b_DHSFPS_-_Protective_Security_Officer_Services_for_the_State_of_West_Virginia_excluding_Berkley_Jefferson_and_Morgan_Counties_.zip (DHS/FPS - Protective Security Officer Services for the State of West Virginia excluding Berkley, Jefferson and Morgan Counties))
+2025-10-30 17:08:01,996 - INFO - [322/647] Processing a94d4a58e5fa1dcd4c32ed58e83acef5 (fy2015_archived_opportunities)
+2025-10-30 17:08:16,095 - INFO - No 'Download All' button for a94d4a58e5fa1dcd4c32ed58e83acef5
+2025-10-30 17:08:16,854 - INFO - [323/647] Processing b05f2a2cfe9a4ce38e40f5568f5335e3 (fy2015_archived_opportunities)
+2025-10-30 17:08:30,025 - INFO - No 'Download All' button for b05f2a2cfe9a4ce38e40f5568f5335e3
+2025-10-30 17:08:30,562 - INFO - [324/647] Processing 0d65fcf6e3d6ba87abae36ea6bf7e24d (fy2015_archived_opportunities)
+2025-10-30 17:08:37,314 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/0d65fcf6e3d6ba87abae36ea6bf7e24d_DHSFPS_-_Protective_Security_Officer_Services_for_the_State_of_West_Virginia_excluding_Berkley_Jefferson_and_Morgan_Counties_.zip (DHS/FPS - Protective Security Officer Services for the State of West Virginia excluding Berkley, Jefferson and Morgan Counties))
+2025-10-30 17:08:37,983 - INFO - [325/647] Processing 46df74202b0905cdc6f69df1fae12990 (fy2015_archived_opportunities)
+2025-10-30 17:08:42,674 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/46df74202b0905cdc6f69df1fae12990_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:08:43,406 - INFO - [326/647] Processing c0dfb3ba0c2a2062f19b1a42f72d8a3e (fy2015_archived_opportunities)
+2025-10-30 17:08:56,573 - INFO - No 'Download All' button for c0dfb3ba0c2a2062f19b1a42f72d8a3e
+2025-10-30 17:08:57,236 - INFO - [327/647] Processing 2b36cb5b4a13ff9c4b79adbe0a4eef51 (fy2015_archived_opportunities)
+2025-10-30 17:09:10,396 - INFO - No 'Download All' button for 2b36cb5b4a13ff9c4b79adbe0a4eef51
+2025-10-30 17:09:11,130 - INFO - [328/647] Processing 84dcaf97c38cfb44daf0167b770931ed (fy2015_archived_opportunities)
+2025-10-30 17:09:24,292 - INFO - No 'Download All' button for 84dcaf97c38cfb44daf0167b770931ed
+2025-10-30 17:09:24,895 - INFO - [329/647] Processing e217ccafa8142aee2d0332115ff02a05 (fy2015_archived_opportunities)
+2025-10-30 17:09:37,360 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e217ccafa8142aee2d0332115ff02a05_COURT_SECURITY_OFFICERS_SERVICES.zip (COURT SECURITY OFFICERS SERVICES)
+2025-10-30 17:09:38,029 - INFO - [330/647] Processing 5556d1726b9179491608bf262e548825 (fy2015_archived_opportunities)
+2025-10-30 17:09:51,237 - INFO - No 'Download All' button for 5556d1726b9179491608bf262e548825
+2025-10-30 17:09:51,752 - INFO - [331/647] Processing aa836b873c50e42c97f73c6ed47d3419 (fy2015_archived_opportunities)
+2025-10-30 17:10:04,919 - INFO - No 'Download All' button for aa836b873c50e42c97f73c6ed47d3419
+2025-10-30 17:10:05,635 - INFO - [332/647] Processing 514b7c1e338c68cb34f2a6ea9cdcaf10 (fy2015_archived_opportunities)
+2025-10-30 17:10:14,571 - INFO - No 'Download All' button for 514b7c1e338c68cb34f2a6ea9cdcaf10
+2025-10-30 17:10:15,080 - INFO - [333/647] Processing 29d145ec93723c894512ea57e60eb502 (fy2015_archived_opportunities)
+2025-10-30 17:10:20,338 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/29d145ec93723c894512ea57e60eb502_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:10:21,215 - INFO - [334/647] Processing c2eda859c01a03115336693d686904ed (fy2015_archived_opportunities)
+2025-10-30 17:10:27,749 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c2eda859c01a03115336693d686904ed_DHSFPS_-_Protective_Security_Officer_Services_for_the_State_of_West_Virginia_excluding_Berkley_Jefferson_and_Morgan_Counties_.zip (DHS/FPS - Protective Security Officer Services for the State of West Virginia excluding Berkley, Jefferson and Morgan Counties))
+2025-10-30 17:10:28,560 - INFO - [335/647] Processing fadd698e2a378efad6e89302db18f01f (fy2015_archived_opportunities)
+2025-10-30 17:10:41,779 - INFO - No 'Download All' button for fadd698e2a378efad6e89302db18f01f
+2025-10-30 17:10:42,722 - INFO - [336/647] Processing fa3c9851e8aa5fe1ecfeb22038377992 (fy2015_archived_opportunities)
+2025-10-30 17:10:55,922 - INFO - No 'Download All' button for fa3c9851e8aa5fe1ecfeb22038377992
+2025-10-30 17:10:56,886 - INFO - [337/647] Processing c7a03941a8e2e2a6962d7be9b25484e9 (fy2015_archived_opportunities)
+2025-10-30 17:11:03,651 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c7a03941a8e2e2a6962d7be9b25484e9_NETC_Professional_Armed_Security_Services_.zip (NETC Professional Armed Security Services)
+2025-10-30 17:11:04,536 - INFO - [338/647] Processing 71d3ce378e502a92aeaa8dc872fb36e7 (fy2015_archived_opportunities)
+2025-10-30 17:11:49,540 - WARNING - Navigation timed out for https://sam.gov/workspace/contract/opp/71d3ce378e502a92aeaa8dc872fb36e7/view
+2025-10-30 17:11:50,302 - INFO - [339/647] Processing cb415566e96ec8efee2b1e510deff954 (fy2015_archived_opportunities)
+2025-10-30 17:11:55,518 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/cb415566e96ec8efee2b1e510deff954_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:11:56,395 - INFO - [340/647] Processing b0af529635f081de971ee8bcc0f9b097 (fy2015_archived_opportunities)
+2025-10-30 17:12:09,587 - INFO - No 'Download All' button for b0af529635f081de971ee8bcc0f9b097
+2025-10-30 17:12:10,197 - INFO - [341/647] Processing b1b7a113b8df490ef3f7446facab0288 (fy2015_archived_opportunities)
+2025-10-30 17:12:26,442 - INFO - No 'Download All' button for b1b7a113b8df490ef3f7446facab0288
+2025-10-30 17:12:27,392 - INFO - [342/647] Processing d87e57b733d808de72c689338cf9a602 (fy2015_archived_opportunities)
+2025-10-30 17:12:33,170 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/d87e57b733d808de72c689338cf9a602_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:12:33,927 - INFO - [343/647] Processing 1d7dfdf7b78b47422d484b742fcf33b3 (fy2015_archived_opportunities)
+2025-10-30 17:12:39,119 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/1d7dfdf7b78b47422d484b742fcf33b3_Screening_Partnership_Program_Industry_Day_2015.zip (Screening Partnership Program Industry Day 2015)
+2025-10-30 17:12:40,118 - INFO - [344/647] Processing 3acd19efeaab9687972f5ff47f618607 (fy2015_archived_opportunities)
+2025-10-30 17:12:46,007 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/3acd19efeaab9687972f5ff47f618607_DHSFPS_-_Protective_Security_Officer_Services_for_the_State_of_West_Virginia_excluding_Berkley_Jefferson_and_Morgan_Counties_.zip (DHS/FPS - Protective Security Officer Services for the State of West Virginia excluding Berkley, Jefferson and Morgan Counties))
+2025-10-30 17:12:46,568 - INFO - [345/647] Processing 5927563ead6565ea705fbf230c30fc5e (fy2015_archived_opportunities)
+2025-10-30 17:12:51,311 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/5927563ead6565ea705fbf230c30fc5e_4086-NJ_Security_Guards_for_SRFO-NJ_Eatontown_NJ.zip (4086-NJ; Security Guards for SRFO-NJ, Eatontown, NJ)
+2025-10-30 17:12:52,022 - INFO - [346/647] Processing 187ef819080455e46206fbe86c5dda7f (fy2015_archived_opportunities)
+2025-10-30 17:13:05,222 - INFO - No 'Download All' button for 187ef819080455e46206fbe86c5dda7f
+2025-10-30 17:13:06,092 - INFO - [347/647] Processing 6b750d9b22a5db74a80b16c2261b6db0 (fy2015_archived_opportunities)
+2025-10-30 17:13:12,680 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/6b750d9b22a5db74a80b16c2261b6db0_Protective_Security_Officer_Services.zip (Protective Security Officer Services)
+2025-10-30 17:13:13,196 - INFO - [348/647] Processing d6110626034e34cbcb68c4340ebf4a0b (fy2015_archived_opportunities)
+2025-10-30 17:13:19,340 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/d6110626034e34cbcb68c4340ebf4a0b_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:13:20,154 - INFO - [349/647] Processing 16a4e66da464dc2b4cc9d8b3c1061f18 (fy2015_archived_opportunities)
+2025-10-30 17:13:29,141 - INFO - No 'Download All' button for 16a4e66da464dc2b4cc9d8b3c1061f18
+2025-10-30 17:13:29,797 - INFO - [350/647] Processing 3d3b71cca848051de5fb881c79bce713 (fy2015_archived_opportunities)
+2025-10-30 17:13:38,766 - INFO - No 'Download All' button for 3d3b71cca848051de5fb881c79bce713
+2025-10-30 17:13:39,292 - INFO - [351/647] Processing c7d4c7b24582dc088f9dc9f59802279c (fy2015_archived_opportunities)
+2025-10-30 17:13:52,503 - INFO - No 'Download All' button for c7d4c7b24582dc088f9dc9f59802279c
+2025-10-30 17:13:53,451 - INFO - [352/647] Processing db16329c2a7c1b60976c56044a5f99f5 (fy2015_archived_opportunities)
+2025-10-30 17:14:06,653 - INFO - No 'Download All' button for db16329c2a7c1b60976c56044a5f99f5
+2025-10-30 17:14:07,280 - INFO - [353/647] Processing 3e1dbbede9a73b1e8b551d7a8c9e847f (fy2015_archived_opportunities)
+2025-10-30 17:14:16,295 - INFO - No 'Download All' button for 3e1dbbede9a73b1e8b551d7a8c9e847f
+2025-10-30 17:14:17,196 - INFO - [354/647] Processing ab58f2a04db84454ddab3872fd85d4b4 (fy2015_archived_opportunities)
+2025-10-30 17:14:22,821 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ab58f2a04db84454ddab3872fd85d4b4_Screening_Partnership_Program_Industry_Day_2015.zip (Screening Partnership Program Industry Day 2015)
+2025-10-30 17:14:23,414 - INFO - [355/647] Processing ff0fead1d629728035073e8e779a27f4 (fy2015_archived_opportunities)
+2025-10-30 17:14:36,609 - INFO - No 'Download All' button for ff0fead1d629728035073e8e779a27f4
+2025-10-30 17:14:37,473 - INFO - [356/647] Processing 02ad8d62f77499bd5df88f21e46580e5 (fy2015_archived_opportunities)
+2025-10-30 17:14:50,639 - INFO - No 'Download All' button for 02ad8d62f77499bd5df88f21e46580e5
+2025-10-30 17:14:51,277 - INFO - [357/647] Processing 6ad03c6b63dd0089b250eecfb3fe54ab (fy2015_archived_opportunities)
+2025-10-30 17:15:00,197 - INFO - No 'Download All' button for 6ad03c6b63dd0089b250eecfb3fe54ab
+2025-10-30 17:15:01,180 - INFO - [358/647] Processing dddb2eb3e8b4fd137373b66312f41787 (fy2015_archived_opportunities)
+2025-10-30 17:15:10,511 - INFO - No 'Download All' button for dddb2eb3e8b4fd137373b66312f41787
+2025-10-30 17:15:11,349 - INFO - [359/647] Processing ec7d76f7e959444db3a91b7c2e093b1d (fy2015_archived_opportunities)
+2025-10-30 17:15:24,556 - INFO - No 'Download All' button for ec7d76f7e959444db3a91b7c2e093b1d
+2025-10-30 17:15:25,407 - INFO - [360/647] Processing 2fe43fb00cccd95f86355a6f4f127123 (fy2015_archived_opportunities)
+2025-10-30 17:15:31,559 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2fe43fb00cccd95f86355a6f4f127123_Protective_Security_Officer_Services.zip (Protective Security Officer Services)
+2025-10-30 17:15:32,185 - INFO - [361/647] Processing 4d0bf3218e9b73df93e3f26c594bcba3 (fy2015_archived_opportunities)
+2025-10-30 17:15:45,351 - INFO - No 'Download All' button for 4d0bf3218e9b73df93e3f26c594bcba3
+2025-10-30 17:15:45,974 - INFO - [362/647] Processing 395913d6a3c0133cfa0cef8fa6a50be0 (fy2015_archived_opportunities)
+2025-10-30 17:16:00,166 - INFO - No 'Download All' button for 395913d6a3c0133cfa0cef8fa6a50be0
+2025-10-30 17:16:01,058 - INFO - [363/647] Processing 3fe51c34fde98b64dd5087d7e35cd707 (fy2015_archived_opportunities)
+2025-10-30 17:16:14,233 - INFO - No 'Download All' button for 3fe51c34fde98b64dd5087d7e35cd707
+2025-10-30 17:16:15,234 - INFO - [364/647] Processing fea0b5cefcf7512d3553ad983b413b0d (fy2015_archived_opportunities)
+2025-10-30 17:16:29,459 - INFO - No 'Download All' button for fea0b5cefcf7512d3553ad983b413b0d
+2025-10-30 17:16:30,300 - INFO - [365/647] Processing ae5530518d1a23591566b5b153d567c0 (fy2015_archived_opportunities)
+2025-10-30 17:16:36,060 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ae5530518d1a23591566b5b153d567c0_Synopsis_of_an_Indefinite_Delivery_Indefinite_Quantity_IDIQ_Solicitation..zip (Synopsis of an Indefinite Delivery, Indefinite Quantity (IDIQ) Solicitation.)
+2025-10-30 17:16:36,761 - INFO - [366/647] Processing 05d95ac5ab3639cfbde6faff12df77c9 (fy2015_archived_opportunities)
+2025-10-30 17:16:41,405 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/05d95ac5ab3639cfbde6faff12df77c9_S--Security_Guard_Services_at_Chief_Joseph_Dam_Bridgeport_WA.zip (S--Security Guard Services at Chief Joseph Dam, Bridgeport, WA)
+2025-10-30 17:16:42,287 - INFO - [367/647] Processing 8f27e1e3c1143dc9c890aee982da9e0e (fy2015_archived_opportunities)
+2025-10-30 17:16:51,222 - INFO - No 'Download All' button for 8f27e1e3c1143dc9c890aee982da9e0e
+2025-10-30 17:16:52,097 - INFO - [368/647] Processing dae30de45d6b3153477bbed44d7f9b7c (fy2015_archived_opportunities)
+2025-10-30 17:17:05,305 - INFO - No 'Download All' button for dae30de45d6b3153477bbed44d7f9b7c
+2025-10-30 17:17:06,268 - INFO - [369/647] Processing 1dddb2e5a6536876faa3afedf2a4fcfc (fy2015_archived_opportunities)
+2025-10-30 17:17:15,383 - INFO - No 'Download All' button for 1dddb2e5a6536876faa3afedf2a4fcfc
+2025-10-30 17:17:16,377 - INFO - [370/647] Processing b775fb4d2081c81930560adcf4e67f43 (fy2015_archived_opportunities)
+2025-10-30 17:17:29,537 - INFO - No 'Download All' button for b775fb4d2081c81930560adcf4e67f43
+2025-10-30 17:17:30,356 - INFO - [371/647] Processing 83b8a1d093b8d780982b2c057ffca9c7 (fy2015_archived_opportunities)
+2025-10-30 17:17:39,302 - INFO - No 'Download All' button for 83b8a1d093b8d780982b2c057ffca9c7
+2025-10-30 17:17:40,132 - INFO - [372/647] Processing 381998e3b8933b9296192020c914679a (fy2015_archived_opportunities)
+2025-10-30 17:17:46,794 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/381998e3b8933b9296192020c914679a_Protective_Security_Officer_Services.zip (Protective Security Officer Services)
+2025-10-30 17:17:47,380 - INFO - [373/647] Processing 18f4242936a9dc4f4feb6e94df198a49 (fy2015_archived_opportunities)
+2025-10-30 17:18:00,649 - INFO - No 'Download All' button for 18f4242936a9dc4f4feb6e94df198a49
+2025-10-30 17:18:01,463 - INFO - [374/647] Processing 66a9bf80f8b102d9f9b008ca727e055b (fy2015_archived_opportunities)
+2025-10-30 17:18:07,628 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/66a9bf80f8b102d9f9b008ca727e055b_Protective_Security_Officer_Services.zip (Protective Security Officer Services)
+2025-10-30 17:18:08,281 - INFO - [375/647] Processing 12229191404d8c0c97f2f076671b4482 (fy2015_archived_opportunities)
+2025-10-30 17:18:13,088 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/12229191404d8c0c97f2f076671b4482_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:18:13,825 - INFO - [376/647] Processing 1b816f56d1c9b57a9305bef50cbe356e (fy2015_archived_opportunities)
+2025-10-30 17:18:18,663 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/1b816f56d1c9b57a9305bef50cbe356e_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:18:19,460 - INFO - [377/647] Processing c9d15f2445346cf34c7071b368c7d2d0 (fy2015_archived_opportunities)
+2025-10-30 17:18:32,604 - INFO - No 'Download All' button for c9d15f2445346cf34c7071b368c7d2d0
+2025-10-30 17:18:33,153 - INFO - [378/647] Processing a5e11381b16c2f7557dd94054d0e73a6 (fy2015_archived_opportunities)
+2025-10-30 17:18:43,236 - INFO - No 'Download All' button for a5e11381b16c2f7557dd94054d0e73a6
+2025-10-30 17:18:44,166 - INFO - [379/647] Processing 47cf8dd6a4d442ae430e590a1fcc1ba2 (fy2015_archived_opportunities)
+2025-10-30 17:18:50,602 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/47cf8dd6a4d442ae430e590a1fcc1ba2_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:18:51,192 - INFO - [380/647] Processing 0b13c5e4b8256de7d67caeef20e38030 (fy2015_archived_opportunities)
+2025-10-30 17:19:04,378 - INFO - No 'Download All' button for 0b13c5e4b8256de7d67caeef20e38030
+2025-10-30 17:19:05,358 - INFO - [381/647] Processing 113b3d0870e76ecb98a47e764fce48e1 (fy2015_archived_opportunities)
+2025-10-30 17:19:14,267 - INFO - No 'Download All' button for 113b3d0870e76ecb98a47e764fce48e1
+2025-10-30 17:19:14,979 - INFO - [382/647] Processing 9f4da5f85b496a609b9ae54b3dd87f0e (fy2015_archived_opportunities)
+2025-10-30 17:19:23,969 - INFO - No 'Download All' button for 9f4da5f85b496a609b9ae54b3dd87f0e
+2025-10-30 17:19:24,955 - INFO - [383/647] Processing 0889d1371a2cbe220ce0b940c07e9dd4 (fy2015_archived_opportunities)
+2025-10-30 17:19:33,898 - INFO - No 'Download All' button for 0889d1371a2cbe220ce0b940c07e9dd4
+2025-10-30 17:19:34,457 - INFO - [384/647] Processing 5768676936b6603793ece1133ea476a9 (fy2015_archived_opportunities)
+2025-10-30 17:19:50,712 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/5768676936b6603793ece1133ea476a9_COURT_SECURITY_OFFICERS_SERVICES.zip (COURT SECURITY OFFICERS SERVICES)
+2025-10-30 17:19:51,444 - INFO - [385/647] Processing a17d14164d7b971f31bd0c91de925bed (fy2015_archived_opportunities)
+2025-10-30 17:19:56,508 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/a17d14164d7b971f31bd0c91de925bed_Armed_Guard_Services_in_Support_of_Disaster_Operations.zip (Armed Guard Services in Support of Disaster Operations)
+2025-10-30 17:19:57,139 - INFO - [386/647] Processing 13bf1df0ac8beb216d1a57d0f93b1e31 (fy2015_archived_opportunities)
+2025-10-30 17:20:01,861 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/13bf1df0ac8beb216d1a57d0f93b1e31_Armed_Guard_Services_in_Support_of_Disaster_Operations.zip (Armed Guard Services in Support of Disaster Operations)
+2025-10-30 17:20:02,480 - INFO - [387/647] Processing 2eb78e438208e3aeda512895e5bb67e4 (fy2015_archived_opportunities)
+2025-10-30 17:20:08,626 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2eb78e438208e3aeda512895e5bb67e4_Armed_Guard_Services_in_Support_of_Disaster_Operations.zip (Armed Guard Services in Support of Disaster Operations)
+2025-10-30 17:20:09,511 - INFO - [388/647] Processing b2c009ab00fe68b16c4aa5322d138cba (fy2015_archived_opportunities)
+2025-10-30 17:20:14,390 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b2c009ab00fe68b16c4aa5322d138cba_Synopsis_of_an_Indefinite_Delivery_Indefinite_Quantity_IDIQ_Solicitation..zip (Synopsis of an Indefinite Delivery, Indefinite Quantity (IDIQ) Solicitation.)
+2025-10-30 17:20:15,300 - INFO - [389/647] Processing a4c8045c85bf84210d7d0916290a215d (fy2015_archived_opportunities)
+2025-10-30 17:20:20,539 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/a4c8045c85bf84210d7d0916290a215d_Screening_Partnership_Program_Industry_Day_2015.zip (Screening Partnership Program Industry Day 2015)
+2025-10-30 17:20:21,123 - INFO - [390/647] Processing cf729dc57d2149e3ca8b497c27190cdd (fy2015_archived_opportunities)
+2025-10-30 17:20:30,081 - INFO - No 'Download All' button for cf729dc57d2149e3ca8b497c27190cdd
+2025-10-30 17:20:30,675 - INFO - [391/647] Processing 234f67454888a762ea56edab13f18b31 (fy2015_archived_opportunities)
+2025-10-30 17:20:35,948 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/234f67454888a762ea56edab13f18b31_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:20:36,904 - INFO - [392/647] Processing eb8fa9a63865b50defb0b52bda437554 (fy2015_archived_opportunities)
+2025-10-30 17:20:50,118 - INFO - No 'Download All' button for eb8fa9a63865b50defb0b52bda437554
+2025-10-30 17:20:50,731 - INFO - [393/647] Processing c82a8fa4739f8ed7b60b5f0050c9aa5a (fy2015_archived_opportunities)
+2025-10-30 17:21:03,906 - INFO - No 'Download All' button for c82a8fa4739f8ed7b60b5f0050c9aa5a
+2025-10-30 17:21:04,709 - INFO - [394/647] Processing 2656d75328b35738c184fefd68a8af33 (fy2015_archived_opportunities)
+2025-10-30 17:21:17,895 - INFO - No 'Download All' button for 2656d75328b35738c184fefd68a8af33
+2025-10-30 17:21:18,857 - INFO - [395/647] Processing 143f8dad78f5071d03ca84a1f3c6d5f5 (fy2015_archived_opportunities)
+2025-10-30 17:21:32,030 - INFO - No 'Download All' button for 143f8dad78f5071d03ca84a1f3c6d5f5
+2025-10-30 17:21:33,019 - INFO - [396/647] Processing 0a3f9b5561c5dff024b11060ef3fdecb (fy2015_archived_opportunities)
+2025-10-30 17:21:46,181 - INFO - No 'Download All' button for 0a3f9b5561c5dff024b11060ef3fdecb
+2025-10-30 17:21:46,833 - INFO - [397/647] Processing 9cf8b53af51fc0f786b96746b607af05 (fy2015_archived_opportunities)
+2025-10-30 17:22:00,057 - INFO - No 'Download All' button for 9cf8b53af51fc0f786b96746b607af05
+2025-10-30 17:22:00,729 - INFO - [398/647] Processing 811d7a98f55436389251ba4b28e245ee (fy2015_archived_opportunities)
+2025-10-30 17:22:09,747 - INFO - No 'Download All' button for 811d7a98f55436389251ba4b28e245ee
+2025-10-30 17:22:10,373 - INFO - [399/647] Processing cf4e06409c5871e073a09a02bbe774b9 (fy2015_archived_opportunities)
+2025-10-30 17:22:15,894 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/cf4e06409c5871e073a09a02bbe774b9_Alarm_Monitoring_Personnel.zip (Alarm Monitoring Personnel)
+2025-10-30 17:22:16,619 - INFO - [400/647] Processing bf71e68fb7215d146e20c0276af57bda (fy2015_archived_opportunities)
+2025-10-30 17:22:25,526 - INFO - No 'Download All' button for bf71e68fb7215d146e20c0276af57bda
+2025-10-30 17:22:26,364 - INFO - [401/647] Processing 41d4496bd4048d657d745187ea9382f1 (fy2015_archived_opportunities)
+2025-10-30 17:22:35,305 - INFO - No 'Download All' button for 41d4496bd4048d657d745187ea9382f1
+2025-10-30 17:22:35,859 - INFO - [402/647] Processing 8eb9f8064f24b0ddd7b1495a237c1adc (fy2015_archived_opportunities)
+2025-10-30 17:22:48,300 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/8eb9f8064f24b0ddd7b1495a237c1adc_COURT_SECURITY_OFFICERS_SERVICES.zip (COURT SECURITY OFFICERS SERVICES)
+2025-10-30 17:22:49,060 - INFO - [403/647] Processing 869c314ba4218c0664ebf65773160669 (fy2015_archived_opportunities)
+2025-10-30 17:23:02,255 - INFO - No 'Download All' button for 869c314ba4218c0664ebf65773160669
+2025-10-30 17:23:03,013 - INFO - [404/647] Processing 99a7d2f3417cda5bb0f80fb1d7ff4bc3 (fy2015_archived_opportunities)
+2025-10-30 17:23:08,768 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/99a7d2f3417cda5bb0f80fb1d7ff4bc3_2015_SOCOM_SOF_Week_Tampa_Police_Support.zip (2015 SOCOM SOF Week Tampa Police Support)
+2025-10-30 17:23:09,301 - INFO - [405/647] Processing 06a24d0e4b00604ecb802124907486d3 (fy2015_archived_opportunities)
+2025-10-30 17:23:14,255 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/06a24d0e4b00604ecb802124907486d3_Unarmed_Guard_Services.zip (Unarmed Guard Services)
+2025-10-30 17:23:15,107 - INFO - [406/647] Processing 6cd0c34ce03e6621a136da9baa184585 (fy2015_archived_opportunities)
+2025-10-30 17:23:26,116 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/6cd0c34ce03e6621a136da9baa184585_COURT_SECURITY_OFFICERS_SERVICES.zip (COURT SECURITY OFFICERS SERVICES)
+2025-10-30 17:23:26,775 - INFO - [407/647] Processing 336d93a5bb7dc9406c6508544375d9b0 (fy2015_archived_opportunities)
+2025-10-30 17:23:36,106 - INFO - No 'Download All' button for 336d93a5bb7dc9406c6508544375d9b0
+2025-10-30 17:23:37,031 - INFO - [408/647] Processing 81cb924396b5ac80aa5fcddd115711f8 (fy2015_archived_opportunities)
+2025-10-30 17:23:42,705 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/81cb924396b5ac80aa5fcddd115711f8_S--Special_Notice_-_Intent_to_sole_source_security_gate_on_Coastal_Boardwalk.zip (S--Special Notice - Intent to sole source security gate on Coastal Boardwalk)
+2025-10-30 17:23:43,697 - INFO - [409/647] Processing e9df1a514c6f05b627582aded4aadcb7 (fy2015_archived_opportunities)
+2025-10-30 17:23:49,949 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e9df1a514c6f05b627582aded4aadcb7_NETC_Professional_Armed_Security_Services_.zip (NETC Professional Armed Security Services)
+2025-10-30 17:23:50,530 - INFO - [410/647] Processing 53bcad1cd77d766a9cbd60026074cf20 (fy2015_archived_opportunities)
+2025-10-30 17:24:03,927 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/53bcad1cd77d766a9cbd60026074cf20_COURT_SECURITY_OFFICERS_SERVICES.zip (COURT SECURITY OFFICERS SERVICES)
+2025-10-30 17:24:04,597 - INFO - [411/647] Processing 12cd811479d9d3360ece2e2168b30b84 (fy2015_archived_opportunities)
+2025-10-30 17:24:17,970 - INFO - No 'Download All' button for 12cd811479d9d3360ece2e2168b30b84
+2025-10-30 17:24:18,506 - INFO - [412/647] Processing 9120acd00b4d494aff66e244ec5804b6 (fy2015_archived_opportunities)
+2025-10-30 17:24:31,691 - INFO - No 'Download All' button for 9120acd00b4d494aff66e244ec5804b6
+2025-10-30 17:24:32,253 - INFO - [413/647] Processing fc8b87431c53881e7ac41b728d53e8f5 (fy2015_archived_opportunities)
+2025-10-30 17:24:45,480 - INFO - No 'Download All' button for fc8b87431c53881e7ac41b728d53e8f5
+2025-10-30 17:24:46,361 - INFO - [414/647] Processing d492dcad7801b005cf1e21dfc2e7f5e6 (fy2015_archived_opportunities)
+2025-10-30 17:24:56,388 - INFO - No 'Download All' button for d492dcad7801b005cf1e21dfc2e7f5e6
+2025-10-30 17:24:57,193 - INFO - [415/647] Processing 77ce9f9b3ad020edd74c50af8eae3c7c (fy2015_archived_opportunities)
+2025-10-30 17:25:02,486 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/77ce9f9b3ad020edd74c50af8eae3c7c_Security_Guard_and_Patrol_Services.zip (Security Guard and Patrol Services)
+2025-10-30 17:25:03,375 - INFO - [416/647] Processing 3b63ea1dbc71ac82a4a0ba695da44004 (fy2015_archived_opportunities)
+2025-10-30 17:25:08,217 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/3b63ea1dbc71ac82a4a0ba695da44004_Security_Guard_and_Patrol_Services.zip (Security Guard and Patrol Services)
+2025-10-30 17:25:08,766 - INFO - [417/647] Processing 5041775f2eecdb8f477e4aa71891a18f (fy2015_archived_opportunities)
+2025-10-30 17:25:22,629 - INFO - No 'Download All' button for 5041775f2eecdb8f477e4aa71891a18f
+2025-10-30 17:25:23,526 - INFO - [418/647] Processing d9163aa006c6d03437a4b9a9ee322e32 (fy2015_archived_opportunities)
+2025-10-30 17:25:36,681 - INFO - No 'Download All' button for d9163aa006c6d03437a4b9a9ee322e32
+2025-10-30 17:25:37,205 - INFO - [419/647] Processing 72f954f2fd4b8b09426c76c52b48beb5 (fy2015_archived_opportunities)
+2025-10-30 17:25:50,403 - INFO - No 'Download All' button for 72f954f2fd4b8b09426c76c52b48beb5
+2025-10-30 17:25:51,187 - INFO - [420/647] Processing 8cd133b1ce0d2a26732bdef0680ccd1b (fy2015_archived_opportunities)
+2025-10-30 17:26:00,854 - INFO - No 'Download All' button for 8cd133b1ce0d2a26732bdef0680ccd1b
+2025-10-30 17:26:01,720 - INFO - [421/647] Processing 7b531ace9eeba0929966f7982dc04b9c (fy2015_archived_opportunities)
+2025-10-30 17:26:14,896 - INFO - No 'Download All' button for 7b531ace9eeba0929966f7982dc04b9c
+2025-10-30 17:26:15,745 - INFO - [422/647] Processing 01595c5453394b6b8c229b27549d3a11 (fy2015_archived_opportunities)
+2025-10-30 17:26:24,966 - INFO - No 'Download All' button for 01595c5453394b6b8c229b27549d3a11
+2025-10-30 17:26:25,774 - INFO - [423/647] Processing 1aa2d6248243dd6e5bb727c3926fd6ed (fy2015_archived_opportunities)
+2025-10-30 17:26:31,300 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/1aa2d6248243dd6e5bb727c3926fd6ed_S--Security_Guard_Services_USGS_EROS.zip (S--Security Guard Services USGS EROS)
+2025-10-30 17:26:32,012 - INFO - [424/647] Processing 7745131ca6f6b382fac80eeeed291342 (fy2015_archived_opportunities)
+2025-10-30 17:26:38,346 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7745131ca6f6b382fac80eeeed291342_Security_Guard_and_Patrol_Services.zip (Security Guard and Patrol Services)
+2025-10-30 17:26:39,216 - INFO - [425/647] Processing b38309998af16100da0efbab8ddab3b9 (fy2015_archived_opportunities)
+2025-10-30 17:26:52,392 - INFO - No 'Download All' button for b38309998af16100da0efbab8ddab3b9
+2025-10-30 17:26:52,896 - INFO - [426/647] Processing 2acde0af553945e113722b3f1aedd27b (fy2015_archived_opportunities)
+2025-10-30 17:27:07,092 - INFO - No 'Download All' button for 2acde0af553945e113722b3f1aedd27b
+2025-10-30 17:27:08,006 - INFO - [427/647] Processing 0b9cb9f965261671b3d584cfbe622e8f (fy2015_archived_opportunities)
+2025-10-30 17:27:21,222 - INFO - No 'Download All' button for 0b9cb9f965261671b3d584cfbe622e8f
+2025-10-30 17:27:22,032 - INFO - [428/647] Processing 36035f06488639d8e7613bf477d26e80 (fy2015_archived_opportunities)
+2025-10-30 17:27:35,187 - INFO - No 'Download All' button for 36035f06488639d8e7613bf477d26e80
+2025-10-30 17:27:35,992 - INFO - [429/647] Processing e37cca30ffc65bee5dd9fafee1ca0c64 (fy2015_archived_opportunities)
+2025-10-30 17:27:42,166 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e37cca30ffc65bee5dd9fafee1ca0c64_Armed_Security_Guard_Services_for_Bagram_and_Jalalabad_Airfield_Flight_Lines.zip (Armed Security Guard Services for Bagram and Jalalabad Airfield Flight Lines)
+2025-10-30 17:27:43,118 - INFO - [430/647] Processing 53fd52ead2120ac35a579bc884bddb44 (fy2015_archived_opportunities)
+2025-10-30 17:27:47,869 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/53fd52ead2120ac35a579bc884bddb44_Security_Guard_and_Patrol_Services.zip (Security Guard and Patrol Services)
+2025-10-30 17:27:48,847 - INFO - [431/647] Processing 7d25cc3c27d59d6a0aff5cb0400d9566 (fy2015_archived_opportunities)
+2025-10-30 17:28:02,019 - INFO - No 'Download All' button for 7d25cc3c27d59d6a0aff5cb0400d9566
+2025-10-30 17:28:02,988 - INFO - [432/647] Processing d0081e18308146f4a6316cc142d6a695 (fy2015_archived_opportunities)
+2025-10-30 17:28:16,156 - INFO - No 'Download All' button for d0081e18308146f4a6316cc142d6a695
+2025-10-30 17:28:17,034 - INFO - [433/647] Processing 3ec747c989d3c0b292431efbaa904d98 (fy2015_archived_opportunities)
+2025-10-30 17:28:22,393 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/3ec747c989d3c0b292431efbaa904d98_Synopsis_of_an_Indefinite_Delivery_Indefinite_Quantity_IDIQ_Solicitation..zip (Synopsis of an Indefinite Delivery, Indefinite Quantity (IDIQ) Solicitation.)
+2025-10-30 17:28:23,154 - INFO - [434/647] Processing 48db09cdb74a75503d7e21db25556965 (fy2015_archived_opportunities)
+2025-10-30 17:28:28,123 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/48db09cdb74a75503d7e21db25556965_Synopsis_of_an_Indefinite_Delivery_Indefinite_Quantity_IDIQ_Solicitation..zip (Synopsis of an Indefinite Delivery, Indefinite Quantity (IDIQ) Solicitation.)
+2025-10-30 17:28:28,751 - INFO - [435/647] Processing cb2a5f60315103c326a7be9281efc904 (fy2015_archived_opportunities)
+2025-10-30 17:28:41,936 - INFO - No 'Download All' button for cb2a5f60315103c326a7be9281efc904
+2025-10-30 17:28:42,619 - INFO - [436/647] Processing 2775b1b1f2142cdb45ac5b30c95ba7b7 (fy2015_archived_opportunities)
+2025-10-30 17:28:47,826 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/2775b1b1f2142cdb45ac5b30c95ba7b7_Synopsis_of_an_Indefinite_Delivery_Indefinite_Quantity_IDIQ_Solicitation..zip (Synopsis of an Indefinite Delivery, Indefinite Quantity (IDIQ) Solicitation.)
+2025-10-30 17:28:48,555 - INFO - [437/647] Processing da21c7382eb9779f19e5aa8ab457bc37 (fy2015_archived_opportunities)
+2025-10-30 17:29:01,786 - INFO - No 'Download All' button for da21c7382eb9779f19e5aa8ab457bc37
+2025-10-30 17:29:02,756 - INFO - [438/647] Processing 77152b55d8386b16c72f83ea5fb8c743 (fy2015_archived_opportunities)
+2025-10-30 17:29:11,730 - INFO - No 'Download All' button for 77152b55d8386b16c72f83ea5fb8c743
+2025-10-30 17:29:12,585 - INFO - [439/647] Processing 5330bacc7c2d0b6039e8f941461ecd68 (fy2015_archived_opportunities)
+2025-10-30 17:29:19,951 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/5330bacc7c2d0b6039e8f941461ecd68_Armed_Security_Guard_Services_for_Bagram_and_Jalalabad_Airfield_Flight_Lines.zip (Armed Security Guard Services for Bagram and Jalalabad Airfield Flight Lines)
+2025-10-30 17:29:20,595 - INFO - [440/647] Processing 7f2ac55bcb910b2261b7fc57662e731f (fy2015_archived_opportunities)
+2025-10-30 17:29:25,178 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7f2ac55bcb910b2261b7fc57662e731f_Synopsis_of_6_month_extension_of_services.zip (Synopsis of 6 month extension of services)
+2025-10-30 17:29:25,878 - INFO - [441/647] Processing 406bdc8010544a601657b5d8f6e72d69 (fy2015_archived_opportunities)
+2025-10-30 17:29:41,096 - INFO - No 'Download All' button for 406bdc8010544a601657b5d8f6e72d69
+2025-10-30 17:29:41,634 - INFO - [442/647] Processing edb5d9a97d9c6bd79ea5144fc87ced93 (fy2015_archived_opportunities)
+2025-10-30 17:29:54,852 - INFO - No 'Download All' button for edb5d9a97d9c6bd79ea5144fc87ced93
+2025-10-30 17:29:55,363 - INFO - [443/647] Processing cee88796ae76f3092cf51395460d1425 (fy2015_archived_opportunities)
+2025-10-30 17:30:08,577 - INFO - No 'Download All' button for cee88796ae76f3092cf51395460d1425
+2025-10-30 17:30:09,175 - INFO - [444/647] Processing a3dd9839d3f6a712fb50b738fd056f06 (fy2015_archived_opportunities)
+2025-10-30 17:30:22,337 - INFO - No 'Download All' button for a3dd9839d3f6a712fb50b738fd056f06
+2025-10-30 17:30:23,316 - INFO - [445/647] Processing 227bad210d8e1ee58eda7be5c00c5881 (fy2015_archived_opportunities)
+2025-10-30 17:30:36,487 - INFO - No 'Download All' button for 227bad210d8e1ee58eda7be5c00c5881
+2025-10-30 17:30:37,412 - INFO - [446/647] Processing 42c5d799ffdf8f342a1abd60ad04fe1b (fy2015_archived_opportunities)
+2025-10-30 17:30:43,543 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/42c5d799ffdf8f342a1abd60ad04fe1b_SBX-1_Security_Services.zip (SBX-1 Security Services)
+2025-10-30 17:30:44,063 - INFO - [447/647] Processing 59557c093694981b5457f46ced5b9455 (fy2015_archived_opportunities)
+2025-10-30 17:30:51,644 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/59557c093694981b5457f46ced5b9455_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:30:52,553 - INFO - [448/647] Processing b66fc4f0683cc5e2fb67c9cc6434f600 (fy2015_archived_opportunities)
+2025-10-30 17:31:01,539 - INFO - No 'Download All' button for b66fc4f0683cc5e2fb67c9cc6434f600
+2025-10-30 17:31:02,427 - INFO - [449/647] Processing 1a7395f27deffe355a39ea961f7bc1ca (fy2015_archived_opportunities)
+2025-10-30 17:31:11,352 - INFO - No 'Download All' button for 1a7395f27deffe355a39ea961f7bc1ca
+2025-10-30 17:31:12,062 - INFO - [450/647] Processing 401bfe8c5572f56d36da336753a1a5ed (fy2015_archived_opportunities)
+2025-10-30 17:31:21,969 - INFO - No 'Download All' button for 401bfe8c5572f56d36da336753a1a5ed
+2025-10-30 17:31:22,539 - INFO - [451/647] Processing ca1a432cfba0e4b2df7f9c4c7b20fe86 (fy2015_archived_opportunities)
+2025-10-30 17:31:32,551 - INFO - No 'Download All' button for ca1a432cfba0e4b2df7f9c4c7b20fe86
+2025-10-30 17:31:33,122 - INFO - [452/647] Processing d2db19977bd961819a10a50d38d4a5d4 (fy2015_archived_opportunities)
+2025-10-30 17:31:42,085 - INFO - No 'Download All' button for d2db19977bd961819a10a50d38d4a5d4
+2025-10-30 17:31:42,843 - INFO - [453/647] Processing 77ff4e3a9d95617aec5325f571c5866b (fy2015_archived_opportunities)
+2025-10-30 17:31:51,785 - INFO - No 'Download All' button for 77ff4e3a9d95617aec5325f571c5866b
+2025-10-30 17:31:52,655 - INFO - [454/647] Processing ace3ec17d18b0062931d234713922cca (fy2015_archived_opportunities)
+2025-10-30 17:32:00,719 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ace3ec17d18b0062931d234713922cca_Armed_Security_Guard_Services_for_Bagram_and_Jalalabad_Airfield_Flight_Lines.zip (Armed Security Guard Services for Bagram and Jalalabad Airfield Flight Lines)
+2025-10-30 17:32:01,479 - INFO - [455/647] Processing 19e293db6ca7e92a65fc1ef58cbd04bd (fy2015_archived_opportunities)
+2025-10-30 17:32:06,413 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/19e293db6ca7e92a65fc1ef58cbd04bd_S--Security_Guard_Services_USGS_EROS.zip (S--Security Guard Services USGS EROS)
+2025-10-30 17:32:07,067 - INFO - [456/647] Processing 1eb133f7474a540954290a048c092b2a (fy2015_archived_opportunities)
+2025-10-30 17:32:20,385 - INFO - No 'Download All' button for 1eb133f7474a540954290a048c092b2a
+2025-10-30 17:32:21,281 - INFO - [457/647] Processing 8cff0ae483e32b67b9026f1d2413242c (fy2015_archived_opportunities)
+2025-10-30 17:32:34,445 - INFO - No 'Download All' button for 8cff0ae483e32b67b9026f1d2413242c
+2025-10-30 17:32:35,072 - INFO - [458/647] Processing 9fd9322daf4f18a6005e261f2fd89123 (fy2015_archived_opportunities)
+2025-10-30 17:32:48,253 - INFO - No 'Download All' button for 9fd9322daf4f18a6005e261f2fd89123
+2025-10-30 17:32:49,147 - INFO - [459/647] Processing 7d57fb74f32cf8b6cb2ea084557c82de (fy2015_archived_opportunities)
+2025-10-30 17:32:55,699 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7d57fb74f32cf8b6cb2ea084557c82de_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:32:56,478 - INFO - [460/647] Processing b13b9cdfe0d37e167f42e7a09da6a19b (fy2015_archived_opportunities)
+2025-10-30 17:33:05,433 - INFO - No 'Download All' button for b13b9cdfe0d37e167f42e7a09da6a19b
+2025-10-30 17:33:06,118 - INFO - [461/647] Processing 8cfe55b1924e1e624ef41dae5b0188cd (fy2015_archived_opportunities)
+2025-10-30 17:33:12,545 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/8cfe55b1924e1e624ef41dae5b0188cd_Armed_Security_Guard_Services_for_Bagram_and_Jalalabad_Airfield_Flight_Lines.zip (Armed Security Guard Services for Bagram and Jalalabad Airfield Flight Lines)
+2025-10-30 17:33:13,101 - INFO - [462/647] Processing fdd100a6f01bf69161009055fd48b2ef (fy2015_archived_opportunities)
+2025-10-30 17:33:26,294 - INFO - No 'Download All' button for fdd100a6f01bf69161009055fd48b2ef
+2025-10-30 17:33:27,108 - INFO - [463/647] Processing 38dc729bb50f8a8ed71235d9825c146a (fy2015_archived_opportunities)
+2025-10-30 17:33:37,101 - INFO - No 'Download All' button for 38dc729bb50f8a8ed71235d9825c146a
+2025-10-30 17:33:37,990 - INFO - [464/647] Processing 4e2173b9d0f4b1ce1a91283052c2ae95 (fy2015_archived_opportunities)
+2025-10-30 17:33:51,302 - INFO - No 'Download All' button for 4e2173b9d0f4b1ce1a91283052c2ae95
+2025-10-30 17:33:52,187 - INFO - [465/647] Processing ce038c95a16775a2b1f7e6b2efa2c98d (fy2015_archived_opportunities)
+2025-10-30 17:33:57,949 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ce038c95a16775a2b1f7e6b2efa2c98d_TSA_Screening_Checkpoint_Law_Enforcement_Officer_LEO_.zip (TSA Screening Checkpoint, Law Enforcement Officer (LEO))
+2025-10-30 17:33:58,772 - INFO - [466/647] Processing d095f9c23b5739d30d59d9e2293de4ec (fy2015_archived_opportunities)
+2025-10-30 17:34:12,230 - INFO - No 'Download All' button for d095f9c23b5739d30d59d9e2293de4ec
+2025-10-30 17:34:13,071 - INFO - [467/647] Processing 04572880fd94faafd205639a37f23725 (fy2015_archived_opportunities)
+2025-10-30 17:34:26,253 - INFO - No 'Download All' button for 04572880fd94faafd205639a37f23725
+2025-10-30 17:34:27,097 - INFO - [468/647] Processing 0d1f47a82ece2fbe6bc8606c2a692678 (fy2015_archived_opportunities)
+2025-10-30 17:34:40,247 - INFO - No 'Download All' button for 0d1f47a82ece2fbe6bc8606c2a692678
+2025-10-30 17:34:41,228 - INFO - [469/647] Processing 97619585f5923d457182bac17eabd25c (fy2015_archived_opportunities)
+2025-10-30 17:34:47,860 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/97619585f5923d457182bac17eabd25c_Alarm_Monitor_Personnel.zip (Alarm Monitor Personnel)
+2025-10-30 17:34:48,656 - INFO - [470/647] Processing d0e90f5c380637948ab781da3ba4fc77 (fy2015_archived_opportunities)
+2025-10-30 17:35:02,845 - INFO - No 'Download All' button for d0e90f5c380637948ab781da3ba4fc77
+2025-10-30 17:35:03,429 - INFO - [471/647] Processing 02fe5d823e104e328373f0ca1d5e7af2 (fy2015_archived_opportunities)
+2025-10-30 17:35:11,269 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/02fe5d823e104e328373f0ca1d5e7af2_Contract_Detention_Facility_Houston_Texas_area.zip (Contract Detention Facility Houston Texas area)
+2025-10-30 17:35:12,016 - INFO - [472/647] Processing b14bd7fb2a431b0aabd61ef05d15f8b4 (fy2015_archived_opportunities)
+2025-10-30 17:35:25,182 - INFO - No 'Download All' button for b14bd7fb2a431b0aabd61ef05d15f8b4
+2025-10-30 17:35:25,894 - INFO - [473/647] Processing b6f9ea48ceb4f4df0bb076af18d4a457 (fy2015_archived_opportunities)
+2025-10-30 17:35:32,361 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b6f9ea48ceb4f4df0bb076af18d4a457_Alarm_Monitor_Personnel.zip (Alarm Monitor Personnel)
+2025-10-30 17:35:32,986 - INFO - [474/647] Processing c7af8100005e0e99eea7867accb3e31d (fy2015_archived_opportunities)
+2025-10-30 17:35:46,158 - INFO - No 'Download All' button for c7af8100005e0e99eea7867accb3e31d
+2025-10-30 17:35:47,044 - INFO - [475/647] Processing df1b9310269cbdc775a1808eabf64fd4 (fy2015_archived_opportunities)
+2025-10-30 17:35:56,010 - INFO - No 'Download All' button for df1b9310269cbdc775a1808eabf64fd4
+2025-10-30 17:35:56,831 - INFO - [476/647] Processing afc20dcbadcd4baa798e6709e3a6e67b (fy2015_archived_opportunities)
+2025-10-30 17:36:05,139 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/afc20dcbadcd4baa798e6709e3a6e67b_Contract_Detention_Facility_Houston_Texas_area.zip (Contract Detention Facility Houston Texas area)
+2025-10-30 17:36:05,766 - INFO - [477/647] Processing 6228558770153ba6a5009ca72ee06e2c (fy2015_archived_opportunities)
+2025-10-30 17:36:18,968 - INFO - No 'Download All' button for 6228558770153ba6a5009ca72ee06e2c
+2025-10-30 17:36:19,475 - INFO - [478/647] Processing ba894deb6d2ede877f6d0c31ee75e091 (fy2015_archived_opportunities)
+2025-10-30 17:36:24,633 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ba894deb6d2ede877f6d0c31ee75e091_Unarmed_Guard_Services_-_FCI_Texarkana_TX.zip (Unarmed Guard Services - FCI Texarkana, TX)
+2025-10-30 17:36:25,460 - INFO - [479/647] Processing 1d214feaba82b8cfafc9c3deb25fdebe (fy2015_archived_opportunities)
+2025-10-30 17:36:39,404 - INFO - No 'Download All' button for 1d214feaba82b8cfafc9c3deb25fdebe
+2025-10-30 17:36:40,180 - INFO - [480/647] Processing e2d465571c3b31e1c9f94d8f917548c5 (fy2015_archived_opportunities)
+2025-10-30 17:36:45,744 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e2d465571c3b31e1c9f94d8f917548c5_S--Security_Guard_Services_USGS_EROS.zip (S--Security Guard Services USGS EROS)
+2025-10-30 17:36:46,440 - INFO - [481/647] Processing 6e272dff5e34fb976ea1a1d0d7340918 (fy2015_archived_opportunities)
+2025-10-30 17:36:59,604 - INFO - No 'Download All' button for 6e272dff5e34fb976ea1a1d0d7340918
+2025-10-30 17:37:00,589 - INFO - [482/647] Processing e2a067388e8ae27324ebd6cad6ceb14c (fy2015_archived_opportunities)
+2025-10-30 17:37:09,521 - INFO - No 'Download All' button for e2a067388e8ae27324ebd6cad6ceb14c
+2025-10-30 17:37:10,053 - INFO - [483/647] Processing fa6ea07e5ddfb3b6fee850ce608c45fd (fy2015_archived_opportunities)
+2025-10-30 17:37:23,219 - INFO - No 'Download All' button for fa6ea07e5ddfb3b6fee850ce608c45fd
+2025-10-30 17:37:23,959 - INFO - [484/647] Processing 8f426895e405970e357a2eeb28553436 (fy2015_archived_opportunities)
+2025-10-30 17:37:31,836 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/8f426895e405970e357a2eeb28553436_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:37:32,836 - INFO - [485/647] Processing 3ccf6e46e83240b0976c13d069026b32 (fy2015_archived_opportunities)
+2025-10-30 17:37:42,104 - INFO - No 'Download All' button for 3ccf6e46e83240b0976c13d069026b32
+2025-10-30 17:37:42,877 - INFO - [486/647] Processing aa44d9ae711df719f55e6f89711c10e7 (fy2015_archived_opportunities)
+2025-10-30 17:37:51,806 - INFO - No 'Download All' button for aa44d9ae711df719f55e6f89711c10e7
+2025-10-30 17:37:52,733 - INFO - [487/647] Processing f897659be4ee02c3eb5194e390e7353e (fy2015_archived_opportunities)
+2025-10-30 17:38:02,882 - INFO - No 'Download All' button for f897659be4ee02c3eb5194e390e7353e
+2025-10-30 17:38:03,491 - INFO - [488/647] Processing 5c17d24e03aacd8cb0f4c4d2a015cb4e (fy2015_archived_opportunities)
+2025-10-30 17:38:10,773 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/5c17d24e03aacd8cb0f4c4d2a015cb4e_Contract_Detention_Facility_Houston_Texas_area.zip (Contract Detention Facility Houston Texas area)
+2025-10-30 17:38:11,391 - INFO - [489/647] Processing 598a60698d8722734c6039963e3a598a (fy2015_archived_opportunities)
+2025-10-30 17:38:16,319 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/598a60698d8722734c6039963e3a598a_Synopsis_of_an_Indefinite_Delivery_Indefinite_Quantity_IDIQ_Solicitation..zip (Synopsis of an Indefinite Delivery, Indefinite Quantity (IDIQ) Solicitation.)
+2025-10-30 17:38:16,965 - INFO - [490/647] Processing 48d3f29b25a0befc59edb157dc46fa81 (fy2015_archived_opportunities)
+2025-10-30 17:38:22,414 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/48d3f29b25a0befc59edb157dc46fa81_S--Security_Guard_Services_USGS_EROS.zip (S--Security Guard Services USGS EROS)
+2025-10-30 17:38:23,085 - INFO - [491/647] Processing c8bfe052b69959ad86804f9c00c657a2 (fy2015_archived_opportunities)
+2025-10-30 17:38:32,133 - INFO - No 'Download All' button for c8bfe052b69959ad86804f9c00c657a2
+2025-10-30 17:38:32,796 - INFO - [492/647] Processing 0b47dd37605c90ad116b14126f85d998 (fy2015_archived_opportunities)
+2025-10-30 17:38:45,980 - INFO - No 'Download All' button for 0b47dd37605c90ad116b14126f85d998
+2025-10-30 17:38:46,762 - INFO - [493/647] Processing 88a2cf09b18aab6101ab20513675647f (fy2015_archived_opportunities)
+2025-10-30 17:39:31,768 - WARNING - Navigation timed out for https://sam.gov/workspace/contract/opp/88a2cf09b18aab6101ab20513675647f/view
+2025-10-30 17:39:32,354 - INFO - [494/647] Processing ed3bb75d700ed060904636bb4691ff51 (fy2015_archived_opportunities)
+2025-10-30 17:39:37,831 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ed3bb75d700ed060904636bb4691ff51_4086-NJ_Security_Guards_for_SRFO-NJ_Eatontown_NJ.zip (4086-NJ; Security Guards for SRFO-NJ, Eatontown, NJ)
+2025-10-30 17:39:38,480 - INFO - [495/647] Processing ee95a954872a3acacbc21d8337d8a633 (fy2015_archived_opportunities)
+2025-10-30 17:39:49,501 - INFO - No 'Download All' button for ee95a954872a3acacbc21d8337d8a633
+2025-10-30 17:39:50,218 - INFO - [496/647] Processing c301a0b3c0f06c6186b5ead21ab61bfc (fy2015_archived_opportunities)
+2025-10-30 17:39:55,788 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c301a0b3c0f06c6186b5ead21ab61bfc_S--Security_Guard_Services_USGS_EROS.zip (S--Security Guard Services USGS EROS)
+2025-10-30 17:39:56,729 - INFO - [497/647] Processing 8c05f8e4a3e4291cdab7581453b0d8fb (fy2015_archived_opportunities)
+2025-10-30 17:40:05,732 - INFO - No 'Download All' button for 8c05f8e4a3e4291cdab7581453b0d8fb
+2025-10-30 17:40:06,477 - INFO - [498/647] Processing 01e92ee3ce9f9f94ce105b7c5b1369ac (fy2015_archived_opportunities)
+2025-10-30 17:40:15,452 - INFO - No 'Download All' button for 01e92ee3ce9f9f94ce105b7c5b1369ac
+2025-10-30 17:40:16,175 - INFO - [499/647] Processing 6b10867c8ee9800a710d1aab8a327e9c (fy2015_archived_opportunities)
+2025-10-30 17:40:23,762 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/6b10867c8ee9800a710d1aab8a327e9c_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:40:24,275 - INFO - [500/647] Processing c95ad2e9cf118b68aacec16620ab4860 (fy2015_archived_opportunities)
+2025-10-30 17:40:28,949 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c95ad2e9cf118b68aacec16620ab4860_Electronic_Secuirty_System_Maintenance_Repair_Modification_and_Services_.zip (Electronic Secuirty System Maintenance, Repair, Modification and Services)
+2025-10-30 17:40:29,778 - INFO - [501/647] Processing 7cb1da1777fa3024e10933789e33ac8c (fy2015_archived_opportunities)
+2025-10-30 17:40:34,517 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7cb1da1777fa3024e10933789e33ac8c_Electronic_Secuirty_System_Maintenance_Repair_Modification_and_Services_.zip (Electronic Secuirty System Maintenance, Repair, Modification and Services)
+2025-10-30 17:40:35,219 - INFO - [502/647] Processing 29475c5e803316804b4bd330cc116e3b (fy2015_archived_opportunities)
+2025-10-30 17:40:42,741 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/29475c5e803316804b4bd330cc116e3b_Contract_Detention_Facility_Houston_Texas_area.zip (Contract Detention Facility Houston Texas area)
+2025-10-30 17:40:43,569 - INFO - [503/647] Processing 0be2d53d895928fa1f930045dd09aeed (fy2015_archived_opportunities)
+2025-10-30 17:40:50,023 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/0be2d53d895928fa1f930045dd09aeed_TSA_Screening_Checkpoint_Law_Enforcement_Officer_LEO_.zip (TSA Screening Checkpoint, Law Enforcement Officer (LEO))
+2025-10-30 17:40:50,885 - INFO - [504/647] Processing 048966f5e4131e8fef39f0ac71371c8f (fy2015_archived_opportunities)
+2025-10-30 17:41:04,129 - INFO - No 'Download All' button for 048966f5e4131e8fef39f0ac71371c8f
+2025-10-30 17:41:04,964 - INFO - [505/647] Processing 8a56bf031243fffb093bccd6fc61fa06 (fy2015_archived_opportunities)
+2025-10-30 17:41:10,573 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/8a56bf031243fffb093bccd6fc61fa06_Electronic_Secuirty_System_Maintenance_Repair_Modification_and_Services_.zip (Electronic Secuirty System Maintenance, Repair, Modification and Services)
+2025-10-30 17:41:11,411 - INFO - [506/647] Processing de3c75e0d20ec2656960e057ebd8dcde (fy2015_archived_opportunities)
+2025-10-30 17:41:19,262 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/de3c75e0d20ec2656960e057ebd8dcde_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:41:20,193 - INFO - [507/647] Processing c55e9e8cf0a3946b36a3a41ed05a6011 (fy2015_archived_opportunities)
+2025-10-30 17:41:42,038 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/c55e9e8cf0a3946b36a3a41ed05a6011_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:41:42,658 - INFO - [508/647] Processing 79f8dcb54fdc4ae8bd9ccafc107d8bfe (fy2015_archived_opportunities)
+2025-10-30 17:41:55,860 - INFO - No 'Download All' button for 79f8dcb54fdc4ae8bd9ccafc107d8bfe
+2025-10-30 17:41:56,803 - INFO - [509/647] Processing a46d760e4ca20dedcba447231b4a1248 (fy2015_archived_opportunities)
+2025-10-30 17:42:10,032 - INFO - No 'Download All' button for a46d760e4ca20dedcba447231b4a1248
+2025-10-30 17:42:10,699 - INFO - [510/647] Processing 2e8b1c6334709342db04a87d6f7bc888 (fy2015_archived_opportunities)
+2025-10-30 17:42:23,847 - INFO - No 'Download All' button for 2e8b1c6334709342db04a87d6f7bc888
+2025-10-30 17:42:24,654 - INFO - [511/647] Processing fadc87e9d932c11be8a2d040d1ad2860 (fy2015_archived_opportunities)
+2025-10-30 17:42:33,343 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/fadc87e9d932c11be8a2d040d1ad2860_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:42:34,252 - INFO - [512/647] Processing 0ee8649cfd72405d15273e11e0cce622 (fy2015_archived_opportunities)
+2025-10-30 17:42:47,407 - INFO - No 'Download All' button for 0ee8649cfd72405d15273e11e0cce622
+2025-10-30 17:42:47,937 - INFO - [513/647] Processing 52fd467cd867ea7496e26132e4b6e74f (fy2015_archived_opportunities)
+2025-10-30 17:43:01,125 - INFO - No 'Download All' button for 52fd467cd867ea7496e26132e4b6e74f
+2025-10-30 17:43:02,063 - INFO - [514/647] Processing e2f1a0112c53e75d1ed54ed304784ac0 (fy2015_archived_opportunities)
+2025-10-30 17:43:06,905 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e2f1a0112c53e75d1ed54ed304784ac0_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 17:43:07,641 - INFO - [515/647] Processing 89666ac85ba09c29671b41fa8f68ae76 (fy2015_archived_opportunities)
+2025-10-30 17:43:16,386 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/89666ac85ba09c29671b41fa8f68ae76_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:43:17,183 - INFO - [516/647] Processing 7e3fef83435377f47fe7d01e9d6f0ae2 (fy2015_archived_opportunities)
+2025-10-30 17:43:23,189 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/7e3fef83435377f47fe7d01e9d6f0ae2_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 17:43:24,055 - INFO - [517/647] Processing f96ecd39dd126fb19d946c7d94898d97 (fy2015_archived_opportunities)
+2025-10-30 17:43:33,257 - INFO - No 'Download All' button for f96ecd39dd126fb19d946c7d94898d97
+2025-10-30 17:43:33,770 - INFO - [518/647] Processing f50863525383b36d9f9aa42c2920d84a (fy2015_archived_opportunities)
+2025-10-30 17:43:47,226 - INFO - No 'Download All' button for f50863525383b36d9f9aa42c2920d84a
+2025-10-30 17:43:47,863 - INFO - [519/647] Processing 0c3d45edd77b3756821f4a478837696d (fy2015_archived_opportunities)
+2025-10-30 17:43:55,063 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/0c3d45edd77b3756821f4a478837696d_Pine_Flat_Lake_Law_Enforcement_Services.zip (Pine Flat Lake Law Enforcement Services)
+2025-10-30 17:43:55,669 - INFO - [520/647] Processing 65f8862b11e9087a5ca876412b791b60 (fy2015_archived_opportunities)
+2025-10-30 17:44:04,346 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/65f8862b11e9087a5ca876412b791b60_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:44:05,317 - INFO - [521/647] Processing 3b275c51c909e5f955ebdf350bdb0e13 (fy2015_archived_opportunities)
+2025-10-30 17:44:10,416 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/3b275c51c909e5f955ebdf350bdb0e13_Security_Services.zip (Security Services)
+2025-10-30 17:44:11,347 - INFO - [522/647] Processing cdd2ca19a8ceeabf6007df7e06459f26 (fy2015_archived_opportunities)
+2025-10-30 17:44:16,148 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/cdd2ca19a8ceeabf6007df7e06459f26_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 17:44:17,111 - INFO - [523/647] Processing 534375e15677bcc0058b93c9f306dffa (fy2015_archived_opportunities)
+2025-10-30 17:44:30,276 - INFO - No 'Download All' button for 534375e15677bcc0058b93c9f306dffa
+2025-10-30 17:44:30,869 - INFO - [524/647] Processing 085787d275b733feeb79c601f8329405 (fy2015_archived_opportunities)
+2025-10-30 17:44:40,073 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/085787d275b733feeb79c601f8329405_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:44:40,907 - INFO - [525/647] Processing c63d71cd6836207ced0dda00baf4f6c8 (fy2015_archived_opportunities)
+2025-10-30 17:44:54,084 - INFO - No 'Download All' button for c63d71cd6836207ced0dda00baf4f6c8
+2025-10-30 17:44:54,961 - INFO - [526/647] Processing 4650b04b2be90cce0c945dccd5a075ac (fy2015_archived_opportunities)
+2025-10-30 17:45:08,129 - INFO - No 'Download All' button for 4650b04b2be90cce0c945dccd5a075ac
+2025-10-30 17:45:08,709 - INFO - [527/647] Processing cf6eecca35f2b3a49cb6045c9cef54bd (fy2015_archived_opportunities)
+2025-10-30 17:45:21,892 - INFO - No 'Download All' button for cf6eecca35f2b3a49cb6045c9cef54bd
+2025-10-30 17:45:22,536 - INFO - [528/647] Processing c59fe5033b5875932ef3267f01eaf608 (fy2015_archived_opportunities)
+2025-10-30 17:45:35,729 - INFO - No 'Download All' button for c59fe5033b5875932ef3267f01eaf608
+2025-10-30 17:45:36,482 - INFO - [529/647] Processing 23e312472962c07ad682d8da116cf447 (fy2015_archived_opportunities)
+2025-10-30 17:45:49,634 - INFO - No 'Download All' button for 23e312472962c07ad682d8da116cf447
+2025-10-30 17:45:50,397 - INFO - [530/647] Processing 71af806bed8476938f3f9801add56882 (fy2015_archived_opportunities)
+2025-10-30 17:46:04,529 - INFO - No 'Download All' button for 71af806bed8476938f3f9801add56882
+2025-10-30 17:46:05,317 - INFO - [531/647] Processing 78680523b4b0c7679b7e60d471c8d83c (fy2015_archived_opportunities)
+2025-10-30 17:46:18,511 - INFO - No 'Download All' button for 78680523b4b0c7679b7e60d471c8d83c
+2025-10-30 17:46:19,210 - INFO - [532/647] Processing e0ea2de9b7045463ec24a3db06afb579 (fy2015_archived_opportunities)
+2025-10-30 17:46:32,442 - INFO - No 'Download All' button for e0ea2de9b7045463ec24a3db06afb579
+2025-10-30 17:46:33,211 - INFO - [533/647] Processing b80e95106acff6e2cc91e1ba6dd1174c (fy2015_archived_opportunities)
+2025-10-30 17:46:46,371 - INFO - No 'Download All' button for b80e95106acff6e2cc91e1ba6dd1174c
+2025-10-30 17:46:47,200 - INFO - [534/647] Processing d5514548895eca9dd1c4d1195a60b772 (fy2015_archived_opportunities)
+2025-10-30 17:47:00,367 - INFO - No 'Download All' button for d5514548895eca9dd1c4d1195a60b772
+2025-10-30 17:47:01,316 - INFO - [535/647] Processing acc6a0c2416ff892821fc0b766c57fa2 (fy2015_archived_opportunities)
+2025-10-30 17:47:10,271 - INFO - No 'Download All' button for acc6a0c2416ff892821fc0b766c57fa2
+2025-10-30 17:47:11,055 - INFO - [536/647] Processing 239855d48610dbb4072eef35592f7efa (fy2015_archived_opportunities)
+2025-10-30 17:47:24,296 - INFO - No 'Download All' button for 239855d48610dbb4072eef35592f7efa
+2025-10-30 17:47:25,298 - INFO - [537/647] Processing 67691f56da9b5e5d3e7ef8eecb552887 (fy2015_archived_opportunities)
+2025-10-30 17:47:38,466 - INFO - No 'Download All' button for 67691f56da9b5e5d3e7ef8eecb552887
+2025-10-30 17:47:39,331 - INFO - [538/647] Processing 3e0074d7b413d228851586e9bb15a0fa (fy2015_archived_opportunities)
+2025-10-30 17:47:46,481 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/3e0074d7b413d228851586e9bb15a0fa_Transportation_Services_for_the_San_Antonio_Field_Office.zip (Transportation Services for the San Antonio Field Office)
+2025-10-30 17:47:47,314 - INFO - [539/647] Processing 35e75a93a394f05015b85289997afaeb (fy2015_archived_opportunities)
+2025-10-30 17:47:56,248 - INFO - No 'Download All' button for 35e75a93a394f05015b85289997afaeb
+2025-10-30 17:47:57,158 - INFO - [540/647] Processing 7f78053fd6c5827de01f7ecc54196a2e (fy2015_archived_opportunities)
+2025-10-30 17:48:10,344 - INFO - No 'Download All' button for 7f78053fd6c5827de01f7ecc54196a2e
+2025-10-30 17:48:11,296 - INFO - [541/647] Processing ed14e37549c3bbfd62d01ba52a63c0fe (fy2015_archived_opportunities)
+2025-10-30 17:48:20,533 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ed14e37549c3bbfd62d01ba52a63c0fe_Transportation_Services_for_the_San_Antonio_Field_Office.zip (Transportation Services for the San Antonio Field Office)
+2025-10-30 17:48:21,409 - INFO - [542/647] Processing ad496b4b7e3dfb8a1aae511cbb78c79b (fy2015_archived_opportunities)
+2025-10-30 17:48:28,088 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/ad496b4b7e3dfb8a1aae511cbb78c79b_Transportation_Services_for_the_San_Antonio_Field_Office.zip (Transportation Services for the San Antonio Field Office)
+2025-10-30 17:48:28,928 - INFO - [543/647] Processing e75f3442e1052d91612ad7a680a198c7 (fy2015_archived_opportunities)
+2025-10-30 17:48:42,136 - INFO - No 'Download All' button for e75f3442e1052d91612ad7a680a198c7
+2025-10-30 17:48:42,874 - INFO - [544/647] Processing 39d42d8d8468ae8bc4d82f45324c20b1 (fy2015_archived_opportunities)
+2025-10-30 17:48:52,779 - INFO - No 'Download All' button for 39d42d8d8468ae8bc4d82f45324c20b1
+2025-10-30 17:48:53,456 - INFO - [545/647] Processing 03e5237f684eaa5b254bf0bf67407dff (fy2015_archived_opportunities)
+2025-10-30 17:49:03,413 - INFO - No 'Download All' button for 03e5237f684eaa5b254bf0bf67407dff
+2025-10-30 17:49:04,055 - INFO - [546/647] Processing be84a5a56ba4783ebc60df749fe1fb75 (fy2015_archived_opportunities)
+2025-10-30 17:49:12,994 - INFO - No 'Download All' button for be84a5a56ba4783ebc60df749fe1fb75
+2025-10-30 17:49:13,760 - INFO - [547/647] Processing f6a5b693619e792cd49f3a66a0da1d3d (fy2015_archived_opportunities)
+2025-10-30 17:49:19,119 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/f6a5b693619e792cd49f3a66a0da1d3d_PSO_Services_State_of_Oklahoma.zip (PSO Services State of Oklahoma)
+2025-10-30 17:49:19,781 - INFO - [548/647] Processing 5ef33dede622c4b6786b9e5e9cdf7e24 (fy2015_archived_opportunities)
+2025-10-30 17:49:33,012 - INFO - No 'Download All' button for 5ef33dede622c4b6786b9e5e9cdf7e24
+2025-10-30 17:49:33,967 - INFO - [549/647] Processing 73c323af702bce90f4f4ab6579f5bdf4 (fy2015_archived_opportunities)
+2025-10-30 17:49:42,115 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/73c323af702bce90f4f4ab6579f5bdf4_Transportation_Services_for_the_San_Antonio_Field_Office.zip (Transportation Services for the San Antonio Field Office)
+2025-10-30 17:49:42,875 - INFO - [550/647] Processing 59ccadab33facf443f57fc3767f1ed5f (fy2015_archived_opportunities)
+2025-10-30 17:49:47,524 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/59ccadab33facf443f57fc3767f1ed5f_STS_Contract_Extension.zip (STS Contract Extension)
+2025-10-30 17:49:48,481 - INFO - [551/647] Processing d4c8ed656c5db9a601f8be7036df15e2 (fy2015_archived_opportunities)
+2025-10-30 17:50:01,669 - INFO - No 'Download All' button for d4c8ed656c5db9a601f8be7036df15e2
+2025-10-30 17:50:02,180 - INFO - [552/647] Processing 9b22fed7c80c07eb3496965ac6335adc (fy2015_archived_opportunities)
+2025-10-30 17:50:13,407 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9b22fed7c80c07eb3496965ac6335adc_R--Law_Enforcement_Services_for_Recreation_and_Public_areas_on_and_around_Oliver_and_Holt_Lakes_Black_Warrior_and_Tombigbee_Lakes_Tusc_19d31a61.zip (R--Law Enforcement Services for Recreation and Public areas on and around Oliver and Holt Lakes, Black Warrior and Tombigbee Lakes, Tuscaloosa County, Alabama)
+2025-10-30 17:50:13,922 - INFO - [553/647] Processing 6c7f1555c03c628b40906edcb3a28c4a (fy2015_archived_opportunities)
+2025-10-30 17:50:22,894 - INFO - No 'Download All' button for 6c7f1555c03c628b40906edcb3a28c4a
+2025-10-30 17:50:23,808 - INFO - [554/647] Processing 673cb91914c01d13b67270f9fee0bfb7 (fy2015_archived_opportunities)
+2025-10-30 17:50:36,960 - INFO - No 'Download All' button for 673cb91914c01d13b67270f9fee0bfb7
+2025-10-30 17:50:37,589 - INFO - [555/647] Processing d0d0b2d37f318972584ea6d225eadd91 (fy2015_archived_opportunities)
+2025-10-30 17:50:50,755 - INFO - No 'Download All' button for d0d0b2d37f318972584ea6d225eadd91
+2025-10-30 17:50:51,727 - INFO - [556/647] Processing 37b3fedba48b9c547606199bb84ee332 (fy2015_archived_opportunities)
+2025-10-30 17:51:04,890 - INFO - No 'Download All' button for 37b3fedba48b9c547606199bb84ee332
+2025-10-30 17:51:05,599 - INFO - [557/647] Processing 48b68b37216d574ca123ace7b74a6d57 (fy2015_archived_opportunities)
+2025-10-30 17:51:18,771 - INFO - No 'Download All' button for 48b68b37216d574ca123ace7b74a6d57
+2025-10-30 17:51:19,536 - INFO - [558/647] Processing 8fe6e435a94f14168d36b44574640947 (fy2015_archived_opportunities)
+2025-10-30 17:51:24,744 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/8fe6e435a94f14168d36b44574640947_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 17:51:25,329 - INFO - [559/647] Processing 3d167d3fde8270e45e4719928daa2e00 (fy2015_archived_opportunities)
+2025-10-30 17:51:35,269 - INFO - No 'Download All' button for 3d167d3fde8270e45e4719928daa2e00
+2025-10-30 17:51:35,777 - INFO - [560/647] Processing 89483cb9c9bfc76d86bb04a98a49796f (fy2015_archived_opportunities)
+2025-10-30 17:51:48,937 - INFO - No 'Download All' button for 89483cb9c9bfc76d86bb04a98a49796f
+2025-10-30 17:51:49,561 - INFO - [561/647] Processing b0d70deec379518a06c5bc2266db082b (fy2015_archived_opportunities)
+2025-10-30 17:51:58,844 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/b0d70deec379518a06c5bc2266db082b_Detention_Management_Transportation_and_Food_Services_-_El_Paso_Service_Processing_Center.zip (Detention Management, Transportation and Food Services - El Paso Service Processing Center)
+2025-10-30 17:51:59,836 - INFO - [562/647] Processing ac91d1b071b7362175ebf74f414d17fb (fy2015_archived_opportunities)
+2025-10-30 17:52:09,798 - INFO - No 'Download All' button for ac91d1b071b7362175ebf74f414d17fb
+2025-10-30 17:52:10,507 - INFO - [563/647] Processing e954c8c3a068fd271fc129525eb775bb (fy2015_archived_opportunities)
+2025-10-30 17:52:23,642 - INFO - No 'Download All' button for e954c8c3a068fd271fc129525eb775bb
+2025-10-30 17:52:24,449 - INFO - [564/647] Processing 8c5642bf543dfb46e745777229200046 (fy2015_archived_opportunities)
+2025-10-30 17:52:37,634 - INFO - No 'Download All' button for 8c5642bf543dfb46e745777229200046
+2025-10-30 17:52:38,338 - INFO - [565/647] Processing e9bb4b6b82ed5535fd519878b84ad6dd (fy2015_archived_opportunities)
+2025-10-30 17:52:47,401 - INFO - No 'Download All' button for e9bb4b6b82ed5535fd519878b84ad6dd
+2025-10-30 17:52:48,014 - INFO - [566/647] Processing 1855746dab724bb0bd565af3cbe41d97 (fy2015_archived_opportunities)
+2025-10-30 17:52:56,960 - INFO - No 'Download All' button for 1855746dab724bb0bd565af3cbe41d97
+2025-10-30 17:52:57,698 - INFO - [567/647] Processing 12dce6710a16ff19ca56f473bb544e26 (fy2015_archived_opportunities)
+2025-10-30 17:53:06,667 - INFO - No 'Download All' button for 12dce6710a16ff19ca56f473bb544e26
+2025-10-30 17:53:07,381 - INFO - [568/647] Processing 3db9f609bb15c95645301d388d0533ad (fy2015_archived_opportunities)
+2025-10-30 17:53:16,403 - INFO - No 'Download All' button for 3db9f609bb15c95645301d388d0533ad
+2025-10-30 17:53:17,069 - INFO - [569/647] Processing c1cbe97366641405b69ff6d7bf839f6f (fy2015_archived_opportunities)
+2025-10-30 17:53:26,032 - INFO - No 'Download All' button for c1cbe97366641405b69ff6d7bf839f6f
+2025-10-30 17:53:26,638 - INFO - [570/647] Processing 81a178f16e8139a47c45ad08f6979459 (fy2015_archived_opportunities)
+2025-10-30 17:53:40,879 - INFO - No 'Download All' button for 81a178f16e8139a47c45ad08f6979459
+2025-10-30 17:53:41,683 - INFO - [571/647] Processing db75e30fe9fea8904f95527f1262351f (fy2015_archived_opportunities)
+2025-10-30 17:53:50,662 - INFO - No 'Download All' button for db75e30fe9fea8904f95527f1262351f
+2025-10-30 17:53:51,512 - INFO - [572/647] Processing 2a0ba0882c72d7ea0beda7c055096d01 (fy2015_archived_opportunities)
+2025-10-30 17:54:04,724 - INFO - No 'Download All' button for 2a0ba0882c72d7ea0beda7c055096d01
+2025-10-30 17:54:05,502 - INFO - [573/647] Processing 0101ebad15dbdfe43b85fb3e88e30488 (fy2015_archived_opportunities)
+2025-10-30 17:54:12,903 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/0101ebad15dbdfe43b85fb3e88e30488_Contract_Detention_Facility_Houston_Texas_area.zip (Contract Detention Facility Houston Texas area)
+2025-10-30 17:54:13,616 - INFO - [574/647] Processing 71b2813e3cfa87531425d593ff46ef5f (fy2015_archived_opportunities)
+2025-10-30 17:54:26,933 - INFO - No 'Download All' button for 71b2813e3cfa87531425d593ff46ef5f
+2025-10-30 17:54:27,563 - INFO - [575/647] Processing 5c72a2c31a019d57152573981bdb38dc (fy2015_archived_opportunities)
+2025-10-30 17:54:41,358 - INFO - No 'Download All' button for 5c72a2c31a019d57152573981bdb38dc
+2025-10-30 17:54:41,867 - INFO - [576/647] Processing 5bdfa0c64df115295ce24cf0d7fac4a9 (fy2015_archived_opportunities)
+2025-10-30 17:54:50,851 - INFO - No 'Download All' button for 5bdfa0c64df115295ce24cf0d7fac4a9
+2025-10-30 17:54:51,599 - INFO - [577/647] Processing 8603b1ce5233561ca70160f574df853d (fy2015_archived_opportunities)
+2025-10-30 17:55:04,982 - INFO - No 'Download All' button for 8603b1ce5233561ca70160f574df853d
+2025-10-30 17:55:05,892 - INFO - [578/647] Processing e100ca5e0eef412667fff665c6d3130d (fy2015_archived_opportunities)
+2025-10-30 17:55:19,062 - INFO - No 'Download All' button for e100ca5e0eef412667fff665c6d3130d
+2025-10-30 17:55:19,628 - INFO - [579/647] Processing 02c37c55d400e5821ae3305feb5964b9 (fy2015_archived_opportunities)
+2025-10-30 17:55:32,816 - INFO - No 'Download All' button for 02c37c55d400e5821ae3305feb5964b9
+2025-10-30 17:55:33,440 - INFO - [580/647] Processing a134a4ff4054049bc38372b464ca5b6c (fy2015_archived_opportunities)
+2025-10-30 17:55:46,614 - INFO - No 'Download All' button for a134a4ff4054049bc38372b464ca5b6c
+2025-10-30 17:55:47,187 - INFO - [581/647] Processing 15ad868f935b6379d9ee2e6daf53d48a (fy2015_archived_opportunities)
+2025-10-30 17:56:00,377 - INFO - No 'Download All' button for 15ad868f935b6379d9ee2e6daf53d48a
+2025-10-30 17:56:01,030 - INFO - [582/647] Processing ac63e836898daa110ed5b1982ec87339 (fy2015_archived_opportunities)
+2025-10-30 17:56:14,197 - INFO - No 'Download All' button for ac63e836898daa110ed5b1982ec87339
+2025-10-30 17:56:14,768 - INFO - [583/647] Processing 9659d07a8a46b00bdfbb459a9cc66a01 (fy2015_archived_opportunities)
+2025-10-30 17:56:20,053 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9659d07a8a46b00bdfbb459a9cc66a01_Guard_Services_for_FEMA_RIII_JFO_in_Charleston_WV.zip (Guard Services for FEMA RIII JFO in Charleston, WV)
+2025-10-30 17:56:20,642 - INFO - [584/647] Processing 4ab83e294775606179cc860a1593d29a (fy2015_archived_opportunities)
+2025-10-30 17:56:29,576 - INFO - No 'Download All' button for 4ab83e294775606179cc860a1593d29a
+2025-10-30 17:56:30,225 - INFO - [585/647] Processing 03e17f54458b68a2bbfdde8c7d64b699 (fy2015_archived_opportunities)
+2025-10-30 17:56:39,175 - INFO - No 'Download All' button for 03e17f54458b68a2bbfdde8c7d64b699
+2025-10-30 17:56:40,049 - INFO - [586/647] Processing 794bd9e49068509ff8a1fb226a96336c (fy2015_archived_opportunities)
+2025-10-30 17:56:47,667 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/794bd9e49068509ff8a1fb226a96336c_Contract_Detention_Facility_Houston_Texas_area.zip (Contract Detention Facility Houston Texas area)
+2025-10-30 17:56:48,453 - INFO - [587/647] Processing b4763edf67c0beebd9fc067f5b81bcc1 (fy2015_archived_opportunities)
+2025-10-30 17:56:57,408 - INFO - No 'Download All' button for b4763edf67c0beebd9fc067f5b81bcc1
+2025-10-30 17:56:58,262 - INFO - [588/647] Processing 76393dee6009c6a6698407b1d6195c56 (fy2015_archived_opportunities)
+2025-10-30 17:57:07,277 - INFO - No 'Download All' button for 76393dee6009c6a6698407b1d6195c56
+2025-10-30 17:57:07,959 - INFO - [589/647] Processing 0621ae4e1bb35fdce3449742ab4c1a39 (fy2015_archived_opportunities)
+2025-10-30 17:57:17,636 - INFO - No 'Download All' button for 0621ae4e1bb35fdce3449742ab4c1a39
+2025-10-30 17:57:18,303 - INFO - [590/647] Processing 6727b1a316a1da6280eaa362880c1b18 (fy2015_archived_opportunities)
+2025-10-30 17:57:27,257 - INFO - No 'Download All' button for 6727b1a316a1da6280eaa362880c1b18
+2025-10-30 17:57:27,799 - INFO - [591/647] Processing d2a4a53993046756d9fb8dc33572263c (fy2015_archived_opportunities)
+2025-10-30 17:57:36,742 - INFO - No 'Download All' button for d2a4a53993046756d9fb8dc33572263c
+2025-10-30 17:57:37,288 - INFO - [592/647] Processing 438233b28af28b07352db5b1b552d134 (fy2015_archived_opportunities)
+2025-10-30 17:57:50,474 - INFO - No 'Download All' button for 438233b28af28b07352db5b1b552d134
+2025-10-30 17:57:51,002 - INFO - [593/647] Processing 26fa6ef0d5fec2f458c5f70962e9f2c9 (fy2015_archived_opportunities)
+2025-10-30 17:58:00,008 - INFO - No 'Download All' button for 26fa6ef0d5fec2f458c5f70962e9f2c9
+2025-10-30 17:58:00,810 - INFO - [594/647] Processing 226844c0dc0e6b6c0634497f1900fba9 (fy2015_archived_opportunities)
+2025-10-30 17:58:05,948 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/226844c0dc0e6b6c0634497f1900fba9_Security_and_Access_Control_Services.zip (Security and Access Control Services)
+2025-10-30 17:58:06,954 - INFO - [595/647] Processing 8941396fccf2f0474e3abee5bfefedd3 (fy2015_archived_opportunities)
+2025-10-30 17:58:20,115 - INFO - No 'Download All' button for 8941396fccf2f0474e3abee5bfefedd3
+2025-10-30 17:58:20,905 - INFO - [596/647] Processing b608f53ec8e2ebb363b6be9a0484fb2c (fy2015_archived_opportunities)
+2025-10-30 17:58:35,020 - INFO - No 'Download All' button for b608f53ec8e2ebb363b6be9a0484fb2c
+2025-10-30 17:58:35,620 - INFO - [597/647] Processing 5c426bb68a4fcd92d6c3da1c0694c165 (fy2015_archived_opportunities)
+2025-10-30 17:58:48,778 - INFO - No 'Download All' button for 5c426bb68a4fcd92d6c3da1c0694c165
+2025-10-30 17:58:49,777 - INFO - [598/647] Processing 889c380ad01ad2393feb551011b98554 (fy2015_archived_opportunities)
+2025-10-30 17:59:02,945 - INFO - No 'Download All' button for 889c380ad01ad2393feb551011b98554
+2025-10-30 17:59:03,719 - INFO - [599/647] Processing 4f7dce79027474c661b533c6b9c0a40e (fy2015_archived_opportunities)
+2025-10-30 17:59:12,656 - INFO - No 'Download All' button for 4f7dce79027474c661b533c6b9c0a40e
+2025-10-30 17:59:13,641 - INFO - [600/647] Processing e09425911d197f97848c77ab9a481642 (fy2015_archived_opportunities)
+2025-10-30 17:59:26,830 - INFO - No 'Download All' button for e09425911d197f97848c77ab9a481642
+2025-10-30 17:59:27,480 - INFO - [601/647] Processing 649a12e6fd2d392e38269564f8a90ba5 (fy2015_archived_opportunities)
+2025-10-30 17:59:37,735 - INFO - No 'Download All' button for 649a12e6fd2d392e38269564f8a90ba5
+2025-10-30 17:59:38,508 - INFO - [602/647] Processing e05586b383f0c53c823f77b2770516df (fy2015_archived_opportunities)
+2025-10-30 17:59:47,435 - INFO - No 'Download All' button for e05586b383f0c53c823f77b2770516df
+2025-10-30 17:59:48,077 - INFO - [603/647] Processing 51e49164ef83640f81c290f60498faab (fy2015_archived_opportunities)
+2025-10-30 17:59:55,592 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/51e49164ef83640f81c290f60498faab_Contract_Detention_Facility_Houston_Texas_area.zip (Contract Detention Facility Houston Texas area)
+2025-10-30 17:59:56,210 - INFO - [604/647] Processing 1f23fbff2479da51e9ae329e01885639 (fy2015_archived_opportunities)
+2025-10-30 18:00:05,152 - INFO - No 'Download All' button for 1f23fbff2479da51e9ae329e01885639
+2025-10-30 18:00:05,931 - INFO - [605/647] Processing 2c4d0d26507bb9049bfe58eeee20c154 (fy2015_archived_opportunities)
+2025-10-30 18:00:19,153 - INFO - No 'Download All' button for 2c4d0d26507bb9049bfe58eeee20c154
+2025-10-30 18:00:19,914 - INFO - [606/647] Processing 25f5b27b7a819c1276f849641c07847c (fy2015_archived_opportunities)
+2025-10-30 18:00:33,897 - INFO - No 'Download All' button for 25f5b27b7a819c1276f849641c07847c
+2025-10-30 18:00:34,840 - INFO - [607/647] Processing 27840a3dc82dd87b8bd8e2a0f2daa70d (fy2015_archived_opportunities)
+2025-10-30 18:00:43,820 - INFO - No 'Download All' button for 27840a3dc82dd87b8bd8e2a0f2daa70d
+2025-10-30 18:00:44,722 - INFO - [608/647] Processing f87286b019d77de1e3c07b6113df1bbb (fy2015_archived_opportunities)
+2025-10-30 18:00:53,751 - INFO - No 'Download All' button for f87286b019d77de1e3c07b6113df1bbb
+2025-10-30 18:00:54,322 - INFO - [609/647] Processing 79601cd9c2aa6f7719bdd94814ac2b6b (fy2015_archived_opportunities)
+2025-10-30 18:01:04,266 - INFO - No 'Download All' button for 79601cd9c2aa6f7719bdd94814ac2b6b
+2025-10-30 18:01:05,258 - INFO - [610/647] Processing 9856ae8e8d2fd731ace9c6b10180aa8f (fy2015_archived_opportunities)
+2025-10-30 18:01:10,403 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9856ae8e8d2fd731ace9c6b10180aa8f_Security_Guard_Services_at_the_NOAA_Headquarters_Campus.zip (Security Guard Services at the NOAA Headquarters Campus)
+2025-10-30 18:01:11,305 - INFO - [611/647] Processing 61637ca1e2d5d340b1f302fb2c2de2b8 (fy2015_archived_opportunities)
+2025-10-30 18:01:24,474 - INFO - No 'Download All' button for 61637ca1e2d5d340b1f302fb2c2de2b8
+2025-10-30 18:01:25,037 - INFO - [612/647] Processing 163c646ceca5276e9c8414cb1b1736ec (fy2015_archived_opportunities)
+2025-10-30 18:01:38,228 - INFO - No 'Download All' button for 163c646ceca5276e9c8414cb1b1736ec
+2025-10-30 18:01:39,099 - INFO - [613/647] Processing 3eb5431b3c0083818970882afadf1f67 (fy2015_archived_opportunities)
+2025-10-30 18:01:52,259 - INFO - No 'Download All' button for 3eb5431b3c0083818970882afadf1f67
+2025-10-30 18:01:53,075 - INFO - [614/647] Processing 159385da0785bfed758886eff4793ed3 (fy2015_archived_opportunities)
+2025-10-30 18:02:06,258 - INFO - No 'Download All' button for 159385da0785bfed758886eff4793ed3
+2025-10-30 18:02:07,004 - INFO - [615/647] Processing fbeb014769f5f159e6f0ca80ffa2c5c7 (fy2015_archived_opportunities)
+2025-10-30 18:02:20,217 - INFO - No 'Download All' button for fbeb014769f5f159e6f0ca80ffa2c5c7
+2025-10-30 18:02:20,999 - INFO - [616/647] Processing 04057c3a301df565e2a1fabcfc31a14b (fy2015_archived_opportunities)
+2025-10-30 18:02:29,948 - INFO - No 'Download All' button for 04057c3a301df565e2a1fabcfc31a14b
+2025-10-30 18:02:30,912 - INFO - [617/647] Processing 35700be27ef838c193fc272c508e3602 (fy2015_archived_opportunities)
+2025-10-30 18:02:42,111 - INFO - No 'Download All' button for 35700be27ef838c193fc272c508e3602
+2025-10-30 18:02:43,072 - INFO - [618/647] Processing 594300a63b92ab39a3e7de8c63e02361 (fy2015_archived_opportunities)
+2025-10-30 18:02:52,081 - INFO - No 'Download All' button for 594300a63b92ab39a3e7de8c63e02361
+2025-10-30 18:02:52,931 - INFO - [619/647] Processing aa3529f5b90d63347d2deb668aaab21e (fy2015_archived_opportunities)
+2025-10-30 18:03:01,876 - INFO - No 'Download All' button for aa3529f5b90d63347d2deb668aaab21e
+2025-10-30 18:03:02,422 - INFO - [620/647] Processing 91a706ac7caa66069bb62f77a8d82e63 (fy2015_archived_opportunities)
+2025-10-30 18:03:07,980 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/91a706ac7caa66069bb62f77a8d82e63_NIGHT_FACILITY_MONITOR.zip (NIGHT FACILITY MONITOR)
+2025-10-30 18:03:08,981 - INFO - [621/647] Processing d90c34f9405f0d3099244852b9de5e59 (fy2015_archived_opportunities)
+2025-10-30 18:03:18,028 - INFO - No 'Download All' button for d90c34f9405f0d3099244852b9de5e59
+2025-10-30 18:03:18,860 - INFO - [622/647] Processing 63bdfd2af118699d5c1d3b48d2bbe3d8 (fy2015_archived_opportunities)
+2025-10-30 18:03:29,932 - INFO - No 'Download All' button for 63bdfd2af118699d5c1d3b48d2bbe3d8
+2025-10-30 18:03:30,710 - INFO - [623/647] Processing 9cd42df669bdeaca777f6345c278c642 (fy2015_archived_opportunities)
+2025-10-30 18:03:36,162 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/9cd42df669bdeaca777f6345c278c642_NIGHT_FACILITY_MONITOR.zip (NIGHT FACILITY MONITOR)
+2025-10-30 18:03:36,699 - INFO - [624/647] Processing 5deae23acb8b5fcc18c3484c0a08315a (fy2015_archived_opportunities)
+2025-10-30 18:03:45,609 - INFO - No 'Download All' button for 5deae23acb8b5fcc18c3484c0a08315a
+2025-10-30 18:03:46,358 - INFO - [625/647] Processing 1ddc3434648e098ed700f4ec1f1ae0d3 (fy2015_archived_opportunities)
+2025-10-30 18:03:52,459 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/1ddc3434648e098ed700f4ec1f1ae0d3_Solicitation_HSTS05-15-R-SPP047_for_the_Screening_Partnership_Program.zip (Solicitation HSTS05-15-R-SPP047 for the Screening Partnership Program)
+2025-10-30 18:03:52,984 - INFO - [626/647] Processing 9de6f91f96ac21dd8b727f02ad651d1d (fy2015_archived_opportunities)
+2025-10-30 18:04:03,093 - INFO - No 'Download All' button for 9de6f91f96ac21dd8b727f02ad651d1d
+2025-10-30 18:04:03,756 - INFO - [627/647] Processing 6ffa1865641da227da000ef8be19c144 (fy2015_archived_opportunities)
+2025-10-30 18:04:16,932 - INFO - No 'Download All' button for 6ffa1865641da227da000ef8be19c144
+2025-10-30 18:04:17,897 - INFO - [628/647] Processing 91514a49f98bf926214a7aafb6ddf6e5 (fy2015_archived_opportunities)
+2025-10-30 18:04:31,049 - INFO - No 'Download All' button for 91514a49f98bf926214a7aafb6ddf6e5
+2025-10-30 18:04:31,860 - INFO - [629/647] Processing 1b322ad938cbe5917010dcb6e9d8b26e (fy2015_archived_opportunities)
+2025-10-30 18:04:45,031 - INFO - No 'Download All' button for 1b322ad938cbe5917010dcb6e9d8b26e
+2025-10-30 18:04:45,911 - INFO - [630/647] Processing e49cecc26f1cee382b870177f80432c2 (fy2015_archived_opportunities)
+2025-10-30 18:04:55,392 - INFO - No 'Download All' button for e49cecc26f1cee382b870177f80432c2
+2025-10-30 18:04:56,125 - INFO - [631/647] Processing f106bc9b237af52ce2444d6303a0529a (fy2015_archived_opportunities)
+2025-10-30 18:05:05,037 - INFO - No 'Download All' button for f106bc9b237af52ce2444d6303a0529a
+2025-10-30 18:05:05,999 - INFO - [632/647] Processing 6b8d8b71803c0ac5d300827ac759e23f (fy2015_archived_opportunities)
+2025-10-30 18:05:11,530 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/6b8d8b71803c0ac5d300827ac759e23f_NIGHT_FACILITY_MONITOR.zip (NIGHT FACILITY MONITOR)
+2025-10-30 18:05:12,405 - INFO - [633/647] Processing e1bd56e6ceb51726bd5e27ef51484d6e (fy2015_archived_opportunities)
+2025-10-30 18:05:21,452 - INFO - No 'Download All' button for e1bd56e6ceb51726bd5e27ef51484d6e
+2025-10-30 18:05:22,180 - INFO - [634/647] Processing efc76514636539043da1766a13de6b49 (fy2015_archived_opportunities)
+2025-10-30 18:05:31,122 - INFO - No 'Download All' button for efc76514636539043da1766a13de6b49
+2025-10-30 18:05:32,005 - INFO - [635/647] Processing e28654b4cf9ddda7164f6588f3fd0dbd (fy2015_archived_opportunities)
+2025-10-30 18:05:37,465 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/e28654b4cf9ddda7164f6588f3fd0dbd_Contract_District_Security_Officer_DSO_.zip (Contract District Security Officer (DSO))
+2025-10-30 18:05:38,136 - INFO - [636/647] Processing cc1f7849564e5e69985c2c0f75822271 (fy2015_archived_opportunities)
+2025-10-30 18:05:51,340 - INFO - No 'Download All' button for cc1f7849564e5e69985c2c0f75822271
+2025-10-30 18:05:52,088 - INFO - [637/647] Processing 59f6c68522130692f7e0c54e87a26dcd (fy2015_archived_opportunities)
+2025-10-30 18:06:37,094 - WARNING - Navigation timed out for https://sam.gov/workspace/contract/opp/59f6c68522130692f7e0c54e87a26dcd/view
+2025-10-30 18:06:37,597 - INFO - [638/647] Processing bea72e609a9d54ea87b8e5f42f636a3a (fy2015_archived_opportunities)
+2025-10-30 18:06:46,653 - INFO - No 'Download All' button for bea72e609a9d54ea87b8e5f42f636a3a
+2025-10-30 18:06:47,170 - INFO - [639/647] Processing f2945508f48da03c57c52781215c1f70 (fy2015_archived_opportunities)
+2025-10-30 18:06:53,602 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/f2945508f48da03c57c52781215c1f70_This_is_a_commercial_non-personal_service_to_perform_security_services_for_the_Department_of_Homeland_Security_DHS_Federal_Law_Enforce_ebf6403b.zip (This is a commercial non-personal service to perform security services for the Department of Homeland Security (DHS) Federal Law Enforcement Training Centers located in Glynco, GA; Artesia, NM; Charleston, SC; and Cheltenham, MD.)
+2025-10-30 18:06:54,496 - INFO - [640/647] Processing d3af23c149f69b3f3a09e34300a14453 (fy2015_archived_opportunities)
+2025-10-30 18:07:03,384 - INFO - No 'Download All' button for d3af23c149f69b3f3a09e34300a14453
+2025-10-30 18:07:04,276 - INFO - [641/647] Processing 72eaa59ad32e22a270e3f472a353bf14 (fy2015_archived_opportunities)
+2025-10-30 18:07:17,447 - INFO - No 'Download All' button for 72eaa59ad32e22a270e3f472a353bf14
+2025-10-30 18:07:18,424 - INFO - [642/647] Processing d5420f1cadd36f6525b4ec1c41a094d6 (fy2015_archived_opportunities)
+2025-10-30 18:07:27,416 - INFO - No 'Download All' button for d5420f1cadd36f6525b4ec1c41a094d6
+2025-10-30 18:07:27,962 - INFO - [643/647] Processing cf1c4f113a198d15ca60535dd311896f (fy2015_archived_opportunities)
+2025-10-30 18:07:36,915 - INFO - No 'Download All' button for cf1c4f113a198d15ca60535dd311896f
+2025-10-30 18:07:37,666 - INFO - [644/647] Processing 994e77e8aa45381da8dca90b73e44faa (fy2015_archived_opportunities)
+2025-10-30 18:07:51,828 - INFO - No 'Download All' button for 994e77e8aa45381da8dca90b73e44faa
+2025-10-30 18:07:52,623 - INFO - [645/647] Processing 8a688beb5792bc6f85c0c606b842ac85 (fy2015_archived_opportunities)
+2025-10-30 18:07:58,378 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/8a688beb5792bc6f85c0c606b842ac85_Night_Facility_Monitor.zip (Night Facility Monitor)
+2025-10-30 18:07:59,004 - INFO - [646/647] Processing cdd559bbcac6e6a8c5b2b0f787da65df (fy2015_archived_opportunities)
+2025-10-30 18:08:12,280 - INFO - No 'Download All' button for cdd559bbcac6e6a8c5b2b0f787da65df
+2025-10-30 18:08:12,864 - INFO - [647/647] Processing 01fae3747978687b758d6f54c83f3014 (fy2015_archived_opportunities)
+2025-10-30 18:08:19,166 - INFO - Saved webscraping/downloads/fy2015_archived_opportunities/01fae3747978687b758d6f54c83f3014_Uprange_Security_Guard_Services_Pre-Solicitation_Notice.zip (Uprange Security Guard Services Pre-Solicitation Notice)
+2025-10-30 18:08:19,854 - INFO - Finished: 221/647 downloads succeeded

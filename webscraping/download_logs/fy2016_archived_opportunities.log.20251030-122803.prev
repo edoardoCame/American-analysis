@@ -1,0 +1,44 @@
+2025-10-25 14:17:12,724 - INFO - Querying up to 750 opportunities from db/sam_archived_opportunities_filtered.sqlite (tables=fy2016_archived_opportunities, keyword=<any>)
+2025-10-25 14:17:12,730 - INFO - Found 743 opportunities to process
+2025-10-25 14:17:13,798 - INFO - [1/743] Processing 8efe2afb1fe1f70a5d22397d45517ca2 (fy2016_archived_opportunities)
+2025-10-25 14:17:22,399 - INFO - No 'Download All' button for 8efe2afb1fe1f70a5d22397d45517ca2
+2025-10-25 14:17:23,002 - INFO - [2/743] Processing 26b8aa8372cbb05e1cff9e08b0106859 (fy2016_archived_opportunities)
+Traceback (most recent call last):
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 288, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 284, in main
+    await process_opportunities(args, opportunities)
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 244, in process_opportunities
+    downloaded = await download_bundle(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 228, in download_bundle
+    await download.save_as(output_path)
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 7230, in save_as
+    return mapping.from_maybe_impl(await self._impl_obj.save_as(path=path))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/_impl/_download.py", line 61, in save_as
+    await self._artifact.save_as(path)
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/_impl/_artifact.py", line 53, in save_as
+    await stream.save_as(path)
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/_impl/_stream.py", line 29, in save_as
+    file = await self._loop.run_in_executor(None, lambda: open(path, "wb"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/_impl/_stream.py", line 29, in <lambda>
+    file = await self._loop.run_in_executor(None, lambda: open(path, "wb"))
+                                                          ~~~~^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: 'webscraping/downloads/fy2016_archived_opportunities/26b8aa8372cbb05e1cff9e08b0106859_This_is_a_commercial_non-personal_service_to_perform_security_services_for_the_Department_of_Homeland_Security_DHS_Federal_Law_Enforcement_Training_Centers_located_in_Glynco_GA_Artesia_NM_Charleston_SC_and_Cheltenham_MD..zip'

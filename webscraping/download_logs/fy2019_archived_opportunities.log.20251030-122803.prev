@@ -1,0 +1,314 @@
+2025-10-25 14:17:12,789 - INFO - Querying up to 775 opportunities from db/sam_archived_opportunities_filtered.sqlite (tables=fy2019_archived_opportunities, keyword=<any>)
+2025-10-25 14:17:12,795 - INFO - Found 762 opportunities to process
+2025-10-25 14:17:13,993 - INFO - [1/762] Processing 90ec10ba8ae1e718fc04df475181c751 (fy2019_archived_opportunities)
+2025-10-25 14:17:26,928 - INFO - No 'Download All' button for 90ec10ba8ae1e718fc04df475181c751
+2025-10-25 14:17:27,808 - INFO - [2/762] Processing 2b165b081ee3550417c4e109465fc6fb (fy2019_archived_opportunities)
+2025-10-25 14:17:36,754 - INFO - No 'Download All' button for 2b165b081ee3550417c4e109465fc6fb
+2025-10-25 14:17:37,690 - INFO - [3/762] Processing 4db56a68aabc43db3e89f096078e5fd9 (fy2019_archived_opportunities)
+2025-10-25 14:17:46,647 - INFO - No 'Download All' button for 4db56a68aabc43db3e89f096078e5fd9
+2025-10-25 14:17:47,344 - INFO - [4/762] Processing 003e43a71c4a813836ddc95146d9d797 (fy2019_archived_opportunities)
+2025-10-25 14:17:52,852 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/003e43a71c4a813836ddc95146d9d797_Protective_Security_Officer_services_throughout_the_State_of_Indiana.zip (Protective Security Officer services throughout the State of Indiana)
+2025-10-25 14:17:53,629 - INFO - [5/762] Processing 9b225a94dbe0eb04a82a797f231606e8 (fy2019_archived_opportunities)
+2025-10-25 14:17:58,533 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/9b225a94dbe0eb04a82a797f231606e8_Protective_Security_Officer_services_throughout_the_State_of_Indiana.zip (Protective Security Officer services throughout the State of Indiana)
+2025-10-25 14:17:59,404 - INFO - [6/762] Processing cf78fe87a840a955d84ee04abeb8a386 (fy2019_archived_opportunities)
+2025-10-25 14:18:04,257 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/cf78fe87a840a955d84ee04abeb8a386_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:18:04,985 - INFO - [7/762] Processing 52137f5e6772c89e347de5d1d44982eb (fy2019_archived_opportunities)
+2025-10-25 14:18:09,743 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/52137f5e6772c89e347de5d1d44982eb_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:18:10,552 - INFO - [8/762] Processing ab95ad812e19d019ec3bad198e8be15f (fy2019_archived_opportunities)
+2025-10-25 14:18:15,534 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/ab95ad812e19d019ec3bad198e8be15f_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:18:16,098 - INFO - [9/762] Processing 1dee48c31560b33637beef3acda51107 (fy2019_archived_opportunities)
+2025-10-25 14:18:21,326 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/1dee48c31560b33637beef3acda51107_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:18:22,218 - INFO - [10/762] Processing 1b731a20cc221c3c0d38b45e66c336c2 (fy2019_archived_opportunities)
+2025-10-25 14:18:27,282 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/1b731a20cc221c3c0d38b45e66c336c2_ZBV_Support_Services.zip (ZBV Support Services)
+2025-10-25 14:18:27,905 - INFO - [11/762] Processing 68d51466c6a949e58c4374b839affa09 (fy2019_archived_opportunities)
+2025-10-25 14:18:32,821 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/68d51466c6a949e58c4374b839affa09_ZBV_Support_Services.zip (ZBV Support Services)
+2025-10-25 14:18:33,574 - INFO - [12/762] Processing f95ad648c2f2e362902c2abe1bbd36a5 (fy2019_archived_opportunities)
+2025-10-25 14:18:38,326 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/f95ad648c2f2e362902c2abe1bbd36a5_Protective_Security_Officer_services_throughout_the_State_of_Indiana.zip (Protective Security Officer services throughout the State of Indiana)
+2025-10-25 14:18:39,187 - INFO - [13/762] Processing 2dd9c2075d249487c1ff1a65859ae99f (fy2019_archived_opportunities)
+2025-10-25 14:18:44,219 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/2dd9c2075d249487c1ff1a65859ae99f_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:18:45,185 - INFO - [14/762] Processing 89642a99c79d0025c2419565a2a2f8c4 (fy2019_archived_opportunities)
+2025-10-25 14:18:50,361 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/89642a99c79d0025c2419565a2a2f8c4_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:18:50,940 - INFO - [15/762] Processing ab109f8c1d8bff766d6685609aaa3168 (fy2019_archived_opportunities)
+2025-10-25 14:19:04,130 - INFO - No 'Download All' button for ab109f8c1d8bff766d6685609aaa3168
+2025-10-25 14:19:04,713 - INFO - [16/762] Processing 2c757aedae8a9e02d8f06c6680810d88 (fy2019_archived_opportunities)
+2025-10-25 14:19:13,895 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/2c757aedae8a9e02d8f06c6680810d88_PSO_services_at_various_federal_facilities_in_Maryland_Virginia_and_Washington_D.C..zip (PSO services at various federal facilities in Maryland, Virginia and Washington, D.C.)
+2025-10-25 14:19:14,828 - INFO - [17/762] Processing 6f021756704d9e9df0daae4d9948362e (fy2019_archived_opportunities)
+2025-10-25 14:19:23,210 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/6f021756704d9e9df0daae4d9948362e_PSO_services_at_various_federal_facilities_in_Maryland_Virginia_and_Washington_D.C..zip (PSO services at various federal facilities in Maryland, Virginia and Washington, D.C.)
+2025-10-25 14:19:24,194 - INFO - [18/762] Processing 6f2f9756e0806434c19e4b6fa1379ef6 (fy2019_archived_opportunities)
+2025-10-25 14:19:29,806 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/6f2f9756e0806434c19e4b6fa1379ef6_ZBV_Support_Services.zip (ZBV Support Services)
+2025-10-25 14:19:30,641 - INFO - [19/762] Processing 0aa842940c310fb8aa4ec8476a772eff (fy2019_archived_opportunities)
+2025-10-25 14:19:35,994 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/0aa842940c310fb8aa4ec8476a772eff_GERMANY_WIDE_INSTALLATION_SECURITY_SERVICES.zip (GERMANY WIDE INSTALLATION SECURITY SERVICES)
+2025-10-25 14:19:36,826 - INFO - [20/762] Processing 4197cfe2e9ac8e0f01af27ad334c7df2 (fy2019_archived_opportunities)
+2025-10-25 14:19:50,023 - INFO - No 'Download All' button for 4197cfe2e9ac8e0f01af27ad334c7df2
+2025-10-25 14:19:50,757 - INFO - [21/762] Processing 57478cd4c44a32a127e4c482b0ab0b66 (fy2019_archived_opportunities)
+2025-10-25 14:20:04,202 - INFO - No 'Download All' button for 57478cd4c44a32a127e4c482b0ab0b66
+2025-10-25 14:20:04,885 - INFO - [22/762] Processing dddfb8196082ee5035ae68537d74031b (fy2019_archived_opportunities)
+2025-10-25 14:20:10,368 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/dddfb8196082ee5035ae68537d74031b_Guard_Tour_Verification_System_-_RFID.zip (Guard Tour Verification System - RFID)
+2025-10-25 14:20:11,136 - INFO - [23/762] Processing b2339592101a0aa3ff815cd9a89090b0 (fy2019_archived_opportunities)
+2025-10-25 14:20:24,319 - INFO - No 'Download All' button for b2339592101a0aa3ff815cd9a89090b0
+2025-10-25 14:20:24,949 - INFO - [24/762] Processing 9dbf09ae2b8df0a1d0ea176636a33fc2 (fy2019_archived_opportunities)
+2025-10-25 14:20:31,896 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/9dbf09ae2b8df0a1d0ea176636a33fc2_Private_Security_and_Guardian_Angel_Security_Services.zip (Private Security and Guardian Angel Security Services)
+2025-10-25 14:20:32,770 - INFO - [25/762] Processing 10ceee6a9344a62264493712687de19e (fy2019_archived_opportunities)
+2025-10-25 14:20:41,726 - INFO - No 'Download All' button for 10ceee6a9344a62264493712687de19e
+2025-10-25 14:20:42,606 - INFO - [26/762] Processing 7d12f70530553287dac9279959189c84 (fy2019_archived_opportunities)
+2025-10-25 14:21:07,553 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/7d12f70530553287dac9279959189c84_PSO_services_at_various_federal_facilities_in_Maryland_Virginia_and_Washington_D.C..zip (PSO services at various federal facilities in Maryland, Virginia and Washington, D.C.)
+2025-10-25 14:21:08,090 - INFO - [27/762] Processing 4ceaabad443e412cb161fbfc4017f624 (fy2019_archived_opportunities)
+2025-10-25 14:21:17,120 - INFO - No 'Download All' button for 4ceaabad443e412cb161fbfc4017f624
+2025-10-25 14:21:17,904 - INFO - [28/762] Processing 234d6bd52ed937f2104d3a8c616e9796 (fy2019_archived_opportunities)
+2025-10-25 14:21:23,371 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/234d6bd52ed937f2104d3a8c616e9796_Armed_Security_Guard_Services-Louisiana.zip (Armed Security Guard Services-Louisiana)
+2025-10-25 14:21:24,257 - INFO - [29/762] Processing 17ad15064cc9369fb5d465fbc2c50f3a (fy2019_archived_opportunities)
+2025-10-25 14:21:28,926 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/17ad15064cc9369fb5d465fbc2c50f3a_Security_Services_at_Remote_Locations_in_Japan.zip (Security Services at Remote Locations in Japan)
+2025-10-25 14:21:29,503 - INFO - [30/762] Processing 878875acc459827960736a64e514fb85 (fy2019_archived_opportunities)
+2025-10-25 14:21:38,472 - INFO - No 'Download All' button for 878875acc459827960736a64e514fb85
+2025-10-25 14:21:39,253 - INFO - [31/762] Processing 31f766dd324b1c62b33a93bd1bc40d04 (fy2019_archived_opportunities)
+2025-10-25 14:21:44,763 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/31f766dd324b1c62b33a93bd1bc40d04_Armed_Guard_II_Service.zip (Armed Guard II Service)
+2025-10-25 14:21:45,265 - INFO - [32/762] Processing 4d1b05eb886a0f67b9260a6ea862d6dc (fy2019_archived_opportunities)
+2025-10-25 14:21:54,309 - INFO - No 'Download All' button for 4d1b05eb886a0f67b9260a6ea862d6dc
+2025-10-25 14:21:55,275 - INFO - [33/762] Processing de891d821abebfb8ae23f080dd7a56d4 (fy2019_archived_opportunities)
+2025-10-25 14:22:04,575 - INFO - No 'Download All' button for de891d821abebfb8ae23f080dd7a56d4
+2025-10-25 14:22:05,407 - INFO - [34/762] Processing cf2ca5802618c25295f753ecf140c189 (fy2019_archived_opportunities)
+2025-10-25 14:22:11,849 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/cf2ca5802618c25295f753ecf140c189_Guard_Tour_Verification_System_-_RFID.zip (Guard Tour Verification System - RFID)
+2025-10-25 14:22:12,439 - INFO - [35/762] Processing 6c1ae150bb5e46c9bdb7818feefc3e11 (fy2019_archived_opportunities)
+2025-10-25 14:22:17,276 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/6c1ae150bb5e46c9bdb7818feefc3e11_Guard_Tour_Verification_System_-_RFID.zip (Guard Tour Verification System - RFID)
+2025-10-25 14:22:18,233 - INFO - [36/762] Processing 08470db6d3d6508bd83e353953fd48de (fy2019_archived_opportunities)
+2025-10-25 14:22:23,506 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/08470db6d3d6508bd83e353953fd48de_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:22:24,168 - INFO - [37/762] Processing ebbdf33b38ef9f9d5ea68180d2c4d78f (fy2019_archived_opportunities)
+2025-10-25 14:22:29,631 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/ebbdf33b38ef9f9d5ea68180d2c4d78f_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:22:30,592 - INFO - [38/762] Processing da653ae295182dfd815a00fd770c4d71 (fy2019_archived_opportunities)
+2025-10-25 14:22:35,287 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/da653ae295182dfd815a00fd770c4d71_Armed_Guard_II_Service.zip (Armed Guard II Service)
+2025-10-25 14:22:35,877 - INFO - [39/762] Processing 4222cf2bb6d24b77a5f01572665548c1 (fy2019_archived_opportunities)
+2025-10-25 14:22:40,605 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/4222cf2bb6d24b77a5f01572665548c1_Armed_Guard_II_Service.zip (Armed Guard II Service)
+2025-10-25 14:22:41,517 - INFO - [40/762] Processing 39316c509168ce3f40a0075d38f2b47a (fy2019_archived_opportunities)
+2025-10-25 14:22:54,706 - INFO - No 'Download All' button for 39316c509168ce3f40a0075d38f2b47a
+2025-10-25 14:22:55,481 - INFO - [41/762] Processing 05cb8f5c9527c3e0e29a4987d57dab31 (fy2019_archived_opportunities)
+2025-10-25 14:23:01,126 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/05cb8f5c9527c3e0e29a4987d57dab31_DISA_Security_Escort_Services.zip (DISA Security Escort Services)
+2025-10-25 14:23:02,119 - INFO - [42/762] Processing c500c44ce5686a40139c4422b46f989e (fy2019_archived_opportunities)
+2025-10-25 14:23:11,033 - INFO - No 'Download All' button for c500c44ce5686a40139c4422b46f989e
+2025-10-25 14:23:11,703 - INFO - [43/762] Processing 925467205dcc2f5f210726f7ebed85de (fy2019_archived_opportunities)
+2025-10-25 14:23:20,921 - INFO - No 'Download All' button for 925467205dcc2f5f210726f7ebed85de
+2025-10-25 14:23:21,664 - INFO - [44/762] Processing 53793e9d5afeebf0da21272dbd4edc5e (fy2019_archived_opportunities)
+2025-10-25 14:23:27,467 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/53793e9d5afeebf0da21272dbd4edc5e_C2F_Security_Services.zip (C2F_Security_Services)
+2025-10-25 14:23:28,399 - INFO - [45/762] Processing e7f2b1a6bc31d3341d63e39c7018ca5c (fy2019_archived_opportunities)
+2025-10-25 14:23:33,315 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/e7f2b1a6bc31d3341d63e39c7018ca5c_Armed_Security_Guard_Services-Louisiana.zip (Armed Security Guard Services-Louisiana)
+2025-10-25 14:23:34,073 - INFO - [46/762] Processing 2e8acf354fce10b8dda1b77cc3f047a3 (fy2019_archived_opportunities)
+2025-10-25 14:23:47,247 - INFO - No 'Download All' button for 2e8acf354fce10b8dda1b77cc3f047a3
+2025-10-25 14:23:47,883 - INFO - [47/762] Processing f77b4c05c8f5a5f5d0dd67ef893d1b57 (fy2019_archived_opportunities)
+2025-10-25 14:23:53,518 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/f77b4c05c8f5a5f5d0dd67ef893d1b57_USBP_Transportation_of_Seized_Goods_-_Armed.zip (USBP Transportation of Seized Goods - Armed)
+2025-10-25 14:23:54,057 - INFO - [48/762] Processing 32a65d7793b7e246004858c64a7bf8ef (fy2019_archived_opportunities)
+2025-10-25 14:24:02,988 - INFO - No 'Download All' button for 32a65d7793b7e246004858c64a7bf8ef
+2025-10-25 14:24:03,677 - INFO - [49/762] Processing 5e4350389ef754832d8c0205ddf7e3a6 (fy2019_archived_opportunities)
+2025-10-25 14:24:09,788 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/5e4350389ef754832d8c0205ddf7e3a6_Armed_Security_Guards_in_support_of_DR-4393-NC_-_North_Carolina_Hurricane_Florence_.zip (Armed Security Guards in support of DR-4393-NC - North Carolina Hurricane Florence)
+2025-10-25 14:24:10,329 - INFO - [50/762] Processing 92de81df9e216472996e5ca673129910 (fy2019_archived_opportunities)
+2025-10-25 14:24:15,457 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/92de81df9e216472996e5ca673129910_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:24:16,216 - INFO - [51/762] Processing 84a4f6dbe203ed2a248efdcfbff469ad (fy2019_archived_opportunities)
+2025-10-25 14:24:23,092 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/84a4f6dbe203ed2a248efdcfbff469ad_USBP_Transportation_of_Seized_Goods_-_Armed.zip (USBP Transportation of Seized Goods - Armed)
+2025-10-25 14:24:23,795 - INFO - [52/762] Processing 6793e8e9d2cc706b60c13c9157a198d0 (fy2019_archived_opportunities)
+2025-10-25 14:24:36,919 - INFO - No 'Download All' button for 6793e8e9d2cc706b60c13c9157a198d0
+2025-10-25 14:24:37,920 - INFO - [53/762] Processing 7d7e63126c29e9eb45944fdff3505032 (fy2019_archived_opportunities)
+2025-10-25 14:24:43,253 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/7d7e63126c29e9eb45944fdff3505032_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:24:44,160 - INFO - [54/762] Processing 7c9e3b38fb5b75a914745694559eec02 (fy2019_archived_opportunities)
+2025-10-25 14:24:51,240 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/7c9e3b38fb5b75a914745694559eec02_USBP_Transportation_of_Seized_Goods_-_Armed.zip (USBP Transportation of Seized Goods - Armed)
+2025-10-25 14:24:52,083 - INFO - [55/762] Processing 811fbd2ea27044fefa14b977792fd171 (fy2019_archived_opportunities)
+2025-10-25 14:25:05,326 - INFO - No 'Download All' button for 811fbd2ea27044fefa14b977792fd171
+2025-10-25 14:25:05,905 - INFO - [56/762] Processing 9054e9a86e9230f3140878115195fbdd (fy2019_archived_opportunities)
+2025-10-25 14:25:14,927 - INFO - No 'Download All' button for 9054e9a86e9230f3140878115195fbdd
+2025-10-25 14:25:15,533 - INFO - [57/762] Processing f684f4b6b6132348d2803077822e3d51 (fy2019_archived_opportunities)
+2025-10-25 14:25:28,737 - INFO - No 'Download All' button for f684f4b6b6132348d2803077822e3d51
+2025-10-25 14:25:29,284 - INFO - [58/762] Processing 37669fded1f14669eb289aa2e8c6ebd7 (fy2019_archived_opportunities)
+2025-10-25 14:25:42,445 - INFO - No 'Download All' button for 37669fded1f14669eb289aa2e8c6ebd7
+2025-10-25 14:25:43,143 - INFO - [59/762] Processing 5aa8e245579da35fcb104d74cd3b4677 (fy2019_archived_opportunities)
+2025-10-25 14:25:52,058 - INFO - No 'Download All' button for 5aa8e245579da35fcb104d74cd3b4677
+2025-10-25 14:25:52,663 - INFO - [60/762] Processing 575a39d84e83f9741f0bf939e1e4216f (fy2019_archived_opportunities)
+2025-10-25 14:25:58,698 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/575a39d84e83f9741f0bf939e1e4216f_USBP_Transportation_of_Seized_Goods_-_Armed.zip (USBP Transportation of Seized Goods - Armed)
+2025-10-25 14:25:59,656 - INFO - [61/762] Processing 553d9dddf70afe9c38b886be8661269a (fy2019_archived_opportunities)
+2025-10-25 14:26:05,960 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/553d9dddf70afe9c38b886be8661269a_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:26:06,710 - INFO - [62/762] Processing 016c60b6da2f1539287d46764ff22bc2 (fy2019_archived_opportunities)
+2025-10-25 14:26:11,910 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/016c60b6da2f1539287d46764ff22bc2_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:26:12,571 - INFO - [63/762] Processing dcd273db7c988884a81f9fb367fdde3b (fy2019_archived_opportunities)
+2025-10-25 14:26:17,217 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/dcd273db7c988884a81f9fb367fdde3b_Armed_Protective_Security_Officer_PSO_services_at_IRS_locations_in_Covington_and_Florence_KY_and_Memphis_TN.zip (Armed Protective Security Officer (PSO) services at IRS locations in Covington and Florence, KY and Memphis, TN)
+2025-10-25 14:26:18,144 - INFO - [64/762] Processing e3b6f9bb8e8e401330d30bcd5928e887 (fy2019_archived_opportunities)
+2025-10-25 14:26:22,811 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/e3b6f9bb8e8e401330d30bcd5928e887_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:26:23,556 - INFO - [65/762] Processing d8ccd3a604adc2b4daaf6d05e90bc479 (fy2019_archived_opportunities)
+2025-10-25 14:26:32,564 - INFO - No 'Download All' button for d8ccd3a604adc2b4daaf6d05e90bc479
+2025-10-25 14:26:33,395 - INFO - [66/762] Processing df207a9fde9571d693df1a916ebab6f9 (fy2019_archived_opportunities)
+2025-10-25 14:26:39,174 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/df207a9fde9571d693df1a916ebab6f9_Dry_Dock_Watch_Stander_-_Oscar_Dyson.zip (Dry Dock Watch Stander - Oscar Dyson)
+2025-10-25 14:26:39,720 - INFO - [67/762] Processing 210da440d078b9580cc9da7c370a3c9b (fy2019_archived_opportunities)
+2025-10-25 14:26:45,164 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/210da440d078b9580cc9da7c370a3c9b_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:26:46,027 - INFO - [68/762] Processing d15c1083a8bfc64a1da45fa8dbdf175a (fy2019_archived_opportunities)
+2025-10-25 14:26:51,186 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/d15c1083a8bfc64a1da45fa8dbdf175a_Armed_Security_Guard_Services_for_DOT.zip (Armed Security Guard Services for DOT)
+2025-10-25 14:26:52,107 - INFO - [69/762] Processing ec8490f8a59763675342c65955573724 (fy2019_archived_opportunities)
+2025-10-25 14:27:02,181 - INFO - No 'Download All' button for ec8490f8a59763675342c65955573724
+2025-10-25 14:27:02,851 - INFO - [70/762] Processing 022a94a3a89e224eab9d027c17343c30 (fy2019_archived_opportunities)
+2025-10-25 14:27:16,050 - INFO - No 'Download All' button for 022a94a3a89e224eab9d027c17343c30
+2025-10-25 14:27:16,620 - INFO - [71/762] Processing 231ca8cbceb579a77bd21a3dc54d2a26 (fy2019_archived_opportunities)
+2025-10-25 14:27:22,699 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/231ca8cbceb579a77bd21a3dc54d2a26_USBP_Transportation_of_Seized_Goods_-_Armed.zip (USBP Transportation of Seized Goods - Armed)
+2025-10-25 14:27:23,547 - INFO - [72/762] Processing 0ff54c2ced2379b1877aba2239799228 (fy2019_archived_opportunities)
+2025-10-25 14:27:30,721 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/0ff54c2ced2379b1877aba2239799228_USBP_Transportation_of_Seized_Goods_-_Armed.zip (USBP Transportation of Seized Goods - Armed)
+2025-10-25 14:27:31,366 - INFO - [73/762] Processing d425b982566c3a25982c6be7d35f2622 (fy2019_archived_opportunities)
+2025-10-25 14:27:44,840 - INFO - No 'Download All' button for d425b982566c3a25982c6be7d35f2622
+2025-10-25 14:27:45,491 - INFO - [74/762] Processing ac80f4a5e532c686a87f3b7c104905ef (fy2019_archived_opportunities)
+2025-10-25 14:27:50,758 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/ac80f4a5e532c686a87f3b7c104905ef_Akal_Security_EMD_Infrastructure.zip (Akal Security EMD Infrastructure)
+2025-10-25 14:27:51,625 - INFO - [75/762] Processing c0325e3bc7b5026d6283a35eb45bc51f (fy2019_archived_opportunities)
+2025-10-25 14:27:57,152 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/c0325e3bc7b5026d6283a35eb45bc51f_USBP_Transportation_of_Seized_Goods_-_Armed.zip (USBP Transportation of Seized Goods - Armed)
+2025-10-25 14:27:57,874 - INFO - [76/762] Processing 5fbe178373d6317010d1a0ad6b717a67 (fy2019_archived_opportunities)
+2025-10-25 14:28:11,029 - INFO - No 'Download All' button for 5fbe178373d6317010d1a0ad6b717a67
+2025-10-25 14:28:11,814 - INFO - [77/762] Processing f6e2967d0e1866dd9db9aacdac0b7b4e (fy2019_archived_opportunities)
+2025-10-25 14:28:16,899 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/f6e2967d0e1866dd9db9aacdac0b7b4e_Armed_Protective_Security_Officer_PSO_services_at_IRS_locations_in_Covington_and_Florence_KY_and_Memphis_TN.zip (Armed Protective Security Officer (PSO) services at IRS locations in Covington and Florence, KY and Memphis, TN)
+2025-10-25 14:28:17,509 - INFO - [78/762] Processing c0b3f0cc1ed5cbf6e7f59e136e0fc24e (fy2019_archived_opportunities)
+2025-10-25 14:28:22,840 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/c0b3f0cc1ed5cbf6e7f59e136e0fc24e_Court_Security_Officer_Services.zip (Court Security Officer Services)
+2025-10-25 14:28:23,802 - INFO - [79/762] Processing 431c4c8218f14fbab3305b205ef79a81 (fy2019_archived_opportunities)
+2025-10-25 14:28:28,662 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/431c4c8218f14fbab3305b205ef79a81_Court_Security_Officer_Services.zip (Court Security Officer Services)
+2025-10-25 14:28:29,472 - INFO - [80/762] Processing 950d9eb2bcb69a3f1dae6593a7372b37 (fy2019_archived_opportunities)
+2025-10-25 14:28:38,523 - INFO - No 'Download All' button for 950d9eb2bcb69a3f1dae6593a7372b37
+2025-10-25 14:28:39,035 - INFO - [81/762] Processing 4f968ef3ff3cdc50663db7570c6638d6 (fy2019_archived_opportunities)
+2025-10-25 14:28:48,322 - INFO - No 'Download All' button for 4f968ef3ff3cdc50663db7570c6638d6
+2025-10-25 14:28:49,298 - INFO - [82/762] Processing c560fa70ed0b6eb972bf0547e1a0e7e1 (fy2019_archived_opportunities)
+2025-10-25 14:28:58,422 - INFO - No 'Download All' button for c560fa70ed0b6eb972bf0547e1a0e7e1
+2025-10-25 14:28:59,150 - INFO - [83/762] Processing 79513bc5ea66368556f328051f35326a (fy2019_archived_opportunities)
+2025-10-25 14:29:08,103 - INFO - No 'Download All' button for 79513bc5ea66368556f328051f35326a
+2025-10-25 14:29:08,729 - INFO - [84/762] Processing 5b56e692b393151b93872b84d9a66a3f (fy2019_archived_opportunities)
+2025-10-25 14:29:17,683 - INFO - No 'Download All' button for 5b56e692b393151b93872b84d9a66a3f
+2025-10-25 14:29:18,613 - INFO - [85/762] Processing 0c0e6178ccce33bb659b3ff043fcff8c (fy2019_archived_opportunities)
+2025-10-25 14:29:28,583 - INFO - No 'Download All' button for 0c0e6178ccce33bb659b3ff043fcff8c
+2025-10-25 14:29:29,322 - INFO - [86/762] Processing 1bcde8b795e67d59d600edfd7cd1d827 (fy2019_archived_opportunities)
+2025-10-25 14:29:38,318 - INFO - No 'Download All' button for 1bcde8b795e67d59d600edfd7cd1d827
+2025-10-25 14:29:39,196 - INFO - [87/762] Processing 0c8895795fd3623c6462d6b1c996fd8c (fy2019_archived_opportunities)
+2025-10-25 14:29:48,219 - INFO - No 'Download All' button for 0c8895795fd3623c6462d6b1c996fd8c
+2025-10-25 14:29:48,811 - INFO - [88/762] Processing f9d7e05cc277cf35c7030fb418e91e32 (fy2019_archived_opportunities)
+2025-10-25 14:29:54,214 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/f9d7e05cc277cf35c7030fb418e91e32_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:29:55,144 - INFO - [89/762] Processing 671f3df9152aa3956d7d677693f67e62 (fy2019_archived_opportunities)
+2025-10-25 14:29:59,752 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/671f3df9152aa3956d7d677693f67e62_Armed_Protective_Security_Officer_PSO_services_at_IRS_locations_in_Covington_and_Florence_KY_and_Memphis_TN.zip (Armed Protective Security Officer (PSO) services at IRS locations in Covington and Florence, KY and Memphis, TN)
+2025-10-25 14:30:00,744 - INFO - [90/762] Processing eb8d5fd1403847cc17b67d788376d506 (fy2019_archived_opportunities)
+2025-10-25 14:30:05,725 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/eb8d5fd1403847cc17b67d788376d506_DISA_Security_Escort_Services.zip (DISA Security Escort Services)
+2025-10-25 14:30:06,371 - INFO - [91/762] Processing f5a8cfb16a56dc1c77d6f7d08d4035d8 (fy2019_archived_opportunities)
+2025-10-25 14:30:15,316 - INFO - No 'Download All' button for f5a8cfb16a56dc1c77d6f7d08d4035d8
+2025-10-25 14:30:16,189 - INFO - [92/762] Processing 3edf86bc442089489103a23368cca5c8 (fy2019_archived_opportunities)
+2025-10-25 14:30:25,100 - INFO - No 'Download All' button for 3edf86bc442089489103a23368cca5c8
+2025-10-25 14:30:26,045 - INFO - [93/762] Processing 62901339d99531bad8ecca46c5b3e96f (fy2019_archived_opportunities)
+2025-10-25 14:30:34,932 - INFO - No 'Download All' button for 62901339d99531bad8ecca46c5b3e96f
+2025-10-25 14:30:35,655 - INFO - [94/762] Processing afe2a0daba7ecb50d0c283cbabe8bf97 (fy2019_archived_opportunities)
+2025-10-25 14:30:44,703 - INFO - No 'Download All' button for afe2a0daba7ecb50d0c283cbabe8bf97
+2025-10-25 14:30:45,338 - INFO - [95/762] Processing 40156c0c341780be42d45a7d582259df (fy2019_archived_opportunities)
+2025-10-25 14:30:54,316 - INFO - No 'Download All' button for 40156c0c341780be42d45a7d582259df
+2025-10-25 14:30:55,200 - INFO - [96/762] Processing 2a4c28f8415ce0fe314c13f89e6436ab (fy2019_archived_opportunities)
+2025-10-25 14:31:00,511 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/2a4c28f8415ce0fe314c13f89e6436ab_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:31:01,361 - INFO - [97/762] Processing ce828cc289374bb1bb928a9a83c77d08 (fy2019_archived_opportunities)
+2025-10-25 14:31:07,413 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/ce828cc289374bb1bb928a9a83c77d08_Armed_Protective_Security_Officer_PSO_services_at_IRS_locations_in_Covington_and_Florence_KY_and_Memphis_TN.zip (Armed Protective Security Officer (PSO) services at IRS locations in Covington and Florence, KY and Memphis, TN)
+2025-10-25 14:31:08,190 - INFO - [98/762] Processing 117855c32438bc57dfa3354c9f3267d8 (fy2019_archived_opportunities)
+2025-10-25 14:31:21,401 - INFO - No 'Download All' button for 117855c32438bc57dfa3354c9f3267d8
+2025-10-25 14:31:22,109 - INFO - [99/762] Processing 78a04f35010e288f2b6efe9af82612c3 (fy2019_archived_opportunities)
+2025-10-25 14:31:31,231 - INFO - No 'Download All' button for 78a04f35010e288f2b6efe9af82612c3
+2025-10-25 14:31:31,825 - INFO - [100/762] Processing c763648894a27bdf4614b891a51ea9c1 (fy2019_archived_opportunities)
+2025-10-25 14:31:45,034 - INFO - No 'Download All' button for c763648894a27bdf4614b891a51ea9c1
+2025-10-25 14:31:45,556 - INFO - [101/762] Processing a91ac45ff238ad6ae978d4bfb17fec13 (fy2019_archived_opportunities)
+2025-10-25 14:31:59,061 - INFO - No 'Download All' button for a91ac45ff238ad6ae978d4bfb17fec13
+2025-10-25 14:31:59,720 - INFO - [102/762] Processing ef38e8f030b2648cc6dcf81c7b799803 (fy2019_archived_opportunities)
+2025-10-25 14:32:12,863 - INFO - No 'Download All' button for ef38e8f030b2648cc6dcf81c7b799803
+2025-10-25 14:32:13,854 - INFO - [103/762] Processing 14c7d423c9e49221ccd2749b5265bf30 (fy2019_archived_opportunities)
+2025-10-25 14:32:18,732 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/14c7d423c9e49221ccd2749b5265bf30_Armed_Protective_Security_Officer_PSO_services_at_IRS_locations_in_Covington_and_Florence_KY_and_Memphis_TN.zip (Armed Protective Security Officer (PSO) services at IRS locations in Covington and Florence, KY and Memphis, TN)
+2025-10-25 14:32:19,658 - INFO - [104/762] Processing 437355a5df6b70649b13668a9fc346cf (fy2019_archived_opportunities)
+2025-10-25 14:32:32,831 - INFO - No 'Download All' button for 437355a5df6b70649b13668a9fc346cf
+2025-10-25 14:32:33,634 - INFO - [105/762] Processing e65b2337618dcf13e7e24d7ac3170fcb (fy2019_archived_opportunities)
+2025-10-25 14:32:39,037 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/e65b2337618dcf13e7e24d7ac3170fcb_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:32:39,639 - INFO - [106/762] Processing b65c4a7c42ba919e3c52ae5fbabef90f (fy2019_archived_opportunities)
+2025-10-25 14:32:49,658 - INFO - No 'Download All' button for b65c4a7c42ba919e3c52ae5fbabef90f
+2025-10-25 14:32:50,528 - INFO - [107/762] Processing f34a58509efcada215220d087aea5e5c (fy2019_archived_opportunities)
+2025-10-25 14:32:56,245 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/f34a58509efcada215220d087aea5e5c_Security_Escorts_VTS_Open_Storage.zip (Security Escorts VTS Open Storage)
+2025-10-25 14:32:56,906 - INFO - [108/762] Processing e4b15b53fb9188c35c3d50d9ef53f51f (fy2019_archived_opportunities)
+2025-10-25 14:33:06,895 - INFO - No 'Download All' button for e4b15b53fb9188c35c3d50d9ef53f51f
+2025-10-25 14:33:07,479 - INFO - [109/762] Processing 7c239bd00d1fc313ed4f9910d4898879 (fy2019_archived_opportunities)
+2025-10-25 14:33:16,409 - INFO - No 'Download All' button for 7c239bd00d1fc313ed4f9910d4898879
+2025-10-25 14:33:17,261 - INFO - [110/762] Processing 8cd0d85024040d43f27cf87c80bdafd9 (fy2019_archived_opportunities)
+2025-10-25 14:33:23,048 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/8cd0d85024040d43f27cf87c80bdafd9_C4ISR_Facility_Lobby_Desk_Clerk_Personnel_.zip (C4ISR Facility Lobby Desk Clerk (Personnel))
+2025-10-25 14:33:23,734 - INFO - [111/762] Processing f0affe4a38116880fac872cbad838011 (fy2019_archived_opportunities)
+2025-10-25 14:33:32,797 - INFO - No 'Download All' button for f0affe4a38116880fac872cbad838011
+2025-10-25 14:33:33,729 - INFO - [112/762] Processing 1c39b043a8156ec9eea3ba4b106fb248 (fy2019_archived_opportunities)
+2025-10-25 14:33:39,731 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/1c39b043a8156ec9eea3ba4b106fb248_Security_Escorts_VTS_Open_Storage.zip (Security Escorts VTS Open Storage)
+2025-10-25 14:33:40,598 - INFO - [113/762] Processing 1d0a790fe1820f937d82642342f24287 (fy2019_archived_opportunities)
+2025-10-25 14:33:45,456 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/1d0a790fe1820f937d82642342f24287_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:33:46,195 - INFO - [114/762] Processing 03905f5fad2323b3f46c8866a222734c (fy2019_archived_opportunities)
+2025-10-25 14:33:59,383 - INFO - No 'Download All' button for 03905f5fad2323b3f46c8866a222734c
+2025-10-25 14:34:00,369 - INFO - [115/762] Processing eb2142fa33243ce11bfb0f6ec62a9def (fy2019_archived_opportunities)
+2025-10-25 14:34:13,546 - INFO - No 'Download All' button for eb2142fa33243ce11bfb0f6ec62a9def
+2025-10-25 14:34:14,239 - INFO - [116/762] Processing ab29320d726224eed3ec63ca616ce755 (fy2019_archived_opportunities)
+2025-10-25 14:34:27,496 - INFO - No 'Download All' button for ab29320d726224eed3ec63ca616ce755
+2025-10-25 14:34:28,457 - INFO - [117/762] Processing 7bd8bb4b983c267ed8c78a64e894d14e (fy2019_archived_opportunities)
+2025-10-25 14:34:37,407 - INFO - No 'Download All' button for 7bd8bb4b983c267ed8c78a64e894d14e
+2025-10-25 14:34:38,037 - INFO - [118/762] Processing 293d5cabb4d533c6505194b9fa7eda90 (fy2019_archived_opportunities)
+2025-10-25 14:34:47,043 - INFO - No 'Download All' button for 293d5cabb4d533c6505194b9fa7eda90
+2025-10-25 14:34:47,797 - INFO - [119/762] Processing e8068e66df79340c9d045b40480d7149 (fy2019_archived_opportunities)
+2025-10-25 14:34:53,124 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/e8068e66df79340c9d045b40480d7149_Alarm_Response_Services_for_FWC_at_1555_Newport_Rd_2525_Aviation_Way_Colo_Spgs.zip (Alarm Response Services for FWC at 1555 Newport Rd & 2525 Aviation Way, Colo Spgs)
+2025-10-25 14:34:54,005 - INFO - [120/762] Processing b2eb55457d13c9dce6187541636694de (fy2019_archived_opportunities)
+2025-10-25 14:35:02,986 - INFO - No 'Download All' button for b2eb55457d13c9dce6187541636694de
+2025-10-25 14:35:03,878 - INFO - [121/762] Processing e01aa31dca0d14c70709905cc19ec029 (fy2019_archived_opportunities)
+2025-10-25 14:35:12,893 - INFO - No 'Download All' button for e01aa31dca0d14c70709905cc19ec029
+2025-10-25 14:35:13,586 - INFO - [122/762] Processing ce34fec6bd4644473c0190c83e8bdfb7 (fy2019_archived_opportunities)
+2025-10-25 14:35:20,255 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/ce34fec6bd4644473c0190c83e8bdfb7_PROTECTIVE_SECURITY_OFFICER_PSO_SERVICES_FOR_HAWAII_AND_SOUTH_PACIFIC_ISLANDS.zip (PROTECTIVE SECURITY OFFICER (PSO) SERVICES FOR HAWAII AND SOUTH PACIFIC ISLANDS)
+2025-10-25 14:35:20,815 - INFO - [123/762] Processing addb03b8e75249c6e5d562e276b46bc2 (fy2019_archived_opportunities)
+2025-10-25 14:35:25,553 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/addb03b8e75249c6e5d562e276b46bc2_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:35:26,361 - INFO - [124/762] Processing 84a1a5620ec4245ab030df2ea8d772b8 (fy2019_archived_opportunities)
+2025-10-25 14:35:31,304 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/84a1a5620ec4245ab030df2ea8d772b8_Protective_Security_Officer_PSO_services_in_various_locations_throughout_the_State_of_Virginia.zip (Protective Security Officer (PSO) services in various locations throughout the State of Virginia)
+2025-10-25 14:35:32,173 - INFO - [125/762] Processing f025bbc0fa33595020d6b06c1212318d (fy2019_archived_opportunities)
+2025-10-25 14:35:37,072 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/f025bbc0fa33595020d6b06c1212318d_Protective_Security_Officer_PSO_services_in_various_locations_throughout_the_State_of_Virginia.zip (Protective Security Officer (PSO) services in various locations throughout the State of Virginia)
+2025-10-25 14:35:38,029 - INFO - [126/762] Processing 79e88c843c6448f1aec9030fe5cd9acc (fy2019_archived_opportunities)
+2025-10-25 14:35:42,650 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/79e88c843c6448f1aec9030fe5cd9acc_Security_Escorts_VTS_Open_Storage.zip (Security Escorts VTS Open Storage)
+2025-10-25 14:35:43,409 - INFO - [127/762] Processing 38c18a6238b8b90b11ae9d01fd96f3e2 (fy2019_archived_opportunities)
+2025-10-25 14:35:48,133 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/38c18a6238b8b90b11ae9d01fd96f3e2_Security_Escorts_VTS_Open_Storage.zip (Security Escorts VTS Open Storage)
+2025-10-25 14:35:49,004 - INFO - [128/762] Processing 6cfbecfd97996ff208193580c3abd6fb (fy2019_archived_opportunities)
+2025-10-25 14:35:53,665 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/6cfbecfd97996ff208193580c3abd6fb_Protective_Security_Officer_PSO_services_in_various_locations_throughout_the_State_of_Virginia.zip (Protective Security Officer (PSO) services in various locations throughout the State of Virginia)
+2025-10-25 14:35:54,421 - INFO - [129/762] Processing 3c6bde06aeb2a89f9b6f1cede9dad92d (fy2019_archived_opportunities)
+2025-10-25 14:35:59,137 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/3c6bde06aeb2a89f9b6f1cede9dad92d_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:35:59,878 - INFO - [130/762] Processing c0131a49f04011ea9ed59af19168277b (fy2019_archived_opportunities)
+2025-10-25 14:36:13,084 - INFO - No 'Download All' button for c0131a49f04011ea9ed59af19168277b
+2025-10-25 14:36:13,944 - INFO - [131/762] Processing 946782961e8b13b2e30fc132b2f13d11 (fy2019_archived_opportunities)
+2025-10-25 14:36:27,151 - INFO - No 'Download All' button for 946782961e8b13b2e30fc132b2f13d11
+2025-10-25 14:36:27,724 - INFO - [132/762] Processing 8e11780ac6648012ecf06f999b3eb97c (fy2019_archived_opportunities)
+2025-10-25 14:36:32,985 - INFO - Saved webscraping/downloads/fy2019_archived_opportunities/8e11780ac6648012ecf06f999b3eb97c_PSO_and_related_services_at_Plum_Island_Orient_Point_NY.zip (PSO and related services at Plum Island, Orient Point, NY)
+2025-10-25 14:36:33,916 - INFO - [133/762] Processing 9c256e298d56afc17e03272e15b8c4a0 (fy2019_archived_opportunities)
+2025-10-25 14:36:47,301 - INFO - No 'Download All' button for 9c256e298d56afc17e03272e15b8c4a0
+2025-10-25 14:36:48,202 - INFO - [134/762] Processing 6ca4104f876fc6e81b7e35998a8d41d8 (fy2019_archived_opportunities)
+2025-10-25 14:37:01,405 - INFO - No 'Download All' button for 6ca4104f876fc6e81b7e35998a8d41d8
+2025-10-25 14:37:02,319 - INFO - [135/762] Processing 818b397a2c9e5b9833d0e4364a999587 (fy2019_archived_opportunities)
+2025-10-25 14:37:11,320 - INFO - No 'Download All' button for 818b397a2c9e5b9833d0e4364a999587
+2025-10-25 14:37:12,157 - INFO - [136/762] Processing e7dbcd69e294839eab5c27610a93eeac (fy2019_archived_opportunities)
+2025-10-25 14:37:25,404 - INFO - No 'Download All' button for e7dbcd69e294839eab5c27610a93eeac
+2025-10-25 14:37:26,291 - INFO - [137/762] Processing 408ac68353980eb9cd4a2d36f228a721 (fy2019_archived_opportunities)
+Traceback (most recent call last):
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 288, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 284, in main
+    await process_opportunities(args, opportunities)
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 244, in process_opportunities
+    downloaded = await download_bundle(
+                 ^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 228, in download_bundle
+    await download.save_as(output_path)
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 7230, in save_as
+    return mapping.from_maybe_impl(await self._impl_obj.save_as(path=path))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/_impl/_download.py", line 61, in save_as
+    await self._artifact.save_as(path)
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/_impl/_artifact.py", line 53, in save_as
+    await stream.save_as(path)
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/_impl/_stream.py", line 29, in save_as
+    file = await self._loop.run_in_executor(None, lambda: open(path, "wb"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/edoardo/.local/lib/python3.13/site-packages/playwright/_impl/_stream.py", line 29, in <lambda>
+    file = await self._loop.run_in_executor(None, lambda: open(path, "wb"))
+                                                          ~~~~^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: 'webscraping/downloads/fy2019_archived_opportunities/408ac68353980eb9cd4a2d36f228a721_U.S_Immigration_and_Customs_Enforcement_ICE_the_U.S._Department_of_Homeland_Security_OHS_is_seeking_information_regarding_vendors_capable_of_providing_operating_and_managing_unarmed_transportation_for_UAC_and_Family_Units.zip'

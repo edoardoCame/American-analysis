@@ -1,0 +1,20 @@
+2025-10-25 13:33:26,389 - INFO - Querying up to 250 opportunities from db/sam_archived_opportunities_filtered.sqlite (tables=fy2004_archived_opportunities, keyword=<any>)
+Traceback (most recent call last):
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 287, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/edoardo/miniconda/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 277, in main
+    opportunities = fetch_opportunities(args.db, args.tables, args.keyword, limit)
+  File "/mnt/ssd2/SAM_gov/webscraping/sam_attachment_scraper.py", line 165, in fetch_opportunities
+    for row in conn.execute(sql, params):
+               ~~~~~~~~~~~~^^^^^^^^^^^^^
+sqlite3.OperationalError: Could not decode to UTF-8 column 'Title' with text '84 -- 84�Law Enforcement and Security Equipment'

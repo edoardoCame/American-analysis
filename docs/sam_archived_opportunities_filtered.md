@@ -1,0 +1,1647 @@
+# SAM Archived Opportunities — Schema
+
+## Riepilogo tabelle
+- `fy1970_archived_opportunities`: 0 righe, 47 colonne
+- `fy1980_archived_opportunities`: 0 righe, 47 colonne
+- `fy1998_archived_opportunities`: 0 righe, 47 colonne
+- `fy1999_archived_opportunities`: 0 righe, 47 colonne
+- `fy2000_archived_opportunities`: 0 righe, 47 colonne
+- `fy2001_archived_opportunities`: 0 righe, 47 colonne
+- `fy2002_archived_opportunities`: 0 righe, 47 colonne
+- `fy2003_archived_opportunities`: 0 righe, 47 colonne
+- `fy2004_archived_opportunities`: 227 righe, 47 colonne
+- `fy2005_archived_opportunities`: 375 righe, 47 colonne
+- `fy2006_archived_opportunities`: 635 righe, 47 colonne
+- `fy2007_archived_opportunities`: 646 righe, 47 colonne
+- `fy2008_archived_opportunities`: 717 righe, 47 colonne
+- `fy2009_archived_opportunities`: 621 righe, 47 colonne
+- `fy2010_archived_opportunities`: 859 righe, 47 colonne
+- `fy2011_archived_opportunities`: 995 righe, 47 colonne
+- `fy2012_archived_opportunities`: 1065 righe, 47 colonne
+- `fy2013_archived_opportunities`: 970 righe, 47 colonne
+- `fy2014_archived_opportunities`: 823 righe, 47 colonne
+- `fy2015_archived_opportunities`: 647 righe, 47 colonne
+- `fy2016_archived_opportunities`: 743 righe, 47 colonne
+- `fy2017_archived_opportunities`: 1014 righe, 47 colonne
+- `fy2018_archived_opportunities`: 894 righe, 47 colonne
+- `fy2019_archived_opportunities`: 762 righe, 47 colonne
+- `fy2020_archived_opportunities`: 678 righe, 47 colonne
+- `fy2021_archived_opportunities`: 650 righe, 47 colonne
+- `fy2022_archived_opportunities`: 769 righe, 47 colonne
+- `fy2023_archived_opportunities`: 904 righe, 47 colonne
+- `fy2024_archived_opportunities`: 770 righe, 47 colonne
+- `fy2025_archived_opportunities`: 842 righe, 47 colonne
+- `fy2026_archived_opportunities`: 4 righe, 47 colonne
+
+## Dettagli per tabella
+### `fy1970_archived_opportunities`
+- Righe: 0
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy1980_archived_opportunities`
+- Righe: 0
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy1998_archived_opportunities`
+- Righe: 0
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy1999_archived_opportunities`
+- Righe: 0
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2000_archived_opportunities`
+- Righe: 0
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2001_archived_opportunities`
+- Righe: 0
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2002_archived_opportunities`
+- Righe: 0
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2003_archived_opportunities`
+- Righe: 0
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2004_archived_opportunities`
+- Righe: 227
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2005_archived_opportunities`
+- Righe: 375
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2006_archived_opportunities`
+- Righe: 635
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2007_archived_opportunities`
+- Righe: 646
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2008_archived_opportunities`
+- Righe: 717
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2009_archived_opportunities`
+- Righe: 621
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2010_archived_opportunities`
+- Righe: 859
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2011_archived_opportunities`
+- Righe: 995
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2012_archived_opportunities`
+- Righe: 1065
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2013_archived_opportunities`
+- Righe: 970
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2014_archived_opportunities`
+- Righe: 823
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2015_archived_opportunities`
+- Righe: 647
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2016_archived_opportunities`
+- Righe: 743
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2017_archived_opportunities`
+- Righe: 1014
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2018_archived_opportunities`
+- Righe: 894
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2019_archived_opportunities`
+- Righe: 762
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2020_archived_opportunities`
+- Righe: 678
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2021_archived_opportunities`
+- Righe: 650
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2022_archived_opportunities`
+- Righe: 769
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2023_archived_opportunities`
+- Righe: 904
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2024_archived_opportunities`
+- Righe: 770
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2025_archived_opportunities`
+- Righe: 842
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
+
+### `fy2026_archived_opportunities`
+- Righe: 4
+- Numero colonne: 47
+- Elenco colonne:
+  - NoticeId
+  - Title
+  - Sol#
+  - Department/Ind.Agency
+  - CGAC
+  - Sub-Tier
+  - FPDS Code
+  - Office
+  - AAC Code
+  - PostedDate
+  - Type
+  - BaseType
+  - ArchiveType
+  - ArchiveDate
+  - SetASideCode
+  - SetASide
+  - ResponseDeadLine
+  - NaicsCode
+  - ClassificationCode
+  - PopStreetAddress
+  - PopCity
+  - PopState
+  - PopZip
+  - PopCountry
+  - Active
+  - AwardNumber
+  - AwardDate
+  - Award$
+  - Awardee
+  - PrimaryContactTitle
+  - PrimaryContactFullname
+  - PrimaryContactEmail
+  - PrimaryContactPhone
+  - PrimaryContactFax
+  - SecondaryContactTitle
+  - SecondaryContactFullname
+  - SecondaryContactEmail
+  - SecondaryContactPhone
+  - SecondaryContactFax
+  - OrganizationType
+  - State
+  - City
+  - ZipCode
+  - CountryCode
+  - AdditionalInfoLink
+  - Link
+  - Description
