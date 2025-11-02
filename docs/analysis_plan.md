@@ -38,3 +38,24 @@ Below is a tight “how-to” for each of the 7 items, using only USAspending **
 * **Vehicle structure:** `award_or_idv_flag`, `type_of_idc`, `multiple_or_single_award_idv`, `fair_opportunity_limited_sources` → compare shares on standalone vs IDV orders.
 * **Socio-economic programs:** `type_of_set_aside`, `evaluated_preference` → see if set-asides correlate with quality usage. 
 
+# Additioanl infos on certain data fields
+ 
+ | **Field name (in USAspending)** | **What it represents** | **How it helps infer awarding logic** |
+|----------------------------------|-------------------------|----------------------------------------|
+| solicitation_procedures | Describes how bids were solicited (e.g., Sealed Bid, Negotiated, Simplified Acquisition). | “Sealed Bid” corresponds almost always to lowest-price technically acceptable (LPTA) awards. “Negotiated” (FAR Part 15) allows best-value tradeoff (price + quality). |
+| extent_competed | Indicates how much competition occurred (e.g., Full and Open Competition, Not Competed). | If fully competed → likely price-sensitive. If limited or not competed → selection may depend on technical/quality factors or urgent need. |
+| other_than_full_and_open_competition | Lists statutory exceptions to open competition. | Helps identify sole-source or restricted awards — these often rely on qualitative or capability-based justification (not price competition). |
+| fair_opportunity_limited_sources | Used under multi-award IDVs to note if the opportunity was limited. | Indicates non-competitive awards, implying that technical quality or mission fit drove selection. |
+| number_of_offers_received | Total bids received for the solicitation. | Fewer offers = weaker price competition → quality or technical capacity may have weighed more heavily. |
+| type_of_contract_pricing | Defines the pricing mechanism (e.g., Firm Fixed Price, Cost Plus Award Fee, Incentive Fee). | “Firm Fixed Price” → typically price-based. “Cost Plus Award Fee” or “Incentive Fee” → includes performance or quality incentives (thus quality-based). |
+| performance_based_service_acquisition | Flag indicating if service requirements were defined in terms of measurable outcomes. | “Y” = contract evaluated and monitored by results → strong proxy for quality-based or outcome-oriented criteria. |
+| contract_bundling | Whether multiple requirements were bundled. | Complex, bundled contracts are more likely to include performance or quality factors (vs. small, price-only tasks). |
+| solicitation_identifier | ID linking to the original solicitation on SAM.gov. | You can use it to retrieve the Evaluation Factors for Award section — the only direct source of price vs. quality criteria. |
+| extent_competed_code, solicitation_procedures_code, etc. | Numeric versions of the above text fields. | Useful for coding and quantitative analysis of procurement method. |
+| type_of_set_aside | Indicates preference programs (e.g., Small Business Set-Aside). | Some set-asides use best-value even under low-price context; interesting to test for correlation. |
+| evaluated_preference | Notes statutory evaluation preferences (e.g., Buy American, Small Disadvantaged Business). | These preferences can modify the pure price ranking — introducing non-price criteria (policy-based weighting). |
+| price_evaluation_adjustment_preference_percent_difference | Adjustment percentage applied for evaluation preferences. | Quantifies the extent to which non-price factors (e.g., domestic preference) affect final evaluation. |
+| simplified_procedures_for_certain_commercial_items | Indicates if simplified acquisition methods were used. | Simplified methods typically imply price-driven decisions with less formal quality evaluation. |
+| commercial_item_acquisition_procedures | Whether commercial item acquisition rules apply. | If “Commercial” and “Simplified,” then price is usually the dominant criterion. |
+| type_of_idc / multiple_or_single_award_idv | Contract structure (Indefinite Delivery / Multiple Award). | In multi-award IDVs, task orders may later be competed using best-value or price-only rules — can signal a two-step evaluation. |
+| undefinitized_action | Indicates if terms were finalized after performance began. | Often linked to urgent or specialized awards where technical performance dominates price competition. |
