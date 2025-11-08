@@ -16,6 +16,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
 from sklearn.ensemble import HistGradientBoostingRegressor
+from sklearn.tree import DecisionTreeRegressor
 
 from .usaspending_utils import DEFAULT_DB_PATH, list_prime_transaction_columns
 
@@ -291,7 +292,8 @@ def _prepare_training_data(
     drop_cols.update(col for col in working.columns if col.startswith("annualized_"))
     drop_cols.discard(target_col)
 
-    feature_df = working.drop(columns=list(drop_cols))
+    existing_drop_cols = [col for col in drop_cols if col in working.columns]
+    feature_df = working.drop(columns=existing_drop_cols)
     y = working["log_target"]
     feature_df = feature_df.drop(columns=[target_col, "log_target"])
 
@@ -611,19 +613,167 @@ def train_gradient_boost_model_with_split(
     )
 
     feature_names = prepared.numeric_cols + prepared.categorical_cols
-    perm_result = permutation_importance(
-        pipeline,
-        prepared.X_test,
-        prepared.y_test,
-        n_repeats=5,
-        random_state=random_state,
-        n_jobs=-1,
-    )
+    regressor = pipeline.named_steps["regressor"]
+    if hasattr(regressor, "feature_importances_"):
+        base_importance = np.asarray(regressor.feature_importances_)
+        importance_std = np.zeros_like(base_importance)
+    else:
+        perm_result = permutation_importance(
+            pipeline,
+            prepared.X_test,
+            prepared.y_test,
+            n_repeats=3,
+            random_state=random_state,
+            n_jobs=-1,
+        )
+        base_importance = perm_result.importances_mean
+        importance_std = perm_result.importances_std
+
     importances = pd.DataFrame(
         {
             "feature": feature_names,
-            "importance": perm_result.importances_mean,
-            "importance_std": perm_result.importances_std,
+            "importance": base_importance,
+            "importance_std": importance_std,
+        }
+    ).sort_values("importance", ascending=False)
+
+    return TreeModelArtifacts(
+        model=pipeline,
+        feature_columns={
+            "numeric": prepared.numeric_cols,
+            "categorical": prepared.categorical_cols,
+            "dropped_low_support": prepared.dropped_low_support,
+            "dropped_high_cardinality": prepared.dropped_high_cardinality,
+            "dropped_constant": prepared.dropped_constant,
+            "dropped_price_like": prepared.dropped_price_like,
+        },
+        train_metrics=train_metrics,
+        test_metrics=test_metrics,
+        predictions=predictions.sort_index(),
+        feature_importance=importances.reset_index(drop=True),
+    )
+
+
+def train_decision_tree_model_with_split(
+    source_df: pd.DataFrame,
+    *,
+    target_col: str = "annualized_base_all",
+    test_size: float = 0.2,
+    random_state: int = 42,
+    drop_columns: Optional[Sequence[str]] = None,
+    min_nonnull_ratio: float = 0.01,
+    max_unique_ratio: float = 0.8,
+    max_unique_categories: int = 300,
+    max_depth: Optional[int] = 10,
+    min_samples_leaf: int = 30,
+    price_feature_patterns: Optional[Sequence[str]] = None,
+) -> TreeModelArtifacts:
+    """Train a single decision tree regressor on the log10 target."""
+    prepared = _prepare_training_data(
+        source_df,
+        target_col=target_col,
+        test_size=test_size,
+        random_state=random_state,
+        drop_columns=drop_columns,
+        min_nonnull_ratio=min_nonnull_ratio,
+        max_unique_ratio=max_unique_ratio,
+        max_unique_categories=max_unique_categories,
+        drop_price_patterns=price_feature_patterns,
+    )
+
+    numeric_transformer = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy="median")),
+        ]
+    )
+    categorical_transformer = Pipeline(
+        steps=[
+            ("imputer", SimpleImputer(strategy="most_frequent")),
+            (
+                "encoder",
+                OrdinalEncoder(
+                    handle_unknown="use_encoded_value",
+                    unknown_value=-1,
+                ),
+            ),
+        ]
+    )
+
+    preprocessor = ColumnTransformer(
+        transformers=[
+            ("num", numeric_transformer, prepared.numeric_cols),
+            ("cat", categorical_transformer, prepared.categorical_cols),
+        ],
+        remainder="drop",
+    )
+
+    tree_model = DecisionTreeRegressor(
+        random_state=random_state,
+        max_depth=max_depth,
+        min_samples_leaf=min_samples_leaf,
+    )
+
+    pipeline = Pipeline(
+        steps=[
+            ("preprocess", preprocessor),
+            ("regressor", tree_model),
+        ]
+    )
+
+    pipeline.fit(prepared.X_train, prepared.y_train)
+
+    train_pred = pipeline.predict(prepared.X_train)
+    test_pred = pipeline.predict(prepared.X_test)
+
+    train_mse = mean_squared_error(prepared.y_train, train_pred)
+    test_mse = mean_squared_error(prepared.y_test, test_pred)
+
+    train_metrics = {
+        "rmse": float(np.sqrt(train_mse)),
+        "mae": float(mean_absolute_error(prepared.y_train, train_pred)),
+        "r2": float(r2_score(prepared.y_train, train_pred)),
+    }
+    test_metrics = {
+        "rmse": float(np.sqrt(test_mse)),
+        "mae": float(mean_absolute_error(prepared.y_test, test_pred)),
+        "r2": float(r2_score(prepared.y_test, test_pred)),
+    }
+
+    predictions = pd.DataFrame(
+        {
+            "actual_log10": prepared.y_test,
+            "predicted_log10": test_pred,
+        },
+        index=prepared.y_test.index,
+    )
+    predictions["actual_value"] = np.power(10.0, predictions["actual_log10"])
+    predictions["predicted_value"] = np.power(10.0, predictions["predicted_log10"])
+    predictions["residual_log10"] = (
+        predictions["actual_log10"] - predictions["predicted_log10"]
+    )
+
+    feature_names = prepared.numeric_cols + prepared.categorical_cols
+    regressor = pipeline.named_steps["regressor"]
+    if hasattr(regressor, "feature_importances_"):
+        base_importance = np.asarray(regressor.feature_importances_)
+        importance_std = np.zeros_like(base_importance)
+    else:
+        perm_result = permutation_importance(
+            pipeline,
+            prepared.X_test,
+            prepared.y_test,
+            n_repeats=3,
+            random_state=random_state,
+            n_jobs=-1,
+        )
+        base_importance = perm_result.importances_mean
+        importance_std = perm_result.importances_std
+
+    importances = pd.DataFrame(
+        {
+            "feature": feature_names,
+            "importance": base_importance,
+            "importance_std": importance_std,
         }
     ).sort_values("importance", ascending=False)
 
@@ -651,5 +801,6 @@ __all__ = [
     "TreeModelArtifacts",
     "train_log_linear_model_with_split",
     "train_gradient_boost_model_with_split",
+    "train_decision_tree_model_with_split",
     "extract_linear_feature_importance",
 ]
