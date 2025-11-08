@@ -21,6 +21,103 @@ from sklearn.tree import DecisionTreeRegressor
 from .usaspending_utils import DEFAULT_DB_PATH, list_prime_transaction_columns
 
 # ---------------------------------------------------------------------------
+# Analysis and interpretation utilities
+
+
+def extract_decision_rules(
+    tree_model: DecisionTreeRegressor,
+    feature_names: list[str],
+    X_sample: pd.DataFrame,
+    max_depth: int = 3,
+    min_samples: int = 100
+) -> pd.DataFrame:
+    """Extract interpretable decision rules from a trained decision tree.
+    
+    Parameters
+    ----------
+    tree_model:
+        Trained DecisionTreeRegressor
+    feature_names:
+        List of feature names in order
+    X_sample:
+        Sample dataframe to get feature value ranges
+    max_depth:
+        Maximum depth of rules to extract
+    min_samples:
+        Minimum samples in leaf to include rule
+        
+    Returns
+    -------
+    DataFrame with columns: rule_text, predicted_value, sample_count, depth
+    """
+    tree = tree_model.tree_
+    rules = []
+    
+    def recurse(node_id: int, path: list[str], depth: int):
+        if depth > max_depth:
+            return
+        
+        # Leaf node
+        if tree.feature[node_id] == -2:
+            if tree.n_node_samples[node_id] >= min_samples:
+                rule_text = ' AND '.join(path) if path else 'All contracts'
+                rules.append({
+                    'rule_text': rule_text,
+                    'predicted_value': tree.value[node_id][0, 0],
+                    'sample_count': tree.n_node_samples[node_id],
+                    'depth': depth
+                })
+            return
+        
+        # Internal node
+        feature_idx = tree.feature[node_id]
+        threshold = tree.threshold[node_id]
+        feature_name = feature_names[feature_idx]
+        
+        # Left branch (<=)
+        left_path = path + [f"{feature_name} <= {threshold:.2f}"]
+        recurse(tree.children_left[node_id], left_path, depth + 1)
+        
+        # Right branch (>)
+        right_path = path + [f"{feature_name} > {threshold:.2f}"]
+        recurse(tree.children_right[node_id], right_path, depth + 1)
+    
+    recurse(0, [], 0)
+    
+    if not rules:
+        return pd.DataFrame(columns=['rule_text', 'predicted_value', 'sample_count', 'depth'])
+    
+    rules_df = pd.DataFrame(rules).sort_values('predicted_value', ascending=False)
+    return rules_df
+
+
+def identify_high_value_contracts(
+    model_df: pd.DataFrame,
+    percentile: float = 90,
+    value_col: str = 'annualized_base_all'
+) -> tuple[pd.DataFrame, float]:
+    """Identify high-value contracts and return enriched dataframe.
+    
+    Parameters
+    ----------
+    model_df:
+        Dataset with contracts
+    percentile:
+        Percentile threshold for "high value"
+    value_col:
+        Column name with contract values
+        
+    Returns
+    -------
+    Tuple of (high_value_df, threshold_value)
+    """
+    threshold = model_df[value_col].quantile(percentile / 100)
+    high_value = model_df[model_df[value_col] > threshold].copy()
+    
+    return high_value, threshold
+
+
+# ---------------------------------------------------------------------------
 # Feature selection helpers
 
 
