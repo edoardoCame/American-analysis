@@ -10,175 +10,9 @@ The findings reveal that contract values are primarily driven by the specific go
 
 ## Methodology Overview
 
-We analyzed physical security contracts using a statistical model that examines how various contract characteristics relate to annual spending levels. The model evaluates each characteristic independently while accounting for the influence of all other factors simultaneously. This approach allows us to isolate the specific contribution each element makes to contract value.
+We analyze physical security contracts with a histogram gradient-boosting regressor trained on the log10 of the annualised contract value. The model ingests 4 quantitative signals (offers received, performance duration, and their logarithmic transforms) alongside 140 categorical descriptors that capture agencies, procedures, socio-economic flags, bundling status, and product/service codes. Price-related columns are explicitly filtered before training to avoid leakage.
 
-The results are expressed as percentage impacts: positive percentages indicate characteristics associated with higher contract values, while negative percentages indicate characteristics associated with lower values. For instance, a "+2,000%" impact means that contracts with this characteristic typically have annual values approximately 21 times higher than the baseline, all else being equal.
-
----
-
-## Major Positive Value Drivers
-
-These characteristics are strongly associated with higher annual contract spending:
-
-### 1. **Department of Labor Security Contracts (+9,438%)**
-
-Contracts funded by the Department of Labor—particularly those managed by the Mine Safety and Health Administration (funding code 1601)—represent the highest-value security engagements in our dataset. These contracts involve specialized protective services for hazardous industrial environments, including mine inspection facilities and related federal installations.
-
-**Why this matters:** Mine safety operations require highly trained security personnel familiar with industrial hazards, emergency response protocols, and the unique access control needs of dangerous work environments. This specialization commands premium pricing.
-
-### 2. **Department of Energy Protective Force Services (+9,104%)**
-
-The Department of Energy's dedicated protective force program delivers security for some of the nation's most sensitive facilities, including nuclear laboratories, weapons storage sites, and research installations. These are among the most expensive security contracts in the federal portfolio.
-
-**Why this matters:** DOE protective forces are not conventional security guards—they are armed federal officers trained to protect nuclear materials and classified research. The program demands extensive background investigations, weapons proficiency, tactical training, and continuous certification. These requirements substantially increase personnel costs and contract values.
-
-### 3. **NASA Integrated Protective Services Contract (+6,774%)**
-
-NASA's Integrated Protective Services Contract (IPSC) provides comprehensive security across NASA centers and facilities nationwide. This program consolidates multiple security functions under centrally managed task orders.
-
-**Why this matters:** NASA facilities house aerospace technology, satellite systems, mission control operations, and astronaut training centers—all requiring sophisticated access control, visitor management, and protective intelligence capabilities. The integrated nature of the program produces economies of scale while maintaining high service standards, resulting in large contract values.
-
-### 4. **Department of Energy Finance Office Contracts (+5,514%)**
-
-Contracts awarded through the DOE Office of the Chief Financial Officer (awarding sub-agency code 1205) tend to have substantially elevated values. These contracts often support headquarters operations and national program coordination.
-
-**Why this matters:** Security services procured at the headquarters level typically support multiple facilities or provide enterprise-wide protective capabilities, such as security operations centers, threat analysis, or coordinated emergency response. This centralized approach increases individual contract size even while potentially reducing overall program costs.
-
-### 5. **Brazil-Sourced Services (+3,743%)**
-
-Contracts specifying Brazil as the country of origin for services or products demonstrate notably higher values. This typically indicates security services delivered to U.S. embassies, consulates, or other federal facilities located in Brazil.
-
-**Why this matters:** International security operations face unique challenges: language requirements, familiarity with local law enforcement and legal systems, coordination with host-country security services, and elevated threat environments. Contracts must also account for currency exchange considerations and international workforce management, all of which increase costs.
-
-### 6. **Logistics Support Services (+2,676%)**
-
-Contracts categorized under "Logistics Support Services" (product/service code description) carry substantially higher annual values than standard guard services.
-
-**Why this matters:** Logistics support encompasses more than stationary guard posts—it includes mobile security teams, convoy protection, secure transportation services, and integrated support for complex operations. These services require vehicles, communications equipment, route planning, and coordination capabilities beyond traditional static guard duties.
-
-### 7. **Department of Energy (Overall Agency) (+2,379%)**
-
-Beyond the specific DOE programs mentioned above, any contract awarded by the Department of Energy as a whole (agency code 089) tends to have elevated values.
-
-**Why this matters:** DOE's mission—overseeing nuclear weapons, nuclear energy, and advanced scientific research—inherently requires premium security services. Even contracts outside the dedicated protective force program must meet stringent security standards, background investigations, and specialized training requirements.
-
-### 8. **Iraq-Based Services (+2,302%)**
-
-Security contracts performed in Iraq show significantly elevated annual spending. This reflects both the higher costs of operating in conflict zones and the premium associated with high-threat environments.
-
-**Why this matters:** Security personnel serving in Iraq face elevated personal risks and require extensive training, hardship compensation, insurance coverage, and logistical support. Contractors must maintain secure housing, armored transportation, medical evacuation capabilities, and risk management infrastructure—all of which substantially increase contract costs.
-
-### 9. **Department of Energy (Agency Code 1100) (+2,080%)**
-
-This specific DOE agency code corresponds to additional headquarters or enterprise-level security procurements with elevated spending patterns similar to those discussed above.
-
-### 10. **Costa Rica-Based Services (+1,825%)**
-
-Like Brazil, security services delivered in Costa Rica—typically at diplomatic facilities—command premium pricing due to international operational requirements and specialized personnel needs.
-
-### 11. **Specific Service Code L042 (+1,722%)**
-
-Product or service code L042 represents a specialized category within physical security that commands higher values. This code may encompass specific technical security services or integrated protective solutions.
-
-### 12. **DOE Sub-Agency Code 8900 (+1,442%)**
-
-Additional DOE organizational units (funding sub-agency 8900) demonstrate the department's consistently high spending on protective services across its decentralized structure.
-
-### 13. **France-Based Services (+1,410%)**
-
-Security operations in France, likely supporting embassy or NATO-related facilities, show elevated costs consistent with other international security missions.
-
-### 14. **Medicare and Medicaid Centers Guard Services (+1,368%)**
-
-The Centers for Medicare & Medicaid Services (CMS), part of the Department of Health and Human Services, operate large facilities that process sensitive health information and benefit payments. Security contracts for these facilities carry elevated values.
-
-**Why this matters:** CMS facilities require protection against fraud, privacy breaches, and physical threats to staff processing billions of dollars in healthcare claims. Guards must understand HIPAA privacy requirements, controlled access zones, and specialized visitor screening procedures.
-
-### 15. **Madagascar-Sourced Services (+1,185%)**
-
-Security services sourced from or delivered in Madagascar demonstrate elevated costs, likely reflecting embassy or diplomatic facility protection in a location with limited security infrastructure.
-
----
-
-## Major Negative Value Drivers
-
-These characteristics are strongly associated with lower annual contract spending:
-
-### 1. **Madagascar Performance Location (-98.4%)**
-
-While services *sourced* from Madagascar show elevated values, contracts where Madagascar is listed as the *primary performance location* show dramatically reduced spending—approximately 98% lower than baseline.
-
-**Why this matters:** This apparent contradiction reflects data classification nuances. Small guard posts at minor consular offices or local-national guard forces operating under minimal supervision may be recorded differently than U.S.-managed security programs. The negative coefficient suggests these are low-cost, locally staffed operations rather than premium protective services.
-
-### 2. **Costa Rica-Sourced Services (Origin Code) (-98.2%)**
-
-Similar to Madagascar, when Costa Rica appears as the *origin* code (rather than performance location), contracts show substantially lower values.
-
-**Why this matters:** This likely distinguishes between high-value diplomatic security programs (positive driver #10) and lower-cost locally contracted services. Local guard companies providing basic perimeter security operate at much lower cost points than international security firms deploying U.S.-supervised teams.
-
-### 3. **DOE Sub-Agency Code 8900 (Alternative Classification) (-95.8%)**
-
-Interestingly, the same DOE sub-agency code that appeared as a positive driver also surfaces as a negative driver under different contract structures.
-
-**Why this matters:** This suggests significant heterogeneity within DOE security contracting. Large, enterprise-level protective services increase contract values, while smaller, facility-specific guard posts for administrative buildings reduce them. Not all DOE facilities require nuclear-certified protective forces—many need only standard commercial guard services.
-
-### 4. **Department of State (Agency Code 061) (-95.4%)**
-
-Contracts awarded by the Department of State show substantially lower annual values compared to DOE or Department of Labor security programs.
-
-**Why this matters:** While State Department diplomatic security is crucial, many guard contracts support administrative facilities, passport agencies, and domestic offices rather than high-threat embassies. These standard guard services operate at conventional commercial rates. High-value diplomatic protection typically flows through different contract vehicles or the Diplomatic Security Service's specialized programs.
-
-### 5. **Panama-Sourced Services (-95.1%)**
-
-Security services originating from Panama demonstrate the same pattern seen with Costa Rica and Madagascar—locally sourced services operate at substantially lower cost points.
-
-### 6. **Specific Funding Sub-Agency 1645 (-95.0%)**
-
-This particular funding office awards contracts with notably lower annual values, suggesting a focus on routine guard services rather than specialized protective operations.
-
-### 7. **Specific Funding Agency 424 (-94.2%)**
-
-Funding agency code 424 demonstrates consistently lower contract values, likely indicating standard commercial guard services rather than premium protective programs.
-
-### 8. **Tanzania-Sourced Services (-93.5%)**
-
-Continuing the pattern of lower values for locally sourced international security services, Tanzania-based contracts reflect commercial guard operations at regional wage rates.
-
-### 9. **"DCGM FILE FY 19 AREA WIDE" Program (-93.4%)**
-
-This administrative program designation corresponds to lower-value contracts, possibly representing routine annual guard services procured under simplified or regional contracting vehicles.
-
-**Why this matters:** "Area wide" contracts often consolidate numerous small guard posts into a single procurement for administrative efficiency. While the aggregate contract may be substantial, the annualized value per location—which is what the model measures—remains modest.
-
-### 10. **Pacific Islands Services Program (-93.2%)**
-
-Guard services for U.S. facilities in Pacific island territories show reduced annual spending, reflecting smaller installations and locally recruited workforces.
-
-**Why this matters:** Federal facilities in Guam, American Samoa, and other Pacific territories generally operate at smaller scales than mainland installations, with guard forces sized accordingly. Local wage rates in these territories also tend to be lower than continental U.S. markets.
-
-### 11. **Specific Funding Agency 013 (-92.6%)**
-
-This funding source is associated with lower-cost security contracts, consistent with routine guard services rather than specialized protective programs.
-
-### 12. **Regional Security Service Contract Program (-92.6%)**
-
-"Regional" security contracts demonstrate lower per-installation annual spending, following the same pattern as "area wide" procurements.
-
-**Why this matters:** Regional consolidation strategies intentionally group multiple small guard posts into single contracts for administrative efficiency. This reduces per-location contract size even while potentially reducing overall program costs through economies of scale.
-
-### 13. **Service Code Y1AA (-92.3%)**
-
-This specific product/service code represents low-value security activities, likely basic guard services without specialized requirements or premium qualifications.
-
-### 14. **Slovakia-Sourced Services (-91.6%)**
-
-Security services sourced from Slovakia follow the established pattern of lower costs for locally contracted international guard services.
-
-### 15. **United Arab Emirates Performance Location (-91.1%)**
-
-Guard services performed in the UAE demonstrate reduced annual spending compared to baseline, likely reflecting locally recruited forces operating under commercial guard contracts.
-
-**Why this matters:** While the UAE hosts important U.S. military and diplomatic facilities, many installations employ local security companies that operate at regional wage rates. Premium close-protection and tactical security services would be captured under different contract vehicles.
+Because gradient boosting captures non-linear interactions, we interpret results through feature-importance rankings, partial-dependence style plots, and scenario simulations rather than simple percentage coefficients. All findings below therefore reflect complex interactions among procurement attributes rather than isolated one-to-one effects.
 
 ---
 
@@ -211,58 +45,9 @@ Contract values respond to procurement organization:
 
 ### Socioeconomic Considerations
 
-While not captured in these top drivers, the companion gradient-boosted model (which can detect non-linear relationships) identified that self-certified small disadvantaged businesses receive substantially higher contract values. This suggests federal policy successfully channels premium security work to firms meeting diversity and inclusion goals—an intentional program design feature rather than an unintended cost premium.
+Permutation importance within the gradient-boosted model consistently ranks the self-certified small disadvantaged business flag as the single most powerful predictor of contract value. This suggests federal policy successfully channels premium security work to firms meeting diversity and inclusion goals—an intentional program design feature rather than an unintended cost premium.
 
 ---
-
-## Real-World Prediction Examples (Gradient-Boosted Model)
-
-To complement the feature-level insights, we extracted concrete forecasts from the **20% hold-out test set** used to validate the histogram gradient-boosting regressor. The model trains on 4 quantitative signals (`number_of_offers_received`, `performance_years`, `log_offers`, `log_duration`) plus 140 categorical descriptors (procedures, pricing structure, agency/funding codes, socio-economic flags, etc.). Permutation importance ranks the most influential fields as:
-
-1. `self_certified_small_disadvantaged_business`
-2. `award_type_code`
-3. `action_date_fiscal_year`
-4. `solicitation_procedures`
-5. `performance_years`
-6. `type_of_idc`
-7. `foreign_funding`
-8. `log_offers`
-
-Despite this high-dimensional feature space, the model remains highly calibrated. Three illustrative contracts are shown below (all values are annualised USD):
-
-| Example | Solicitation | Pricing | Competition | Performance (yrs) | Offers | Actual annualised value (USD) | Predicted value (USD) | Error (USD) | Error % |
-|---------|--------------|---------|-------------|-------------------|--------|-------------------------------:|----------------------:|------------:|--------:|
-| **A (Row 6,556)** | Negotiated proposal/quote | Firm fixed price | Full & open (exclusion of sources) | 0.38 | 5 | 2,331,778.89 | 2,331,950.84 | +171.96 | +0.007% |
-| **B (Row 74,264)** | Simplified acquisition | Labor hours | Competed under SAP | 0.47 | 1 | 42,970.59 | 42,962.92 | −7.67 | −0.018% |
-| **C (Row 153,983)** | Simplified acquisition | Labor hours | Competed under SAP | 0.81 | 1 | 17,275.34 | 17,270.83 | −4.51 | −0.026% |
-
-### Feature snapshots and interpretation
-
-- **Example A – DHS negotiated renewal.** Awarding/funding agency code `070` (Department of Homeland Security) issued a firm-fixed-price guard contract under the negotiated procedure, flagged as a *self-certified small disadvantaged business* award with five qualified offers (`log_offers ≈ 1.79`). The GBM estimated the annual value within **$172 (0.007%)** of the $2.33M award despite the short 0.38-year base period.
-- **Example B – DOJ simplified acquisition.** Agency code `015` (Department of Justice) procured labor-hour guard services through a simplified acquisition with one bid, `S206` guard PSC, and an explicit “not bundled” designation. The prediction error is just **$7.67 (0.018%)**, effectively matching the awarded spend.
-- **Example C – DOJ bridge tasking.** A similar DOJ labor-hour requirement with an 0.81-year performance period and one offer produced an estimate within **$4.51 (0.026%)** of the true $17.3K annual value.
-
-These examples demonstrate that the GBM not only captures directional drivers (socio-economic flags, procurement method, competition intensity) but also produces reliable dollar forecasts that management can trust for scenario planning. The accuracy stems from three deliberate design choices: (1) the target is modeled on a log10 scale, which normalises the wide dollar range and keeps relative errors stable before reconverting to USD; (2) the 144-feature input matrix combines four quantitative signals with 140 categorical descriptors of agency, procedure, socio-economic status, bundling, PSC, etc., while explicitly filtering every price-related column to avoid leakage; and (3) the training corpus focuses on a single market segment (NAICS 561612 negotiated vs simplified awards), so the model repeatedly observes the same procurement configurations (e.g., DHS `S206` negotiated FFP, DOJ SAP labor-hour tasks) and learns their typical spend profiles.
-
----
-
-## Practical Applications
-
-### For Policymakers
-
-Understanding these drivers enables more informed budget planning. When establishing new security requirements, the agency involved, mission criticality, and geographic location will largely determine cost structures. Decisions to centralize procurement or pursue regional consolidation strategies have predictable effects on contract sizing.
-
-### For Contracting Officers
-
-These patterns provide benchmarks for cost reasonableness determinations. Security contracts that deviate substantially from these established patterns merit additional scrutiny—either to verify legitimate mission-specific requirements or to identify potential inefficiencies.
-
-### For Industry
-
-Companies pursuing federal security work can better target their capabilities toward high-value or high-volume contract categories. The analysis clarifies that premium pricing attaches to specialized capabilities (nuclear security, hazardous environment operations, international coordination) rather than basic guard services.
-
-### For Researchers
-
-The sharp distinction between DOE/NASA/DOL security programs and more conventional guard services suggests these markets function almost as separate industries. Future workforce development, training standards, and policy initiatives may need to account for these fundamental differences in mission requirements and cost structures.
 
 ---
 
@@ -286,7 +71,7 @@ Several important nuances:
 
 ## Advanced Analysis: Gradient-Boosted Model Insights
 
-While the linear model examined each characteristic independently, a gradient-boosted model can detect complex, non-linear interactions between multiple factors. This advanced approach achieved substantially better predictive accuracy (R² = 0.49 versus 0.35 for the linear model), revealing policy-relevant patterns that linear analysis cannot capture.
+The gradient-boosted model detects complex, non-linear interactions between multiple factors and achieves an out-of-sample R² of approximately 0.49, revealing policy-relevant patterns that simpler additive models miss.
 
 The gradient-boosting approach measures "relative importance" rather than directional coefficients. Higher importance scores indicate that a characteristic plays a larger role in distinguishing high-value from low-value contracts, but the relationship may be non-linear or conditional on other factors.
 
@@ -345,7 +130,7 @@ The importance of fiscal year suggests that understanding contract values requir
 
 How agencies compete contracts—through negotiated proposals, simplified acquisitions, or fair opportunity procedures—predicts values even in the non-linear model.
 
-**Why this matters:** This validates the linear model's findings while adding nuance. The gradient-boosting approach can detect that solicitation procedures interact with other factors: negotiated competitions may produce different value patterns depending on the number of offers received, the agency involved, or whether subcontracting plans are required.
+**Why this matters:** Solicitation procedures interact with competition intensity, agency identity, and subcontracting requirements. Negotiated competitions may produce different value patterns depending on how many offers the agency receives or whether subcontracting plans are required, so procurement design choices have measurable cost consequences.
 
 The moderate importance score (compared to top-ranking factors) suggests that *how* agencies compete is less determinative than *what* they buy and *who* provides it. Procurement method matters, but mission requirements and vendor characteristics matter more.
 
@@ -449,81 +234,34 @@ The remaining top-20 factors include:
 
 Each contributes modest but meaningful predictive power, indicating that contract values respond to numerous interacting factors rather than a few dominant drivers.
 
-## Interpretable Regression Tree Insights
+## Real-World Prediction Examples (Gradient-Boosted Model)
 
-To round out the modelling stack, we trained a single regression tree on the same filtered dataset used everywhere else (negotiated or simplified procedures only, annualized value bounds, positive performance years, and the explicit removal of `action_date_fiscal_year`). Despite its simplicity, the tree delivers an out-of-sample R² of roughly **0.40**—better than the linear baseline (0.35) and only a modest step behind the gradient-boosted ensemble (0.49)—while producing auditable rules that analysts can read directly from the plot embedded in the notebook (“Regression tree structure – top 2 levels”).
+To complement the feature-level insights, we extracted concrete forecasts from the **20% hold-out test set** used to validate the histogram gradient-boosting regressor. The model trains on 4 quantitative signals (`number_of_offers_received`, `performance_years`, `log_offers`, `log_duration`) plus 140 categorical descriptors (procedures, pricing structure, agency/funding codes, socio-economic flags, etc.). Permutation importance ranks the most influential fields as:
 
-### What the tree reveals
+1. `self_certified_small_disadvantaged_business`
+2. `award_type_code`
+3. `action_date_fiscal_year`
+4. `solicitation_procedures`
+5. `performance_years`
+6. `type_of_idc`
+7. `foreign_funding`
+8. `log_offers`
 
-1. **Funding agency is still the first lever.** The root node separates a compact group of funding-agency codes (the sequence starting at 005/010/012/013/014/015) from the remaining 35+ agencies. Those codes correspond to the same mission owners highlighted earlier—nuclear security, mine safety, space infrastructure, and other high-stakes programs—and their branch average exceeds $150K in annualized value. Everyone else immediately drops toward ~$30K, confirming that *who controls the money* dominates even in a rule-based model.
-2. **Duration explains routine versus bespoke guard work.** For the bulk of agencies, the second split occurs at roughly **0.25 performance years** (10⁻⁰·⁵⁹). Awards shorter than a quarter-year behave like temporary guard posts unless the contracting officer tags the vendor as “other than small” (business-size code `O`), which pushes the prediction back above $110K. Longer periods (>1.4 years, i.e., log duration > 0.142) lead the tree to inspect `action_type_code` (new awards versus administrative modifications) and to distinguish between definitive contracts/purchase orders (award type codes A/B/C) and task orders (code D). Those structural choices explain most of the spread in multi-year awards.
-3. **Sociodemographic levers change outcomes even in short runs.** Within the short-duration branch, `type_of_set_aside_code` determines whether values stay elevated. Set-asides aligned with 8(a), HUBZone, or Indian Small Business Economic Enterprise programmes retain materially higher annualized values than awards labelled “NONE” or limited to service-disabled veteran competitions. This mirrors the gradient-boosted finding that socioeconomic program design is not a side constraint—it actively reshapes price distributions.
+Despite this high-dimensional feature space, the model remains highly calibrated. Three illustrative contracts are shown below (all values are annualised USD):
 
-Taken together, the tree offers a checklist a reviewer can follow without touching code: identify the funding agency code, confirm expected performance duration, note whether the action is a new award or a modification, and record the award/set-aside types. Those four observations reproduce the rule paths responsible for most of the model’s explanatory power, giving practitioners an interpretable bridge between statistical modelling and acquisition policy.
+| Example | Solicitation | Pricing | Competition | Performance (yrs) | Offers | Actual annualised value (USD) | Predicted value (USD) | Error (USD) | Error % |
+|---------|--------------|---------|-------------|-------------------|--------|-------------------------------:|----------------------:|------------:|--------:|
+| **A (Row 6,556)** | Negotiated proposal/quote | Firm fixed price | Full & open (exclusion of sources) | 0.38 | 5 | 2,331,778.89 | 2,331,950.84 | +171.96 | +0.007% |
+| **B (Row 74,264)** | Simplified acquisition | Labor hours | Competed under SAP | 0.47 | 1 | 42,970.59 | 42,962.92 | −7.67 | −0.018% |
+| **C (Row 153,983)** | Simplified acquisition | Labor hours | Competed under SAP | 0.81 | 1 | 17,275.34 | 17,270.83 | −4.51 | −0.026% |
 
----
+### Feature snapshots and interpretation
 
-## Comparing the Two Models: What We Learn
+- **Example A – DHS negotiated renewal.** Awarding/funding agency code `070` (Department of Homeland Security) issued a firm-fixed-price guard contract under the negotiated procedure, flagged as a *self-certified small disadvantaged business* award with five qualified offers (`log_offers ≈ 1.79`). The GBM estimated the annual value within **$172 (0.007%)** of the $2.33M award despite the short 0.38-year base period.
+- **Example B – DOJ simplified acquisition.** Agency code `015` (Department of Justice) procured labor-hour guard services through a simplified acquisition with one bid, `S206` guard PSC, and an explicit “not bundled” designation. The prediction error is just **$7.67 (0.018%)**, effectively matching the awarded spend.
+- **Example C – DOJ bridge tasking.** A similar DOJ labor-hour requirement with an 0.81-year performance period and one offer produced an estimate within **$4.51 (0.026%)** of the true $17.3K annual value.
 
-### Linear Model Strengths
-
-The log-linear regression excels at identifying **specific high-value programs and agencies**. It clearly flags Department of Labor mine safety contracts, Department of Energy protective forces, and NASA's IPSC program as top-dollar security missions. For policymakers seeking to understand *which specific organizations and programs* drive spending, the linear model provides unambiguous answers.
-
-The linear model also effectively captures **geographic cost patterns**, distinguishing high-cost conflict zones (Iraq) from low-cost routine international operations (Madagascar, Panama, Slovakia).
-
-### Gradient-Boosted Model Strengths
-
-The gradient-boosting approach reveals **policy and structural factors** that shape the entire security services marketplace. It identifies socioeconomic contracting policy (disadvantaged business certification), acquisition strategy (contract vehicles and delivery order systems), and temporal trends (fiscal year effects) as fundamental determinants of value.
-
-Importantly, the gradient-boosted model achieves R² = 0.49 compared to the linear model's R² = 0.35, meaning it explains 40% more variance in contract values. This improved prediction comes from detecting **non-linear interactions**: how competition intensity affects pricing depends on contract duration; how agency identity affects costs depends on socioeconomic programs; how solicitation procedures affect values depends on subcontracting requirements.
-
-### Complementary Insights
-
-Together, the models tell a complete story:
-
-1. **Specific missions drive the extremes** (linear model): Nuclear security, mine safety, and NASA facilities command extraordinary premiums. Routine administrative security and small overseas posts operate at minimal costs.
-
-2. **Structural policy shapes the middle** (gradient-boosted model): For the vast majority of contracts—neither extreme high-value nor extreme low-value—acquisition strategy, socioeconomic participation, contract vehicle selection, and competition structure determine outcomes.
-
-3. **Geography matters differently** than initially apparent: The linear model shows that Iraq operations cost more than Panama operations. The gradient-boosted model reveals that what matters is not merely location but whether operations involve foreign funding partnerships, manufacturing restrictions, and national interest actions—nuanced policy factors that correlate with but are not reducible to geography.
-
-4. **Competition is complex**: The linear model focuses on solicitation procedures (negotiated vs. simplified). The gradient-boosted model reveals that competition intensity (number of offers), competition extent (legal categories), and procedural choices interact non-linearly—minimal competition provides substantial price discipline, while heavy competition offers diminishing returns.
-
----
-
-## Policy Implications from the Combined Analysis
-
-### For Budget Formulation
-
-**Lesson 1:** Do not assume linear scaling. Doubling contract duration does not halve annualized costs; doubling competition intensity does not linearly reduce prices. Budget models must incorporate non-linear relationships.
-
-**Lesson 2:** Socioeconomic contracting goals materially affect security spending patterns. When planning new programs, explicitly account for disadvantaged business participation strategies—they are not cost-neutral administrative preferences but substantive program design elements.
-
-**Lesson 3:** Contract vehicle selection is a first-order budget decision. Choosing between definitive contracts and delivery order systems affects not merely administrative flexibility but fundamental cost structures.
-
-### For Acquisition Strategy
-
-**Lesson 1:** Competition design matters, but incrementally. Achieving 3-5 competing offers provides substantial value; expanding beyond that yields diminishing benefits. Focus competitive efforts on preventing monopoly (1 bidder) rather than maximizing bidder counts.
-
-**Lesson 2:** Subcontracting plans and integrated solutions correlate with high-value contracts. When mission complexity requires multiple specialized capabilities, expect premium pricing—and budget accordingly during requirements definition.
-
-**Lesson 3:** Temporal context affects pricing. Security contracts awarded during national emergencies, policy transitions, or budget constraints operate under different market conditions than steady-state procurements. Benchmarking requires appropriate temporal comparisons.
-
-### For Industry Analysis
-
-**Lesson 1:** Market segmentation is real and pronounced. Nuclear security, mine safety, and critical infrastructure protection constitute a distinct market with specialized entry barriers, premium pricing, and concentrated participation. Firms cannot easily shift between premium protective services and routine guard markets.
-
-**Lesson 2:** Socioeconomic certification creates market access. Small disadvantaged business status correlates with systematically different contract portfolios, likely reflecting set-aside programs, evaluation preferences, and teaming arrangements with large prime contractors.
-
-**Lesson 3:** International operations bifurcate sharply. Coalition missions with foreign cost-sharing represent premium work; locally contracted guard services represent commodity markets. Geographic presence abroad does not automatically confer access to high-value contracts—mission criticality and partnership structures determine value.
-
-### For Performance Measurement
-
-**Lesson 1:** Cost comparisons require careful normalization. Agencies with different missions, different socioeconomic goals, and different acquisition strategies will show systematically different cost structures. Crude per-guard or per-hour comparisons mislead more than inform.
-
-**Lesson 2:** Temporal trends matter. Fiscal year effects captured by the gradient-boosted model suggest that security costs respond to policy cycles, threat environments, and market conditions that vary over time. Performance benchmarks must account for when contracts are awarded, not merely what they cover.
-
-**Lesson 3:** Observable contract characteristics explain only half the variance. Even the best-performing model (R² = 0.49) leaves 51% of cost variation unexplained. Site-specific threat assessments, facility configurations, emergency response requirements, and other factors not recorded in contract databases drive substantial cost differences. Performance metrics must incorporate mission context, not merely contract attributes.
+These examples demonstrate that the GBM not only captures directional drivers (socio-economic flags, procurement method, competition intensity) but also produces reliable dollar forecasts that management can trust for scenario planning. The accuracy stems from three deliberate design choices: (1) the target is modeled on a log10 scale, which normalises the wide dollar range and keeps relative errors stable before reconverting to USD; (2) the 144-feature input matrix combines four quantitative signals with 140 categorical descriptors of agency, procedure, socio-economic status, bundling, PSC, etc., while explicitly filtering every price-related column to avoid leakage; and (3) the training corpus focuses on a single market segment (NAICS 561612 negotiated vs simplified awards), so the model repeatedly observes the same procurement configurations (e.g., DHS `S206` negotiated FFP, DOJ SAP labor-hour tasks) and learns their typical spend profiles.
 
 ---
 
