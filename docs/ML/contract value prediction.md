@@ -12,7 +12,7 @@ The findings reveal that contract values are primarily driven by the specific go
 
 We analyze physical security contracts with a histogram gradient-boosting regressor trained on the log10 of the annualised contract value. The model ingests 4 quantitative signals (offers received, performance duration, and their logarithmic transforms) alongside 140 categorical descriptors that capture agencies, procedures, socio-economic flags, bundling status, and product/service codes. Price-related columns are explicitly filtered before training to avoid leakage.
 
-Because gradient boosting captures non-linear interactions, we interpret results through feature-importance rankings, partial-dependence style plots, and scenario simulations rather than simple percentage coefficients. All findings below therefore reflect complex interactions among procurement attributes rather than isolated one-to-one effects.
+Because gradient boosting captures non-linear interactions, we interpret results through feature-importance rankings, partial-dependence style plots, and scenario simulations rather than simple percentage coefficients. All findings below therefore reflect complex interactions among procurement attributes rather than isolated one-to-one effects. We expressly drop `action_date_fiscal_year` from the feature matrix so temporal context does not dominate the predictions.
 
 ---
 
@@ -49,7 +49,6 @@ Permutation importance within the gradient-boosted model consistently ranks the 
 
 ---
 
----
 
 ## Limitations and Caveats
 
@@ -240,12 +239,12 @@ To complement the feature-level insights, we extracted concrete forecasts from t
 
 1. `self_certified_small_disadvantaged_business`
 2. `award_type_code`
-3. `action_date_fiscal_year`
-4. `solicitation_procedures`
-5. `performance_years`
-6. `type_of_idc`
-7. `foreign_funding`
-8. `log_offers`
+3. `extent_competed`
+4. `subcontracting_plan`
+5. `type_of_idc`
+6. `log_offers`
+7. `performance_years`
+8. `awarding_agency_code`
 
 Despite this high-dimensional feature space, the model remains highly calibrated. Three illustrative contracts are shown below (all values are annualised USD):
 
