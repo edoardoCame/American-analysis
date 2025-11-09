@@ -97,7 +97,15 @@ def fetch_prime_transactions(
         if not requested_columns:
             raise ValueError("At least one column must be requested.")
 
-        column_sql = ", ".join(requested_columns)
+        # Quote column names that start with digits (SQLite requirement)
+        quoted_columns = []
+        for col in requested_columns:
+            if col[0].isdigit():
+                quoted_columns.append(f'"{col}"')
+            else:
+                quoted_columns.append(col)
+        
+        column_sql = ", ".join(quoted_columns)
 
         where_clauses: list[str] = []
         params: list[str] = []
